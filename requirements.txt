@@ -1,0 +1,25 @@
+# --- ingestion & processing ---
+requests
+python-dotenv
+beautifulsoup4
+lxml
+markdownify>=0.13.1
+pydantic
+loguru
+tqdm
+pytest
+
+# --- embeddings & vector store ---
+sentence-transformers>=3.0
+transformers>=4.40,<5
+faiss-cpu
+rank-bm25
+numpy
+torchvision
+
+# --- LLM ---
+openai
+
+# --- app & evaluation ---
+streamlit
+pandas

@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900003_001",
+    "page_id": "900003",
+    "title": "Cobalt Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/cobalt",
+    "owner": "API Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Cobalt service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Cobalt exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Cobalt v3.2.0. Owner: API Team. This document describes configuration, endpoints, error codes, and troubleshooting for Cobalt.",
+    "word_count": 65,
+    "character_count": 486,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Cobalt Service",
+    "breadcrumb": "Nimbus Platform > Services > Cobalt Service"
+  },
+  {
+    "chunk_id": "900003_002",
+    "page_id": "900003",
+    "title": "Cobalt Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/cobalt",
+    "owner": "API Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_COBALT_TIMEOUT_MS (default 3050)\n- NIMBUS_COBALT_MAX_RETRIES (default 5)\n- NIMBUS_COBALT_POOL_SIZE (default 24)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_COBALT_TIMEOUT_MS affects request timeout behavior for Cobalt.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Cobalt Service",
+    "breadcrumb": "Nimbus Platform > Services > Cobalt Service"
+  },
+  {
+    "chunk_id": "900003_003",
+    "page_id": "900003",
+    "title": "Cobalt Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/cobalt",
+    "owner": "API Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/cobalt/restart\n- GET /api/v1/cobalt/status\n- POST /api/v1/cobalt/cache/flush\nUse POST /api/v1/cobalt/restart to restart the Cobalt service, GET /api/v1/cobalt/status to check health, and POST /api/v1/cobalt/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Cobalt Service",
+    "breadcrumb": "Nimbus Platform > Services > Cobalt Service"
+  },
+  {
+    "chunk_id": "900003_004",
+    "page_id": "900003",
+    "title": "Cobalt Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/cobalt",
+    "owner": "API Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Cobalt service:\n- ERR-1021: connection pool exhausted\n- ERR-1022: upstream timeout exceeded\n- ERR-1023: invalid authentication token\n- ERR-1024: payload schema validation failed\nWhen you see ERR-1021, the connection pool is exhausted; increase NIMBUS_COBALT_POOL_SIZE. ERR-1022 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Cobalt Service",
+    "breadcrumb": "Nimbus Platform > Services > Cobalt Service"
+  },
+  {
+    "chunk_id": "900003_005",
+    "page_id": "900003",
+    "title": "Cobalt Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/cobalt",
+    "owner": "API Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Cobalt service. If you observe connection drops or high latency, first check GET /api/v1/cobalt/status, then review recent error codes. Restart with `nimbusctl cobalt restart` or POST /api/v1/cobalt/restart. Persistent timeouts usually mean NIMBUS_COBALT_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to API Team.",
+    "word_count": 56,
+    "character_count": 418,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Cobalt Service",
+    "breadcrumb": "Nimbus Platform > Services > Cobalt Service"
+  }
+]

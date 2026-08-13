@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "131114_001",
+    "page_id": "131114",
+    "title": "System Architecture Overview",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131114",
+    "owner": "Architecture Guild",
+    "status": "DRAFT",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Architecture Guild |\n| Status | DRAFT |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |\n\n![Image](https://ghosalsankhasuvra09.atlassian.net/wiki/download/attachments/131114/banner.png?api=v2)",
+    "word_count": 27,
+    "character_count": 240,
+    "chunk_number": 1,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "System Architecture Overview",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > System Architecture Overview"
+  },
+  {
+    "chunk_id": "131114_002",
+    "page_id": "131114",
+    "title": "System Architecture Overview",
+    "section": "Components",
+    "heading_path": [
+      "Components"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131114",
+    "owner": "Architecture Guild",
+    "status": "DRAFT",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Components\n\n| Component | Responsibility | Tech |\n| --- | --- | --- |\n| Web app | User interface | React |\n| API | Business logic | FastAPI |\n| Worker | Async jobs | Celery |\n| Store | Persistence | PostgreSQL |",
+    "word_count": 20,
+    "character_count": 214,
+    "chunk_number": 2,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "System Architecture Overview",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > System Architecture Overview"
+  },
+  {
+    "chunk_id": "131114_003",
+    "page_id": "131114",
+    "title": "System Architecture Overview",
+    "section": "Data flow",
+    "heading_path": [
+      "Components",
+      "Data flow"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131114",
+    "owner": "Architecture Guild",
+    "status": "DRAFT",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Data flow\n\n1. Client sends a request to the API\n2. API validates and writes to the store\n3. Worker picks up async tasks\n4. Client polls for the result\n\n*[PLACEHOLDER] Replace banner with a real architecture diagram.*",
+    "word_count": 38,
+    "character_count": 219,
+    "chunk_number": 3,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "System Architecture Overview",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > System Architecture Overview"
+  }
+]

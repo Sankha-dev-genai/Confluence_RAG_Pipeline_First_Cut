@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "131155_001",
+    "page_id": "131155",
+    "title": "Frequently Asked Questions",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131155",
+    "owner": "Support",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Support |\n| Status | COMPLETE |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 13,
+    "character_count": 128,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Frequently Asked Questions",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Frequently Asked Questions"
+  },
+  {
+    "chunk_id": "131155_002",
+    "page_id": "131155",
+    "title": "Frequently Asked Questions",
+    "section": "Frequently asked questions",
+    "heading_path": [
+      "Frequently asked questions"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131155",
+    "owner": "Support",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Frequently asked questions\n\n![Image](https://ghosalsankhasuvra09.atlassian.net/wiki/images/icons/grey_arrow_down.png)How do I reset my password?\n\nUse the reset link on the login page.\n\n![Image](https://ghosalsankhasuvra09.atlassian.net/wiki/images/icons/grey_arrow_down.png)Where are the release notes?\n\nSee [Release Notes v1.0](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/163913/Release+Notes+v1.0).\n\n![Image](https://ghosalsankhasuvra09.atlassian.net/wiki/images/icons/grey_arrow_down.png)[PLACEHOLDER] Add your own question\n\n*Answer goes here.*",
+    "word_count": 78,
+    "character_count": 606,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Frequently Asked Questions",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Frequently Asked Questions"
+  }
+]

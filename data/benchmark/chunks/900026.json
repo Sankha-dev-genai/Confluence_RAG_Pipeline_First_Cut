@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900026_001",
+    "page_id": "900026",
+    "title": "Zephyr Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/zephyr",
+    "owner": "Platform Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Zephyr service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Zephyr exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Zephyr v2.5.0. Owner: Platform Team. This document describes configuration, endpoints, error codes, and troubleshooting for Zephyr.",
+    "word_count": 65,
+    "character_count": 491,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Zephyr Service",
+    "breadcrumb": "Nimbus Platform > Services > Zephyr Service"
+  },
+  {
+    "chunk_id": "900026_002",
+    "page_id": "900026",
+    "title": "Zephyr Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/zephyr",
+    "owner": "Platform Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_ZEPHYR_TIMEOUT_MS (default 3625)\n- NIMBUS_ZEPHYR_MAX_RETRIES (default 4)\n- NIMBUS_ZEPHYR_POOL_SIZE (default 20)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_ZEPHYR_TIMEOUT_MS affects request timeout behavior for Zephyr.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Zephyr Service",
+    "breadcrumb": "Nimbus Platform > Services > Zephyr Service"
+  },
+  {
+    "chunk_id": "900026_003",
+    "page_id": "900026",
+    "title": "Zephyr Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/zephyr",
+    "owner": "Platform Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/zephyr/restart\n- GET /api/v1/zephyr/status\n- POST /api/v1/zephyr/cache/flush\nUse POST /api/v1/zephyr/restart to restart the Zephyr service, GET /api/v1/zephyr/status to check health, and POST /api/v1/zephyr/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Zephyr Service",
+    "breadcrumb": "Nimbus Platform > Services > Zephyr Service"
+  },
+  {
+    "chunk_id": "900026_004",
+    "page_id": "900026",
+    "title": "Zephyr Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/zephyr",
+    "owner": "Platform Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Zephyr service:\n- ERR-1251: connection pool exhausted\n- ERR-1252: upstream timeout exceeded\n- ERR-1253: invalid authentication token\n- ERR-1254: payload schema validation failed\nWhen you see ERR-1251, the connection pool is exhausted; increase NIMBUS_ZEPHYR_POOL_SIZE. ERR-1252 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Zephyr Service",
+    "breadcrumb": "Nimbus Platform > Services > Zephyr Service"
+  },
+  {
+    "chunk_id": "900026_005",
+    "page_id": "900026",
+    "title": "Zephyr Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/zephyr",
+    "owner": "Platform Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Zephyr service. If you observe connection drops or high latency, first check GET /api/v1/zephyr/status, then review recent error codes. Restart with `nimbusctl zephyr restart` or POST /api/v1/zephyr/restart. Persistent timeouts usually mean NIMBUS_ZEPHYR_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Platform Team.",
+    "word_count": 56,
+    "character_count": 423,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Zephyr Service",
+    "breadcrumb": "Nimbus Platform > Services > Zephyr Service"
+  }
+]

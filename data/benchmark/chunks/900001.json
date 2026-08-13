@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900001_001",
+    "page_id": "900001",
+    "title": "Aurora Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/aurora",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Aurora service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Aurora exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Aurora v1.0.0. Owner: Platform Team. This document describes configuration, endpoints, error codes, and troubleshooting for Aurora.",
+    "word_count": 65,
+    "character_count": 491,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Aurora Service",
+    "breadcrumb": "Nimbus Platform > Services > Aurora Service"
+  },
+  {
+    "chunk_id": "900001_002",
+    "page_id": "900001",
+    "title": "Aurora Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/aurora",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_AURORA_TIMEOUT_MS (default 3000)\n- NIMBUS_AURORA_MAX_RETRIES (default 3)\n- NIMBUS_AURORA_POOL_SIZE (default 16)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_AURORA_TIMEOUT_MS affects request timeout behavior for Aurora.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Aurora Service",
+    "breadcrumb": "Nimbus Platform > Services > Aurora Service"
+  },
+  {
+    "chunk_id": "900001_003",
+    "page_id": "900001",
+    "title": "Aurora Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/aurora",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/aurora/restart\n- GET /api/v1/aurora/status\n- POST /api/v1/aurora/cache/flush\nUse POST /api/v1/aurora/restart to restart the Aurora service, GET /api/v1/aurora/status to check health, and POST /api/v1/aurora/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Aurora Service",
+    "breadcrumb": "Nimbus Platform > Services > Aurora Service"
+  },
+  {
+    "chunk_id": "900001_004",
+    "page_id": "900001",
+    "title": "Aurora Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/aurora",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Aurora service:\n- ERR-1001: connection pool exhausted\n- ERR-1002: upstream timeout exceeded\n- ERR-1003: invalid authentication token\n- ERR-1004: payload schema validation failed\nWhen you see ERR-1001, the connection pool is exhausted; increase NIMBUS_AURORA_POOL_SIZE. ERR-1002 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Aurora Service",
+    "breadcrumb": "Nimbus Platform > Services > Aurora Service"
+  },
+  {
+    "chunk_id": "900001_005",
+    "page_id": "900001",
+    "title": "Aurora Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/aurora",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Aurora service. If you observe connection drops or high latency, first check GET /api/v1/aurora/status, then review recent error codes. Restart with `nimbusctl aurora restart` or POST /api/v1/aurora/restart. Persistent timeouts usually mean NIMBUS_AURORA_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Platform Team.",
+    "word_count": 56,
+    "character_count": 423,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Aurora Service",
+    "breadcrumb": "Nimbus Platform > Services > Aurora Service"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "98685_001",
+    "page_id": "98685",
+    "title": "Deployment Runbook",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98685",
+    "owner": "On-call",
+    "status": "CRITICAL",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | On-call |\n| Status | CRITICAL |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 128,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Deployment Runbook",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Deployment Runbook"
+  },
+  {
+    "chunk_id": "98685_002",
+    "page_id": "98685",
+    "title": "Deployment Runbook",
+    "section": "Deploy procedure",
+    "heading_path": [
+      "Deploy procedure"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98685",
+    "owner": "On-call",
+    "status": "CRITICAL",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Deploy procedure\n\n1. Announce in #deploys\n2. Tag the release\n3. Run the pipeline\n4. Verify health checks\n5. Announce completion\n\n```\ngit tag v1.0.0\ngit push origin v1.0.0\n# CI/CD takes over from here\n```",
+    "word_count": 38,
+    "character_count": 206,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Deployment Runbook",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Deployment Runbook"
+  },
+  {
+    "chunk_id": "98685_003",
+    "page_id": "98685",
+    "title": "Deployment Runbook",
+    "section": "Rollback",
+    "heading_path": [
+      "Deploy procedure",
+      "Rollback"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98685",
+    "owner": "On-call",
+    "status": "CRITICAL",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Rollback\n\nIf health checks fail, roll back immediately.\n\n```\nkubectl rollout undo deployment/api\n```",
+    "word_count": 13,
+    "character_count": 103,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Deployment Runbook",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Deployment Runbook"
+  },
+  {
+    "chunk_id": "98685_004",
+    "page_id": "98685",
+    "title": "Deployment Runbook",
+    "section": "Escalation contacts",
+    "heading_path": [
+      "Deploy procedure",
+      "Escalation contacts"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98685",
+    "owner": "On-call",
+    "status": "CRITICAL",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Escalation contacts\n\n| Level | Contact | When |\n| --- | --- | --- |\n| L1 | *[PLACEHOLDER]* | First 15 min |\n| L2 | *[PLACEHOLDER]* | After 15 min |",
+    "word_count": 15,
+    "character_count": 150,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Deployment Runbook",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Deployment Runbook"
+  }
+]

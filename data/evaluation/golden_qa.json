@@ -1,0 +1,287 @@
+{
+  "description": "Golden evaluation set for the Confluence RAG demo. Each item maps a natural question to the page(s) that actually contain the answer, plus keywords the generated answer should contain. Page IDs correspond to the real Confluence corpus.",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "What are the prerequisites for getting started?",
+      "relevant_page_ids": [
+        "98663"
+      ],
+      "answer_keywords": [
+        "Atlassian",
+        "account"
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "How do I set up the development environment?",
+      "relevant_page_ids": [
+        "98663"
+      ],
+      "answer_keywords": [
+        "clone",
+        "install"
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "What technology does the web application use?",
+      "relevant_page_ids": [
+        "131114"
+      ],
+      "answer_keywords": [
+        "React"
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "Which database is used for persistence?",
+      "relevant_page_ids": [
+        "131114"
+      ],
+      "answer_keywords": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "How does data flow through the system?",
+      "relevant_page_ids": [
+        "131114"
+      ],
+      "answer_keywords": [
+        "API",
+        "worker"
+      ]
+    },
+    {
+      "id": "q06",
+      "question": "How do I authenticate with the REST API?",
+      "relevant_page_ids": [
+        "131133"
+      ],
+      "answer_keywords": [
+        "bearer",
+        "token"
+      ]
+    },
+    {
+      "id": "q07",
+      "question": "What is the API rate limit?",
+      "relevant_page_ids": [
+        "131133"
+      ],
+      "answer_keywords": [
+        "100",
+        "minute"
+      ]
+    },
+    {
+      "id": "q08",
+      "question": "Which endpoint do I use to create an item?",
+      "relevant_page_ids": [
+        "131133"
+      ],
+      "answer_keywords": [
+        "POST",
+        "items"
+      ]
+    },
+    {
+      "id": "q09",
+      "question": "How do I roll back a failed deployment?",
+      "relevant_page_ids": [
+        "98685"
+      ],
+      "answer_keywords": [
+        "rollback",
+        "undo"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "What are the steps in the deploy procedure?",
+      "relevant_page_ids": [
+        "98685"
+      ],
+      "answer_keywords": [
+        "tag",
+        "release"
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "Who do I contact for escalation?",
+      "relevant_page_ids": [
+        "98685"
+      ],
+      "answer_keywords": [
+        "escalation"
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "What should I complete in my first week of onboarding?",
+      "relevant_page_ids": [
+        "163890"
+      ],
+      "answer_keywords": [
+        "accounts",
+        "environment"
+      ]
+    },
+    {
+      "id": "q13",
+      "question": "How do I reset my password?",
+      "relevant_page_ids": [
+        "131155"
+      ],
+      "answer_keywords": [
+        "reset",
+        "login"
+      ]
+    },
+    {
+      "id": "q14",
+      "question": "What does SLA stand for?",
+      "relevant_page_ids": [
+        "65754"
+      ],
+      "answer_keywords": [
+        "Service",
+        "Level",
+        "Agreement"
+      ]
+    },
+    {
+      "id": "q15",
+      "question": "What does CI/CD mean?",
+      "relevant_page_ids": [
+        "65754"
+      ],
+      "answer_keywords": [
+        "Continuous"
+      ]
+    },
+    {
+      "id": "q16",
+      "question": "What was added in version 1.0.0?",
+      "relevant_page_ids": [
+        "163913"
+      ],
+      "answer_keywords": [
+        "release",
+        "API"
+      ]
+    },
+    {
+      "id": "q17",
+      "question": "What causes a 401 error and how do I fix it?",
+      "relevant_page_ids": [
+        "131180"
+      ],
+      "answer_keywords": [
+        "token",
+        "regenerate"
+      ]
+    },
+    {
+      "id": "q18",
+      "question": "What is planned on the roadmap for Q4 2026?",
+      "relevant_page_ids": [
+        "98705"
+      ],
+      "answer_keywords": [
+        "Integrations"
+      ]
+    },
+    {
+      "id": "q19",
+      "question": "Where can I find the release notes?",
+      "relevant_page_ids": [
+        "131155",
+        "163913"
+      ],
+      "answer_keywords": [
+        "release notes"
+      ]
+    },
+    {
+      "id": "q20",
+      "question": "What does the DELETE /v1/items/{id} endpoint do?",
+      "relevant_page_ids": [
+        "131133"
+      ],
+      "answer_keywords": [
+        "delete",
+        "item"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "q21",
+      "question": "What command rolls back a deployment?",
+      "relevant_page_ids": [
+        "98685"
+      ],
+      "answer_keywords": [
+        "kubectl",
+        "rollout",
+        "undo"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "q22",
+      "question": "Which framework runs the async worker?",
+      "relevant_page_ids": [
+        "131114"
+      ],
+      "answer_keywords": [
+        "Celery"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "q23",
+      "question": "What HTTP status code indicates an expired token?",
+      "relevant_page_ids": [
+        "131180"
+      ],
+      "answer_keywords": [
+        "401",
+        "token"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "q24",
+      "question": "What is the name of item 42 in the example API response?",
+      "relevant_page_ids": [
+        "131133"
+      ],
+      "answer_keywords": [
+        "Widget"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "ask001",
+      "question": "What's on the roadmap for next quarter?",
+      "relevant_page_ids": [
+        "98705"
+      ],
+      "answer_keywords": [],
+      "tag": "from_ask"
+    },
+    {
+      "id": "ask002",
+      "question": "How do I onboard in my first week?",
+      "relevant_page_ids": [
+        "163890"
+      ],
+      "answer_keywords": [],
+      "tag": "from_ask"
+    }
+  ]
+}

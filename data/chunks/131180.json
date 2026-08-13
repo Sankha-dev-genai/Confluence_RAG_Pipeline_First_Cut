@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "131180_001",
+    "page_id": "131180",
+    "title": "Troubleshooting Guide",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131180",
+    "owner": "Support",
+    "status": "LIVING DOC",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Support |\n| Status | LIVING DOC |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 130,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Troubleshooting Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Troubleshooting Guide"
+  },
+  {
+    "chunk_id": "131180_002",
+    "page_id": "131180",
+    "title": "Troubleshooting Guide",
+    "section": "Common issues",
+    "heading_path": [
+      "Common issues"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131180",
+    "owner": "Support",
+    "status": "LIVING DOC",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Common issues\n\n| Symptom | Likely cause | Fix |\n| --- | --- | --- |\n| 401 error | Expired token | Regenerate API token |\n| Timeout | Service down | Check [Deployment Runbook](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/98685/Deployment+Runbook) |\n| *[PLACEHOLDER]* | *—* | *—* |\n\nStill stuck? Open a ticket with logs attached.",
+    "word_count": 39,
+    "character_count": 385,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Troubleshooting Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Troubleshooting Guide"
+  }
+]

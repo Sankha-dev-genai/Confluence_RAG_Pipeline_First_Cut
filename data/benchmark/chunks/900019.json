@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900019_001",
+    "page_id": "900019",
+    "title": "Slate Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/slate",
+    "owner": "Data Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Slate service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Slate exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Slate v1.8.0. Owner: Data Team. This document describes configuration, endpoints, error codes, and troubleshooting for Slate.",
+    "word_count": 65,
+    "character_count": 483,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Slate Service",
+    "breadcrumb": "Nimbus Platform > Services > Slate Service"
+  },
+  {
+    "chunk_id": "900019_002",
+    "page_id": "900019",
+    "title": "Slate Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/slate",
+    "owner": "Data Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_SLATE_TIMEOUT_MS (default 3450)\n- NIMBUS_SLATE_MAX_RETRIES (default 5)\n- NIMBUS_SLATE_POOL_SIZE (default 24)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_SLATE_TIMEOUT_MS affects request timeout behavior for Slate.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Slate Service",
+    "breadcrumb": "Nimbus Platform > Services > Slate Service"
+  },
+  {
+    "chunk_id": "900019_003",
+    "page_id": "900019",
+    "title": "Slate Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/slate",
+    "owner": "Data Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/slate/restart\n- GET /api/v1/slate/status\n- POST /api/v1/slate/cache/flush\nUse POST /api/v1/slate/restart to restart the Slate service, GET /api/v1/slate/status to check health, and POST /api/v1/slate/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Slate Service",
+    "breadcrumb": "Nimbus Platform > Services > Slate Service"
+  },
+  {
+    "chunk_id": "900019_004",
+    "page_id": "900019",
+    "title": "Slate Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/slate",
+    "owner": "Data Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Slate service:\n- ERR-1181: connection pool exhausted\n- ERR-1182: upstream timeout exceeded\n- ERR-1183: invalid authentication token\n- ERR-1184: payload schema validation failed\nWhen you see ERR-1181, the connection pool is exhausted; increase NIMBUS_SLATE_POOL_SIZE. ERR-1182 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Slate Service",
+    "breadcrumb": "Nimbus Platform > Services > Slate Service"
+  },
+  {
+    "chunk_id": "900019_005",
+    "page_id": "900019",
+    "title": "Slate Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/slate",
+    "owner": "Data Team",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Slate service. If you observe connection drops or high latency, first check GET /api/v1/slate/status, then review recent error codes. Restart with `nimbusctl slate restart` or POST /api/v1/slate/restart. Persistent timeouts usually mean NIMBUS_SLATE_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Data Team.",
+    "word_count": 56,
+    "character_count": 414,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Slate Service",
+    "breadcrumb": "Nimbus Platform > Services > Slate Service"
+  }
+]

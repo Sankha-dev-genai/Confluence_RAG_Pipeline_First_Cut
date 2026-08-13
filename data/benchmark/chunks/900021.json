@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900021_001",
+    "page_id": "900021",
+    "title": "Umber Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/umber",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Umber service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Umber exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Umber v3.0.0. Owner: Platform Team. This document describes configuration, endpoints, error codes, and troubleshooting for Umber.",
+    "word_count": 65,
+    "character_count": 487,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Umber Service",
+    "breadcrumb": "Nimbus Platform > Services > Umber Service"
+  },
+  {
+    "chunk_id": "900021_002",
+    "page_id": "900021",
+    "title": "Umber Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/umber",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_UMBER_TIMEOUT_MS (default 3500)\n- NIMBUS_UMBER_MAX_RETRIES (default 3)\n- NIMBUS_UMBER_POOL_SIZE (default 32)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_UMBER_TIMEOUT_MS affects request timeout behavior for Umber.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Umber Service",
+    "breadcrumb": "Nimbus Platform > Services > Umber Service"
+  },
+  {
+    "chunk_id": "900021_003",
+    "page_id": "900021",
+    "title": "Umber Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/umber",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/umber/restart\n- GET /api/v1/umber/status\n- POST /api/v1/umber/cache/flush\nUse POST /api/v1/umber/restart to restart the Umber service, GET /api/v1/umber/status to check health, and POST /api/v1/umber/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Umber Service",
+    "breadcrumb": "Nimbus Platform > Services > Umber Service"
+  },
+  {
+    "chunk_id": "900021_004",
+    "page_id": "900021",
+    "title": "Umber Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/umber",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Umber service:\n- ERR-1201: connection pool exhausted\n- ERR-1202: upstream timeout exceeded\n- ERR-1203: invalid authentication token\n- ERR-1204: payload schema validation failed\nWhen you see ERR-1201, the connection pool is exhausted; increase NIMBUS_UMBER_POOL_SIZE. ERR-1202 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Umber Service",
+    "breadcrumb": "Nimbus Platform > Services > Umber Service"
+  },
+  {
+    "chunk_id": "900021_005",
+    "page_id": "900021",
+    "title": "Umber Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/umber",
+    "owner": "Platform Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Umber service. If you observe connection drops or high latency, first check GET /api/v1/umber/status, then review recent error codes. Restart with `nimbusctl umber restart` or POST /api/v1/umber/restart. Persistent timeouts usually mean NIMBUS_UMBER_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Platform Team.",
+    "word_count": 56,
+    "character_count": 418,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Umber Service",
+    "breadcrumb": "Nimbus Platform > Services > Umber Service"
+  }
+]

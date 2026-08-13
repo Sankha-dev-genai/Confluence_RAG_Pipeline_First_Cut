@@ -1,0 +1,47 @@
+{
+  "page_id": "163913",
+  "title": "Release Notes v1.0",
+  "parent_page": "Demo Handbook (Auto-generated)",
+  "child_page": "Release Notes v1.0",
+  "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Release Notes v1.0",
+  "source_type": "confluence",
+  "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163913",
+  "space_key": "~712020e9a524ccaadb48d5894054eb2ad1b6fa",
+  "space_name": "Sankha Suvra Ghosal",
+  "version": 1,
+  "created_at": "2026-07-27T21:41:40.985Z",
+  "updated_at": "2026-07-27T21:41:40.985Z",
+  "created_by": "Sankha Suvra Ghosal",
+  "parent_page_id": "65710",
+  "ancestor_ids": [
+    "98403",
+    "65710"
+  ],
+  "ancestor_titles": [
+    "Overview",
+    "Demo Handbook (Auto-generated)"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "v1.0.0 — 2026-07-28"
+    },
+    {
+      "level": 3,
+      "text": "Added"
+    },
+    {
+      "level": 3,
+      "text": "Fixed"
+    }
+  ],
+  "owner": "Release Manager",
+  "status": "RELEASED",
+  "last_reviewed": "2026-07-28",
+  "audience": "Internal",
+  "custom_fields": {},
+  "markdown_file": "163913.md",
+  "character_count": 470,
+  "word_count": 58,
+  "extracted_at": "2026-08-12T21:59:27.440643+00:00"
+}

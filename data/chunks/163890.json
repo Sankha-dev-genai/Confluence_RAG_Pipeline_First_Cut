@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "163890_001",
+    "page_id": "163890",
+    "title": "Onboarding Checklist",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163890",
+    "owner": "People Ops",
+    "status": "IN PROGRESS",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | People Ops |\n| Status | IN PROGRESS |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 15,
+    "character_count": 134,
+    "chunk_number": 1,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Onboarding Checklist",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Onboarding Checklist"
+  },
+  {
+    "chunk_id": "163890_002",
+    "page_id": "163890",
+    "title": "Onboarding Checklist",
+    "section": "Week 1 checklist",
+    "heading_path": [
+      "Week 1 checklist"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163890",
+    "owner": "People Ops",
+    "status": "IN PROGRESS",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Week 1 checklist\n\n- Accounts provisioned\n- Dev environment set up\n- Meet the team\n- First PR merged",
+    "word_count": 15,
+    "character_count": 102,
+    "chunk_number": 2,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Onboarding Checklist",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Onboarding Checklist"
+  },
+  {
+    "chunk_id": "163890_003",
+    "page_id": "163890",
+    "title": "Onboarding Checklist",
+    "section": "Useful links",
+    "heading_path": [
+      "Week 1 checklist",
+      "Useful links"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163890",
+    "owner": "People Ops",
+    "status": "IN PROGRESS",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Useful links\n\n- [Getting Started Guide](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/98663/Getting+Started+Guide)\n- [Frequently Asked Questions](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131155/Frequently+Asked+Questions)\n- [Confluence docs](https://www.atlassian.com/software/confluence)",
+    "word_count": 40,
+    "character_count": 404,
+    "chunk_number": 3,
+    "total_chunks": 3,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Onboarding Checklist",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Onboarding Checklist"
+  }
+]

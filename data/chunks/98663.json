@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "98663_001",
+    "page_id": "98663",
+    "title": "Getting Started Guide",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98663",
+    "owner": "Platform Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Platform Team |\n| Status | COMPLETE |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 134,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Getting Started Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Getting Started Guide"
+  },
+  {
+    "chunk_id": "98663_002",
+    "page_id": "98663",
+    "title": "Getting Started Guide",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98663",
+    "owner": "Platform Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Overview\n\nThis guide walks a new user from zero to a running setup.",
+    "word_count": 13,
+    "character_count": 70,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Getting Started Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Getting Started Guide"
+  },
+  {
+    "chunk_id": "98663_003",
+    "page_id": "98663",
+    "title": "Getting Started Guide",
+    "section": "Prerequisites",
+    "heading_path": [
+      "Overview",
+      "Prerequisites"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98663",
+    "owner": "Platform Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Prerequisites\n\n- An Atlassian account\n- Access to this space\n- *[PLACEHOLDER] any tool-specific accounts*",
+    "word_count": 13,
+    "character_count": 108,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Getting Started Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Getting Started Guide"
+  },
+  {
+    "chunk_id": "98663_004",
+    "page_id": "98663",
+    "title": "Getting Started Guide",
+    "section": "Steps",
+    "heading_path": [
+      "Overview",
+      "Steps"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98663",
+    "owner": "Platform Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Steps\n\n1. Clone the repository\n2. Install dependencies\n3. Configure environment variables\n4. Start the application\n\n```\ngit clone https://example.com/repo.git\ncd repo\nnpm install\nnpm run dev\n```\n\nStuck? See the [Troubleshooting Guide](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131180/Troubleshooting+Guide).",
+    "word_count": 46,
+    "character_count": 368,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Getting Started Guide",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Getting Started Guide"
+  }
+]

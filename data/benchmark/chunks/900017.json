@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900017_001",
+    "page_id": "900017",
+    "title": "Quartz Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/quartz",
+    "owner": "SRE",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Quartz service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Quartz exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Quartz v2.6.0. Owner: SRE. This document describes configuration, endpoints, error codes, and troubleshooting for Quartz.",
+    "word_count": 64,
+    "character_count": 481,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Quartz Service",
+    "breadcrumb": "Nimbus Platform > Services > Quartz Service"
+  },
+  {
+    "chunk_id": "900017_002",
+    "page_id": "900017",
+    "title": "Quartz Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/quartz",
+    "owner": "SRE",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_QUARTZ_TIMEOUT_MS (default 3400)\n- NIMBUS_QUARTZ_MAX_RETRIES (default 3)\n- NIMBUS_QUARTZ_POOL_SIZE (default 16)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_QUARTZ_TIMEOUT_MS affects request timeout behavior for Quartz.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Quartz Service",
+    "breadcrumb": "Nimbus Platform > Services > Quartz Service"
+  },
+  {
+    "chunk_id": "900017_003",
+    "page_id": "900017",
+    "title": "Quartz Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/quartz",
+    "owner": "SRE",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/quartz/restart\n- GET /api/v1/quartz/status\n- POST /api/v1/quartz/cache/flush\nUse POST /api/v1/quartz/restart to restart the Quartz service, GET /api/v1/quartz/status to check health, and POST /api/v1/quartz/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Quartz Service",
+    "breadcrumb": "Nimbus Platform > Services > Quartz Service"
+  },
+  {
+    "chunk_id": "900017_004",
+    "page_id": "900017",
+    "title": "Quartz Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/quartz",
+    "owner": "SRE",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Quartz service:\n- ERR-1161: connection pool exhausted\n- ERR-1162: upstream timeout exceeded\n- ERR-1163: invalid authentication token\n- ERR-1164: payload schema validation failed\nWhen you see ERR-1161, the connection pool is exhausted; increase NIMBUS_QUARTZ_POOL_SIZE. ERR-1162 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Quartz Service",
+    "breadcrumb": "Nimbus Platform > Services > Quartz Service"
+  },
+  {
+    "chunk_id": "900017_005",
+    "page_id": "900017",
+    "title": "Quartz Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/quartz",
+    "owner": "SRE",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Quartz service. If you observe connection drops or high latency, first check GET /api/v1/quartz/status, then review recent error codes. Restart with `nimbusctl quartz restart` or POST /api/v1/quartz/restart. Persistent timeouts usually mean NIMBUS_QUARTZ_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to SRE.",
+    "word_count": 55,
+    "character_count": 413,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Quartz Service",
+    "breadcrumb": "Nimbus Platform > Services > Quartz Service"
+  }
+]

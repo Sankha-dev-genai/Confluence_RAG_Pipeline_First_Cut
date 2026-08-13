@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900035_001",
+    "page_id": "900035",
+    "title": "Ionic Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/ionic",
+    "owner": "Infra Guild",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Ionic service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Ionic exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Ionic v2.4.0. Owner: Infra Guild. This document describes configuration, endpoints, error codes, and troubleshooting for Ionic.",
+    "word_count": 65,
+    "character_count": 485,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Ionic Service",
+    "breadcrumb": "Nimbus Platform > Services > Ionic Service"
+  },
+  {
+    "chunk_id": "900035_002",
+    "page_id": "900035",
+    "title": "Ionic Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/ionic",
+    "owner": "Infra Guild",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_IONIC_TIMEOUT_MS (default 3850)\n- NIMBUS_IONIC_MAX_RETRIES (default 5)\n- NIMBUS_IONIC_POOL_SIZE (default 24)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_IONIC_TIMEOUT_MS affects request timeout behavior for Ionic.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Ionic Service",
+    "breadcrumb": "Nimbus Platform > Services > Ionic Service"
+  },
+  {
+    "chunk_id": "900035_003",
+    "page_id": "900035",
+    "title": "Ionic Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/ionic",
+    "owner": "Infra Guild",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/ionic/restart\n- GET /api/v1/ionic/status\n- POST /api/v1/ionic/cache/flush\nUse POST /api/v1/ionic/restart to restart the Ionic service, GET /api/v1/ionic/status to check health, and POST /api/v1/ionic/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Ionic Service",
+    "breadcrumb": "Nimbus Platform > Services > Ionic Service"
+  },
+  {
+    "chunk_id": "900035_004",
+    "page_id": "900035",
+    "title": "Ionic Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/ionic",
+    "owner": "Infra Guild",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Ionic service:\n- ERR-1341: connection pool exhausted\n- ERR-1342: upstream timeout exceeded\n- ERR-1343: invalid authentication token\n- ERR-1344: payload schema validation failed\nWhen you see ERR-1341, the connection pool is exhausted; increase NIMBUS_IONIC_POOL_SIZE. ERR-1342 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Ionic Service",
+    "breadcrumb": "Nimbus Platform > Services > Ionic Service"
+  },
+  {
+    "chunk_id": "900035_005",
+    "page_id": "900035",
+    "title": "Ionic Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/ionic",
+    "owner": "Infra Guild",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Ionic service. If you observe connection drops or high latency, first check GET /api/v1/ionic/status, then review recent error codes. Restart with `nimbusctl ionic restart` or POST /api/v1/ionic/restart. Persistent timeouts usually mean NIMBUS_IONIC_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Infra Guild.",
+    "word_count": 56,
+    "character_count": 416,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Ionic Service",
+    "breadcrumb": "Nimbus Platform > Services > Ionic Service"
+  }
+]

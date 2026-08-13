@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900027_001",
+    "page_id": "900027",
+    "title": "Amber Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/amber",
+    "owner": "SRE",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Amber service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Amber exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Amber v3.6.0. Owner: SRE. This document describes configuration, endpoints, error codes, and troubleshooting for Amber.",
+    "word_count": 64,
+    "character_count": 477,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Amber Service",
+    "breadcrumb": "Nimbus Platform > Services > Amber Service"
+  },
+  {
+    "chunk_id": "900027_002",
+    "page_id": "900027",
+    "title": "Amber Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/amber",
+    "owner": "SRE",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_AMBER_TIMEOUT_MS (default 3650)\n- NIMBUS_AMBER_MAX_RETRIES (default 5)\n- NIMBUS_AMBER_POOL_SIZE (default 24)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_AMBER_TIMEOUT_MS affects request timeout behavior for Amber.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Amber Service",
+    "breadcrumb": "Nimbus Platform > Services > Amber Service"
+  },
+  {
+    "chunk_id": "900027_003",
+    "page_id": "900027",
+    "title": "Amber Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/amber",
+    "owner": "SRE",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/amber/restart\n- GET /api/v1/amber/status\n- POST /api/v1/amber/cache/flush\nUse POST /api/v1/amber/restart to restart the Amber service, GET /api/v1/amber/status to check health, and POST /api/v1/amber/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Amber Service",
+    "breadcrumb": "Nimbus Platform > Services > Amber Service"
+  },
+  {
+    "chunk_id": "900027_004",
+    "page_id": "900027",
+    "title": "Amber Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/amber",
+    "owner": "SRE",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Amber service:\n- ERR-1261: connection pool exhausted\n- ERR-1262: upstream timeout exceeded\n- ERR-1263: invalid authentication token\n- ERR-1264: payload schema validation failed\nWhen you see ERR-1261, the connection pool is exhausted; increase NIMBUS_AMBER_POOL_SIZE. ERR-1262 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Amber Service",
+    "breadcrumb": "Nimbus Platform > Services > Amber Service"
+  },
+  {
+    "chunk_id": "900027_005",
+    "page_id": "900027",
+    "title": "Amber Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/amber",
+    "owner": "SRE",
+    "status": "DEPRECATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Amber service. If you observe connection drops or high latency, first check GET /api/v1/amber/status, then review recent error codes. Restart with `nimbusctl amber restart` or POST /api/v1/amber/restart. Persistent timeouts usually mean NIMBUS_AMBER_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to SRE.",
+    "word_count": 55,
+    "character_count": 408,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Amber Service",
+    "breadcrumb": "Nimbus Platform > Services > Amber Service"
+  }
+]

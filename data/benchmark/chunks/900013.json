@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900013_001",
+    "page_id": "900013",
+    "title": "Marble Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/marble",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Marble service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Marble exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Marble v1.2.0. Owner: API Team. This document describes configuration, endpoints, error codes, and troubleshooting for Marble.",
+    "word_count": 65,
+    "character_count": 486,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Marble Service",
+    "breadcrumb": "Nimbus Platform > Services > Marble Service"
+  },
+  {
+    "chunk_id": "900013_002",
+    "page_id": "900013",
+    "title": "Marble Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/marble",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_MARBLE_TIMEOUT_MS (default 3300)\n- NIMBUS_MARBLE_MAX_RETRIES (default 3)\n- NIMBUS_MARBLE_POOL_SIZE (default 32)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_MARBLE_TIMEOUT_MS affects request timeout behavior for Marble.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Marble Service",
+    "breadcrumb": "Nimbus Platform > Services > Marble Service"
+  },
+  {
+    "chunk_id": "900013_003",
+    "page_id": "900013",
+    "title": "Marble Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/marble",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/marble/restart\n- GET /api/v1/marble/status\n- POST /api/v1/marble/cache/flush\nUse POST /api/v1/marble/restart to restart the Marble service, GET /api/v1/marble/status to check health, and POST /api/v1/marble/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Marble Service",
+    "breadcrumb": "Nimbus Platform > Services > Marble Service"
+  },
+  {
+    "chunk_id": "900013_004",
+    "page_id": "900013",
+    "title": "Marble Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/marble",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Marble service:\n- ERR-1121: connection pool exhausted\n- ERR-1122: upstream timeout exceeded\n- ERR-1123: invalid authentication token\n- ERR-1124: payload schema validation failed\nWhen you see ERR-1121, the connection pool is exhausted; increase NIMBUS_MARBLE_POOL_SIZE. ERR-1122 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Marble Service",
+    "breadcrumb": "Nimbus Platform > Services > Marble Service"
+  },
+  {
+    "chunk_id": "900013_005",
+    "page_id": "900013",
+    "title": "Marble Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/marble",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Marble service. If you observe connection drops or high latency, first check GET /api/v1/marble/status, then review recent error codes. Restart with `nimbusctl marble restart` or POST /api/v1/marble/restart. Persistent timeouts usually mean NIMBUS_MARBLE_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to API Team.",
+    "word_count": 56,
+    "character_count": 418,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Marble Service",
+    "breadcrumb": "Nimbus Platform > Services > Marble Service"
+  }
+]

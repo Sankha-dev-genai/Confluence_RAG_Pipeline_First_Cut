@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "65710_001",
+    "page_id": "65710",
+    "title": "Demo Handbook (Auto-generated)",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=65710",
+    "owner": "Sankha Suvra Ghosal",
+    "status": "INDEX",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Sankha Suvra Ghosal |\n| Status | INDEX |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |\n\nAuto-generated demo handbook. Child pages:\n\n- [Formatting Showcase - All Elements](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/163844/Formatting+Showcase+-+All+Elements)\n- [Getting Started Guide](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/98663/Getting+Started+Guide)\n- [System Architecture Overview](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131114/System+Architecture+Overview)\n- [REST API Reference](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131133/REST+API+Reference)\n- [Deployment Runbook](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/98685/Deployment+Runbook)\n- [Onboarding Checklist](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/163890/Onboarding+Checklist)\n- [Frequently Asked Questions](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131155/Frequently+Asked+Questions)\n- [Glossary of Terms](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/65754/Glossary+of+Terms)\n- [Release Notes v1.0](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/163913/Release+Notes+v1.0)\n- [Meeting Notes - 2026-07-28](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/163938/Meeting+Notes+-+2026-07-28)\n- [Troubleshooting Guide](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/131180/Troubleshooting+Guide)\n- [Product Roadmap](https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/98705/Product+Roadmap)",
+    "word_count": 201,
+    "character_count": 2070,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Overview",
+    "child_page": "Demo Handbook (Auto-generated)",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated)"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "page_id": "163844",
+  "title": "Formatting Showcase - All Elements",
+  "parent_page": "Demo Handbook (Auto-generated)",
+  "child_page": "Formatting Showcase - All Elements",
+  "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Formatting Showcase - All Elements",
+  "source_type": "confluence",
+  "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163844",
+  "space_key": "~712020e9a524ccaadb48d5894054eb2ad1b6fa",
+  "space_name": "Sankha Suvra Ghosal",
+  "version": 1,
+  "created_at": "2026-07-27T21:41:28.002Z",
+  "updated_at": "2026-07-27T21:41:28.002Z",
+  "created_by": "Sankha Suvra Ghosal",
+  "parent_page_id": "65710",
+  "ancestor_ids": [
+    "98403",
+    "65710"
+  ],
+  "ancestor_titles": [
+    "Overview",
+    "Demo Handbook (Auto-generated)"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Table of contents"
+    },
+    {
+      "level": 2,
+      "text": "Headings & paragraphs"
+    },
+    {
+      "level": 3,
+      "text": "A level-3 heading"
+    },
+    {
+      "level": 2,
+      "text": "Bullet list"
+    },
+    {
+      "level": 2,
+      "text": "Numbered steps"
+    },
+    {
+      "level": 2,
+      "text": "Table"
+    },
+    {
+      "level": 2,
+      "text": "Code blocks"
+    },
+    {
+      "level": 2,
+      "text": "Panels"
+    },
+    {
+      "level": 2,
+      "text": "Task list"
+    },
+    {
+      "level": 2,
+      "text": "Expand / collapsible section"
+    },
+    {
+      "level": 2,
+      "text": "Links & attachments"
+    }
+  ],
+  "owner": "Sankha Suvra Ghosal",
+  "status": "COMPLETE",
+  "last_reviewed": "2026-07-28",
+  "audience": "Internal",
+  "custom_fields": {},
+  "markdown_file": "163844.md",
+  "character_count": 2959,
+  "word_count": 323,
+  "extracted_at": "2026-08-12T21:59:26.583758+00:00"
+}

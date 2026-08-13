@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900033_001",
+    "page_id": "900033",
+    "title": "Glacier Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/glacier",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Glacier service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Glacier exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Glacier v3.2.0. Owner: API Team. This document describes configuration, endpoints, error codes, and troubleshooting for Glacier.",
+    "word_count": 65,
+    "character_count": 490,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Glacier Service",
+    "breadcrumb": "Nimbus Platform > Services > Glacier Service"
+  },
+  {
+    "chunk_id": "900033_002",
+    "page_id": "900033",
+    "title": "Glacier Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/glacier",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_GLACIER_TIMEOUT_MS (default 3800)\n- NIMBUS_GLACIER_MAX_RETRIES (default 3)\n- NIMBUS_GLACIER_POOL_SIZE (default 16)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_GLACIER_TIMEOUT_MS affects request timeout behavior for Glacier.",
+    "word_count": 39,
+    "character_count": 330,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Glacier Service",
+    "breadcrumb": "Nimbus Platform > Services > Glacier Service"
+  },
+  {
+    "chunk_id": "900033_003",
+    "page_id": "900033",
+    "title": "Glacier Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/glacier",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/glacier/restart\n- GET /api/v1/glacier/status\n- POST /api/v1/glacier/cache/flush\nUse POST /api/v1/glacier/restart to restart the Glacier service, GET /api/v1/glacier/status to check health, and POST /api/v1/glacier/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 299,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Glacier Service",
+    "breadcrumb": "Nimbus Platform > Services > Glacier Service"
+  },
+  {
+    "chunk_id": "900033_004",
+    "page_id": "900033",
+    "title": "Glacier Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/glacier",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Glacier service:\n- ERR-1321: connection pool exhausted\n- ERR-1322: upstream timeout exceeded\n- ERR-1323: invalid authentication token\n- ERR-1324: payload schema validation failed\nWhen you see ERR-1321, the connection pool is exhausted; increase NIMBUS_GLACIER_POOL_SIZE. ERR-1322 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 337,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Glacier Service",
+    "breadcrumb": "Nimbus Platform > Services > Glacier Service"
+  },
+  {
+    "chunk_id": "900033_005",
+    "page_id": "900033",
+    "title": "Glacier Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/glacier",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Glacier service. If you observe connection drops or high latency, first check GET /api/v1/glacier/status, then review recent error codes. Restart with `nimbusctl glacier restart` or POST /api/v1/glacier/restart. Persistent timeouts usually mean NIMBUS_GLACIER_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to API Team.",
+    "word_count": 56,
+    "character_count": 423,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Glacier Service",
+    "breadcrumb": "Nimbus Platform > Services > Glacier Service"
+  }
+]

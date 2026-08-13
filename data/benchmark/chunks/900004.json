@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900004_001",
+    "page_id": "900004",
+    "title": "Dune Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/dune",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Dune service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Dune exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Dune v1.3.0. Owner: Data Team. This document describes configuration, endpoints, error codes, and troubleshooting for Dune.",
+    "word_count": 65,
+    "character_count": 479,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Dune Service",
+    "breadcrumb": "Nimbus Platform > Services > Dune Service"
+  },
+  {
+    "chunk_id": "900004_002",
+    "page_id": "900004",
+    "title": "Dune Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/dune",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_DUNE_TIMEOUT_MS (default 3075)\n- NIMBUS_DUNE_MAX_RETRIES (default 6)\n- NIMBUS_DUNE_POOL_SIZE (default 28)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_DUNE_TIMEOUT_MS affects request timeout behavior for Dune.",
+    "word_count": 39,
+    "character_count": 315,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Dune Service",
+    "breadcrumb": "Nimbus Platform > Services > Dune Service"
+  },
+  {
+    "chunk_id": "900004_003",
+    "page_id": "900004",
+    "title": "Dune Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/dune",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/dune/restart\n- GET /api/v1/dune/status\n- POST /api/v1/dune/cache/flush\nUse POST /api/v1/dune/restart to restart the Dune service, GET /api/v1/dune/status to check health, and POST /api/v1/dune/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 278,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Dune Service",
+    "breadcrumb": "Nimbus Platform > Services > Dune Service"
+  },
+  {
+    "chunk_id": "900004_004",
+    "page_id": "900004",
+    "title": "Dune Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/dune",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Dune service:\n- ERR-1031: connection pool exhausted\n- ERR-1032: upstream timeout exceeded\n- ERR-1033: invalid authentication token\n- ERR-1034: payload schema validation failed\nWhen you see ERR-1031, the connection pool is exhausted; increase NIMBUS_DUNE_POOL_SIZE. ERR-1032 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 331,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Dune Service",
+    "breadcrumb": "Nimbus Platform > Services > Dune Service"
+  },
+  {
+    "chunk_id": "900004_005",
+    "page_id": "900004",
+    "title": "Dune Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/dune",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Dune service. If you observe connection drops or high latency, first check GET /api/v1/dune/status, then review recent error codes. Restart with `nimbusctl dune restart` or POST /api/v1/dune/restart. Persistent timeouts usually mean NIMBUS_DUNE_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Data Team.",
+    "word_count": 56,
+    "character_count": 409,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Dune Service",
+    "breadcrumb": "Nimbus Platform > Services > Dune Service"
+  }
+]

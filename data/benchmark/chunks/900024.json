@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900024_001",
+    "page_id": "900024",
+    "title": "Xenon Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/xenon",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Xenon service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Xenon exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Xenon v3.3.0. Owner: Data Team. This document describes configuration, endpoints, error codes, and troubleshooting for Xenon.",
+    "word_count": 65,
+    "character_count": 483,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Xenon Service",
+    "breadcrumb": "Nimbus Platform > Services > Xenon Service"
+  },
+  {
+    "chunk_id": "900024_002",
+    "page_id": "900024",
+    "title": "Xenon Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/xenon",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_XENON_TIMEOUT_MS (default 3575)\n- NIMBUS_XENON_MAX_RETRIES (default 6)\n- NIMBUS_XENON_POOL_SIZE (default 44)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_XENON_TIMEOUT_MS affects request timeout behavior for Xenon.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Xenon Service",
+    "breadcrumb": "Nimbus Platform > Services > Xenon Service"
+  },
+  {
+    "chunk_id": "900024_003",
+    "page_id": "900024",
+    "title": "Xenon Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/xenon",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/xenon/restart\n- GET /api/v1/xenon/status\n- POST /api/v1/xenon/cache/flush\nUse POST /api/v1/xenon/restart to restart the Xenon service, GET /api/v1/xenon/status to check health, and POST /api/v1/xenon/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Xenon Service",
+    "breadcrumb": "Nimbus Platform > Services > Xenon Service"
+  },
+  {
+    "chunk_id": "900024_004",
+    "page_id": "900024",
+    "title": "Xenon Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/xenon",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Xenon service:\n- ERR-1231: connection pool exhausted\n- ERR-1232: upstream timeout exceeded\n- ERR-1233: invalid authentication token\n- ERR-1234: payload schema validation failed\nWhen you see ERR-1231, the connection pool is exhausted; increase NIMBUS_XENON_POOL_SIZE. ERR-1232 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Xenon Service",
+    "breadcrumb": "Nimbus Platform > Services > Xenon Service"
+  },
+  {
+    "chunk_id": "900024_005",
+    "page_id": "900024",
+    "title": "Xenon Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/xenon",
+    "owner": "Data Team",
+    "status": "GA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Xenon service. If you observe connection drops or high latency, first check GET /api/v1/xenon/status, then review recent error codes. Restart with `nimbusctl xenon restart` or POST /api/v1/xenon/restart. Persistent timeouts usually mean NIMBUS_XENON_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Data Team.",
+    "word_count": 56,
+    "character_count": 414,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Xenon Service",
+    "breadcrumb": "Nimbus Platform > Services > Xenon Service"
+  }
+]

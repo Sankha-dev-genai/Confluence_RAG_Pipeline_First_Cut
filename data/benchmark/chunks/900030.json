@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900030_001",
+    "page_id": "900030",
+    "title": "Delta Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/delta",
+    "owner": "Infra Guild",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Delta service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Delta exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Delta v3.9.0. Owner: Infra Guild. This document describes configuration, endpoints, error codes, and troubleshooting for Delta.",
+    "word_count": 65,
+    "character_count": 485,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Delta Service",
+    "breadcrumb": "Nimbus Platform > Services > Delta Service"
+  },
+  {
+    "chunk_id": "900030_002",
+    "page_id": "900030",
+    "title": "Delta Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/delta",
+    "owner": "Infra Guild",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_DELTA_TIMEOUT_MS (default 3725)\n- NIMBUS_DELTA_MAX_RETRIES (default 4)\n- NIMBUS_DELTA_POOL_SIZE (default 36)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_DELTA_TIMEOUT_MS affects request timeout behavior for Delta.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Delta Service",
+    "breadcrumb": "Nimbus Platform > Services > Delta Service"
+  },
+  {
+    "chunk_id": "900030_003",
+    "page_id": "900030",
+    "title": "Delta Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/delta",
+    "owner": "Infra Guild",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/delta/restart\n- GET /api/v1/delta/status\n- POST /api/v1/delta/cache/flush\nUse POST /api/v1/delta/restart to restart the Delta service, GET /api/v1/delta/status to check health, and POST /api/v1/delta/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Delta Service",
+    "breadcrumb": "Nimbus Platform > Services > Delta Service"
+  },
+  {
+    "chunk_id": "900030_004",
+    "page_id": "900030",
+    "title": "Delta Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/delta",
+    "owner": "Infra Guild",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Delta service:\n- ERR-1291: connection pool exhausted\n- ERR-1292: upstream timeout exceeded\n- ERR-1293: invalid authentication token\n- ERR-1294: payload schema validation failed\nWhen you see ERR-1291, the connection pool is exhausted; increase NIMBUS_DELTA_POOL_SIZE. ERR-1292 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Delta Service",
+    "breadcrumb": "Nimbus Platform > Services > Delta Service"
+  },
+  {
+    "chunk_id": "900030_005",
+    "page_id": "900030",
+    "title": "Delta Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/delta",
+    "owner": "Infra Guild",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Delta service. If you observe connection drops or high latency, first check GET /api/v1/delta/status, then review recent error codes. Restart with `nimbusctl delta restart` or POST /api/v1/delta/restart. Persistent timeouts usually mean NIMBUS_DELTA_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Infra Guild.",
+    "word_count": 56,
+    "character_count": 416,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Delta Service",
+    "breadcrumb": "Nimbus Platform > Services > Delta Service"
+  }
+]

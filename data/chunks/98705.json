@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "98705_001",
+    "page_id": "98705",
+    "title": "Product Roadmap",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98705",
+    "owner": "Product",
+    "status": "PLANNED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Product |\n| Status | PLANNED |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 13,
+    "character_count": 127,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Product Roadmap",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Product Roadmap"
+  },
+  {
+    "chunk_id": "98705_002",
+    "page_id": "98705",
+    "title": "Product Roadmap",
+    "section": "Roadmap",
+    "heading_path": [
+      "Roadmap"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=98705",
+    "owner": "Product",
+    "status": "PLANNED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Roadmap\n\n| Quarter | Theme | Status |\n| --- | --- | --- |\n| Q3 2026 | Core platform | DONE |\n| Q4 2026 | Integrations | IN PROGRESS |\n| Q1 2027 | *[PLACEHOLDER]* | PLANNED |\n\nStatus legend: DONE IN PROGRESS BLOCKED",
+    "word_count": 24,
+    "character_count": 217,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Product Roadmap",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Product Roadmap"
+  }
+]

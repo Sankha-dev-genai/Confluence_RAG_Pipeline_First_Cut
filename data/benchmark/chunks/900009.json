@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900009_001",
+    "page_id": "900009",
+    "title": "Indigo Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/indigo",
+    "owner": "Data Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Indigo service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Indigo exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Indigo v3.8.0. Owner: Data Team. This document describes configuration, endpoints, error codes, and troubleshooting for Indigo.",
+    "word_count": 65,
+    "character_count": 487,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Indigo Service",
+    "breadcrumb": "Nimbus Platform > Services > Indigo Service"
+  },
+  {
+    "chunk_id": "900009_002",
+    "page_id": "900009",
+    "title": "Indigo Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/indigo",
+    "owner": "Data Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_INDIGO_TIMEOUT_MS (default 3200)\n- NIMBUS_INDIGO_MAX_RETRIES (default 3)\n- NIMBUS_INDIGO_POOL_SIZE (default 16)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_INDIGO_TIMEOUT_MS affects request timeout behavior for Indigo.",
+    "word_count": 39,
+    "character_count": 325,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Indigo Service",
+    "breadcrumb": "Nimbus Platform > Services > Indigo Service"
+  },
+  {
+    "chunk_id": "900009_003",
+    "page_id": "900009",
+    "title": "Indigo Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/indigo",
+    "owner": "Data Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/indigo/restart\n- GET /api/v1/indigo/status\n- POST /api/v1/indigo/cache/flush\nUse POST /api/v1/indigo/restart to restart the Indigo service, GET /api/v1/indigo/status to check health, and POST /api/v1/indigo/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Indigo Service",
+    "breadcrumb": "Nimbus Platform > Services > Indigo Service"
+  },
+  {
+    "chunk_id": "900009_004",
+    "page_id": "900009",
+    "title": "Indigo Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/indigo",
+    "owner": "Data Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Indigo service:\n- ERR-1081: connection pool exhausted\n- ERR-1082: upstream timeout exceeded\n- ERR-1083: invalid authentication token\n- ERR-1084: payload schema validation failed\nWhen you see ERR-1081, the connection pool is exhausted; increase NIMBUS_INDIGO_POOL_SIZE. ERR-1082 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 335,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Indigo Service",
+    "breadcrumb": "Nimbus Platform > Services > Indigo Service"
+  },
+  {
+    "chunk_id": "900009_005",
+    "page_id": "900009",
+    "title": "Indigo Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/indigo",
+    "owner": "Data Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Indigo service. If you observe connection drops or high latency, first check GET /api/v1/indigo/status, then review recent error codes. Restart with `nimbusctl indigo restart` or POST /api/v1/indigo/restart. Persistent timeouts usually mean NIMBUS_INDIGO_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to Data Team.",
+    "word_count": 56,
+    "character_count": 419,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Indigo Service",
+    "breadcrumb": "Nimbus Platform > Services > Indigo Service"
+  }
+]

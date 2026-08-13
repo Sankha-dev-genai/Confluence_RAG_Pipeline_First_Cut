@@ -1,0 +1,965 @@
+{
+  "description": "Synthetic Nimbus benchmark: exact-match + semantic questions.",
+  "questions": [
+    {
+      "id": "b000a",
+      "question": "What does error code ERR-1001 indicate?",
+      "relevant_page_ids": [
+        "900001"
+      ],
+      "answer_keywords": [
+        "ERR-1001",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b000b",
+      "question": "How do I fix connection drops in the Aurora service?",
+      "relevant_page_ids": [
+        "900001"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b001a",
+      "question": "What does error code ERR-1011 indicate?",
+      "relevant_page_ids": [
+        "900002"
+      ],
+      "answer_keywords": [
+        "ERR-1011",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b001b",
+      "question": "How do I fix connection drops in the Basalt service?",
+      "relevant_page_ids": [
+        "900002"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b002a",
+      "question": "What does error code ERR-1021 indicate?",
+      "relevant_page_ids": [
+        "900003"
+      ],
+      "answer_keywords": [
+        "ERR-1021",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b002b",
+      "question": "How do I fix connection drops in the Cobalt service?",
+      "relevant_page_ids": [
+        "900003"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b003a",
+      "question": "What does error code ERR-1031 indicate?",
+      "relevant_page_ids": [
+        "900004"
+      ],
+      "answer_keywords": [
+        "ERR-1031",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b003b",
+      "question": "How do I fix connection drops in the Dune service?",
+      "relevant_page_ids": [
+        "900004"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b004a",
+      "question": "What does error code ERR-1041 indicate?",
+      "relevant_page_ids": [
+        "900005"
+      ],
+      "answer_keywords": [
+        "ERR-1041",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b004b",
+      "question": "How do I fix connection drops in the Ember service?",
+      "relevant_page_ids": [
+        "900005"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b005a",
+      "question": "What does error code ERR-1051 indicate?",
+      "relevant_page_ids": [
+        "900006"
+      ],
+      "answer_keywords": [
+        "ERR-1051",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b005b",
+      "question": "How do I fix connection drops in the Flint service?",
+      "relevant_page_ids": [
+        "900006"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b006a",
+      "question": "What does error code ERR-1061 indicate?",
+      "relevant_page_ids": [
+        "900007"
+      ],
+      "answer_keywords": [
+        "ERR-1061",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b006b",
+      "question": "How do I fix connection drops in the Granite service?",
+      "relevant_page_ids": [
+        "900007"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b007a",
+      "question": "What does error code ERR-1071 indicate?",
+      "relevant_page_ids": [
+        "900008"
+      ],
+      "answer_keywords": [
+        "ERR-1071",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b007b",
+      "question": "How do I fix connection drops in the Halite service?",
+      "relevant_page_ids": [
+        "900008"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b008a",
+      "question": "What does error code ERR-1081 indicate?",
+      "relevant_page_ids": [
+        "900009"
+      ],
+      "answer_keywords": [
+        "ERR-1081",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b008b",
+      "question": "How do I fix connection drops in the Indigo service?",
+      "relevant_page_ids": [
+        "900009"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b009a",
+      "question": "What does error code ERR-1091 indicate?",
+      "relevant_page_ids": [
+        "900010"
+      ],
+      "answer_keywords": [
+        "ERR-1091",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b009b",
+      "question": "How do I fix connection drops in the Jasper service?",
+      "relevant_page_ids": [
+        "900010"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b010a",
+      "question": "What does error code ERR-1101 indicate?",
+      "relevant_page_ids": [
+        "900011"
+      ],
+      "answer_keywords": [
+        "ERR-1101",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b010b",
+      "question": "How do I fix connection drops in the Kepler service?",
+      "relevant_page_ids": [
+        "900011"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b011a",
+      "question": "What does error code ERR-1111 indicate?",
+      "relevant_page_ids": [
+        "900012"
+      ],
+      "answer_keywords": [
+        "ERR-1111",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b011b",
+      "question": "How do I fix connection drops in the Lumen service?",
+      "relevant_page_ids": [
+        "900012"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b012a",
+      "question": "What does error code ERR-1121 indicate?",
+      "relevant_page_ids": [
+        "900013"
+      ],
+      "answer_keywords": [
+        "ERR-1121",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b012b",
+      "question": "How do I fix connection drops in the Marble service?",
+      "relevant_page_ids": [
+        "900013"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b013a",
+      "question": "What does error code ERR-1131 indicate?",
+      "relevant_page_ids": [
+        "900014"
+      ],
+      "answer_keywords": [
+        "ERR-1131",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b013b",
+      "question": "How do I fix connection drops in the Nimbus service?",
+      "relevant_page_ids": [
+        "900014"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b014a",
+      "question": "What does error code ERR-1141 indicate?",
+      "relevant_page_ids": [
+        "900015"
+      ],
+      "answer_keywords": [
+        "ERR-1141",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b014b",
+      "question": "How do I fix connection drops in the Onyx service?",
+      "relevant_page_ids": [
+        "900015"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b015a",
+      "question": "What does error code ERR-1151 indicate?",
+      "relevant_page_ids": [
+        "900016"
+      ],
+      "answer_keywords": [
+        "ERR-1151",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b015b",
+      "question": "How do I fix connection drops in the Pyrite service?",
+      "relevant_page_ids": [
+        "900016"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b016a",
+      "question": "What does error code ERR-1161 indicate?",
+      "relevant_page_ids": [
+        "900017"
+      ],
+      "answer_keywords": [
+        "ERR-1161",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b016b",
+      "question": "How do I fix connection drops in the Quartz service?",
+      "relevant_page_ids": [
+        "900017"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b017a",
+      "question": "What does error code ERR-1171 indicate?",
+      "relevant_page_ids": [
+        "900018"
+      ],
+      "answer_keywords": [
+        "ERR-1171",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b017b",
+      "question": "How do I fix connection drops in the Rime service?",
+      "relevant_page_ids": [
+        "900018"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b018a",
+      "question": "What does error code ERR-1181 indicate?",
+      "relevant_page_ids": [
+        "900019"
+      ],
+      "answer_keywords": [
+        "ERR-1181",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b018b",
+      "question": "How do I fix connection drops in the Slate service?",
+      "relevant_page_ids": [
+        "900019"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b019a",
+      "question": "What does error code ERR-1191 indicate?",
+      "relevant_page_ids": [
+        "900020"
+      ],
+      "answer_keywords": [
+        "ERR-1191",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b019b",
+      "question": "How do I fix connection drops in the Talc service?",
+      "relevant_page_ids": [
+        "900020"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b020a",
+      "question": "What does error code ERR-1201 indicate?",
+      "relevant_page_ids": [
+        "900021"
+      ],
+      "answer_keywords": [
+        "ERR-1201",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b020b",
+      "question": "How do I fix connection drops in the Umber service?",
+      "relevant_page_ids": [
+        "900021"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b021a",
+      "question": "What does error code ERR-1211 indicate?",
+      "relevant_page_ids": [
+        "900022"
+      ],
+      "answer_keywords": [
+        "ERR-1211",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b021b",
+      "question": "How do I fix connection drops in the Verdant service?",
+      "relevant_page_ids": [
+        "900022"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b022a",
+      "question": "What does error code ERR-1221 indicate?",
+      "relevant_page_ids": [
+        "900023"
+      ],
+      "answer_keywords": [
+        "ERR-1221",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b022b",
+      "question": "How do I fix connection drops in the Willow service?",
+      "relevant_page_ids": [
+        "900023"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b023a",
+      "question": "What does error code ERR-1231 indicate?",
+      "relevant_page_ids": [
+        "900024"
+      ],
+      "answer_keywords": [
+        "ERR-1231",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b023b",
+      "question": "How do I fix connection drops in the Xenon service?",
+      "relevant_page_ids": [
+        "900024"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b024a",
+      "question": "What does error code ERR-1241 indicate?",
+      "relevant_page_ids": [
+        "900025"
+      ],
+      "answer_keywords": [
+        "ERR-1241",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b024b",
+      "question": "How do I fix connection drops in the Yarrow service?",
+      "relevant_page_ids": [
+        "900025"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b025a",
+      "question": "What does error code ERR-1251 indicate?",
+      "relevant_page_ids": [
+        "900026"
+      ],
+      "answer_keywords": [
+        "ERR-1251",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b025b",
+      "question": "How do I fix connection drops in the Zephyr service?",
+      "relevant_page_ids": [
+        "900026"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b026a",
+      "question": "What does error code ERR-1261 indicate?",
+      "relevant_page_ids": [
+        "900027"
+      ],
+      "answer_keywords": [
+        "ERR-1261",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b026b",
+      "question": "How do I fix connection drops in the Amber service?",
+      "relevant_page_ids": [
+        "900027"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b027a",
+      "question": "What does error code ERR-1271 indicate?",
+      "relevant_page_ids": [
+        "900028"
+      ],
+      "answer_keywords": [
+        "ERR-1271",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b027b",
+      "question": "How do I fix connection drops in the Beryl service?",
+      "relevant_page_ids": [
+        "900028"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b028a",
+      "question": "What does error code ERR-1281 indicate?",
+      "relevant_page_ids": [
+        "900029"
+      ],
+      "answer_keywords": [
+        "ERR-1281",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b028b",
+      "question": "How do I fix connection drops in the Cinder service?",
+      "relevant_page_ids": [
+        "900029"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b029a",
+      "question": "What does error code ERR-1291 indicate?",
+      "relevant_page_ids": [
+        "900030"
+      ],
+      "answer_keywords": [
+        "ERR-1291",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b029b",
+      "question": "How do I fix connection drops in the Delta service?",
+      "relevant_page_ids": [
+        "900030"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b030a",
+      "question": "What does error code ERR-1301 indicate?",
+      "relevant_page_ids": [
+        "900031"
+      ],
+      "answer_keywords": [
+        "ERR-1301",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b030b",
+      "question": "How do I fix connection drops in the Echo service?",
+      "relevant_page_ids": [
+        "900031"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b031a",
+      "question": "What does error code ERR-1311 indicate?",
+      "relevant_page_ids": [
+        "900032"
+      ],
+      "answer_keywords": [
+        "ERR-1311",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b031b",
+      "question": "How do I fix connection drops in the Fjord service?",
+      "relevant_page_ids": [
+        "900032"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b032a",
+      "question": "What does error code ERR-1321 indicate?",
+      "relevant_page_ids": [
+        "900033"
+      ],
+      "answer_keywords": [
+        "ERR-1321",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b032b",
+      "question": "How do I fix connection drops in the Glacier service?",
+      "relevant_page_ids": [
+        "900033"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b033a",
+      "question": "What does error code ERR-1331 indicate?",
+      "relevant_page_ids": [
+        "900034"
+      ],
+      "answer_keywords": [
+        "ERR-1331",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b033b",
+      "question": "How do I fix connection drops in the Harbor service?",
+      "relevant_page_ids": [
+        "900034"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b034a",
+      "question": "What does error code ERR-1341 indicate?",
+      "relevant_page_ids": [
+        "900035"
+      ],
+      "answer_keywords": [
+        "ERR-1341",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b034b",
+      "question": "How do I fix connection drops in the Ionic service?",
+      "relevant_page_ids": [
+        "900035"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b035a",
+      "question": "What does error code ERR-1351 indicate?",
+      "relevant_page_ids": [
+        "900036"
+      ],
+      "answer_keywords": [
+        "ERR-1351",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b035b",
+      "question": "How do I fix connection drops in the Jade service?",
+      "relevant_page_ids": [
+        "900036"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b036a",
+      "question": "What does error code ERR-1361 indicate?",
+      "relevant_page_ids": [
+        "900037"
+      ],
+      "answer_keywords": [
+        "ERR-1361",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b036b",
+      "question": "How do I fix connection drops in the Kraken service?",
+      "relevant_page_ids": [
+        "900037"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b037a",
+      "question": "What does error code ERR-1371 indicate?",
+      "relevant_page_ids": [
+        "900038"
+      ],
+      "answer_keywords": [
+        "ERR-1371",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b037b",
+      "question": "How do I fix connection drops in the Lyric service?",
+      "relevant_page_ids": [
+        "900038"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b038a",
+      "question": "What does error code ERR-1381 indicate?",
+      "relevant_page_ids": [
+        "900039"
+      ],
+      "answer_keywords": [
+        "ERR-1381",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b038b",
+      "question": "How do I fix connection drops in the Mica service?",
+      "relevant_page_ids": [
+        "900039"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    },
+    {
+      "id": "b039a",
+      "question": "What does error code ERR-1391 indicate?",
+      "relevant_page_ids": [
+        "900040"
+      ],
+      "answer_keywords": [
+        "ERR-1391",
+        "pool"
+      ],
+      "tag": "exact_match"
+    },
+    {
+      "id": "b039b",
+      "question": "How do I fix connection drops in the Nova service?",
+      "relevant_page_ids": [
+        "900040"
+      ],
+      "answer_keywords": [
+        "restart",
+        "status"
+      ],
+      "tag": "semantic"
+    }
+  ]
+}

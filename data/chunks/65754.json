@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "65754_001",
+    "page_id": "65754",
+    "title": "Glossary of Terms",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=65754",
+    "owner": "Docs Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Docs Team |\n| Status | COMPLETE |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 130,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Glossary of Terms",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Glossary of Terms"
+  },
+  {
+    "chunk_id": "65754_002",
+    "page_id": "65754",
+    "title": "Glossary of Terms",
+    "section": "Glossary",
+    "heading_path": [
+      "Glossary"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=65754",
+    "owner": "Docs Team",
+    "status": "COMPLETE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Glossary\n\n| Term | Definition |\n| --- | --- |\n| API | Application Programming Interface |\n| CI/CD | Continuous Integration / Continuous Delivery |\n| SLA | Service Level Agreement |\n| *[PLACEHOLDER]* | *Add your term* |",
+    "word_count": 21,
+    "character_count": 221,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Glossary of Terms",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Glossary of Terms"
+  }
+]

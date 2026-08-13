@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_id": "900038_001",
+    "page_id": "900038",
+    "title": "Lyric Service",
+    "section": "Overview",
+    "heading_path": [
+      "Overview"
+    ],
+    "source_url": "https://nimbus.internal/docs/lyric",
+    "owner": "API Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "The Lyric service is a component of the Nimbus platform responsible for handling requests reliably and at high throughput. It provides horizontal scalability, health checks, and graceful degradation under load. Like other Nimbus services, Lyric exposes metrics, supports rolling restarts, and integrates with the shared observability stack. Current version: Lyric v2.7.0. Owner: API Team. This document describes configuration, endpoints, error codes, and troubleshooting for Lyric.",
+    "word_count": 65,
+    "character_count": 482,
+    "chunk_number": 1,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Lyric Service",
+    "breadcrumb": "Nimbus Platform > Services > Lyric Service"
+  },
+  {
+    "chunk_id": "900038_002",
+    "page_id": "900038",
+    "title": "Lyric Service",
+    "section": "Configuration",
+    "heading_path": [
+      "Configuration"
+    ],
+    "source_url": "https://nimbus.internal/docs/lyric",
+    "owner": "API Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Configuration keys and defaults for the service:\n- NIMBUS_LYRIC_TIMEOUT_MS (default 3925)\n- NIMBUS_LYRIC_MAX_RETRIES (default 4)\n- NIMBUS_LYRIC_POOL_SIZE (default 36)\nEach key can be overridden via environment variable or the nimbus.yaml file. Changing NIMBUS_LYRIC_TIMEOUT_MS affects request timeout behavior for Lyric.",
+    "word_count": 39,
+    "character_count": 320,
+    "chunk_number": 2,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Lyric Service",
+    "breadcrumb": "Nimbus Platform > Services > Lyric Service"
+  },
+  {
+    "chunk_id": "900038_003",
+    "page_id": "900038",
+    "title": "Lyric Service",
+    "section": "API Endpoints",
+    "heading_path": [
+      "API Endpoints"
+    ],
+    "source_url": "https://nimbus.internal/docs/lyric",
+    "owner": "API Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "HTTP endpoints exposed by the service:\n- POST /api/v1/lyric/restart\n- GET /api/v1/lyric/status\n- POST /api/v1/lyric/cache/flush\nUse POST /api/v1/lyric/restart to restart the Lyric service, GET /api/v1/lyric/status to check health, and POST /api/v1/lyric/cache/flush to clear its cache.",
+    "word_count": 35,
+    "character_count": 285,
+    "chunk_number": 3,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Lyric Service",
+    "breadcrumb": "Nimbus Platform > Services > Lyric Service"
+  },
+  {
+    "chunk_id": "900038_004",
+    "page_id": "900038",
+    "title": "Lyric Service",
+    "section": "Error Codes",
+    "heading_path": [
+      "Error Codes"
+    ],
+    "source_url": "https://nimbus.internal/docs/lyric",
+    "owner": "API Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Error codes emitted by the Lyric service:\n- ERR-1371: connection pool exhausted\n- ERR-1372: upstream timeout exceeded\n- ERR-1373: invalid authentication token\n- ERR-1374: payload schema validation failed\nWhen you see ERR-1371, the connection pool is exhausted; increase NIMBUS_LYRIC_POOL_SIZE. ERR-1372 indicates an upstream timeout.",
+    "word_count": 44,
+    "character_count": 333,
+    "chunk_number": 4,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Lyric Service",
+    "breadcrumb": "Nimbus Platform > Services > Lyric Service"
+  },
+  {
+    "chunk_id": "900038_005",
+    "page_id": "900038",
+    "title": "Lyric Service",
+    "section": "Troubleshooting",
+    "heading_path": [
+      "Troubleshooting"
+    ],
+    "source_url": "https://nimbus.internal/docs/lyric",
+    "owner": "API Team",
+    "status": "BETA",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-01",
+    "text": "Troubleshooting the Lyric service. If you observe connection drops or high latency, first check GET /api/v1/lyric/status, then review recent error codes. Restart with `nimbusctl lyric restart` or POST /api/v1/lyric/restart. Persistent timeouts usually mean NIMBUS_LYRIC_TIMEOUT_MS is set too low. As with all Nimbus services, verify upstream health and inspect the shared dashboards before escalating to API Team.",
+    "word_count": 56,
+    "character_count": 413,
+    "chunk_number": 5,
+    "total_chunks": 5,
+    "parent_page": "Nimbus Platform (Synthetic Benchmark)",
+    "child_page": "Lyric Service",
+    "breadcrumb": "Nimbus Platform > Services > Lyric Service"
+  }
+]

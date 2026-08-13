@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "131133_001",
+    "page_id": "131133",
+    "title": "REST API Reference",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131133",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | API Team |\n| Status | STABLE |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |\n\n- [Authentication](#RESTAPIReference-Authentication)\n- [Endpoints](#RESTAPIReference-Endpoints)\n- [Example response](#RESTAPIReference-Exampleresponse)",
+    "word_count": 24,
+    "character_count": 280,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "REST API Reference",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > REST API Reference"
+  },
+  {
+    "chunk_id": "131133_002",
+    "page_id": "131133",
+    "title": "REST API Reference",
+    "section": "Authentication",
+    "heading_path": [
+      "Authentication"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131133",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Authentication\n\nAll requests use a bearer token in the `Authorization` header.\n\n```\ncurl -H \"Authorization: Bearer $TOKEN\" \\\n     https://api.example.com/v1/items\n```",
+    "word_count": 22,
+    "character_count": 169,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "REST API Reference",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > REST API Reference"
+  },
+  {
+    "chunk_id": "131133_003",
+    "page_id": "131133",
+    "title": "REST API Reference",
+    "section": "Endpoints",
+    "heading_path": [
+      "Authentication",
+      "Endpoints"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131133",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Endpoints\n\n| Method | Path | Description |\n| --- | --- | --- |\n| GET | /v1/items | List items |\n| POST | /v1/items | Create an item |\n| GET | /v1/items/{id} | Fetch one item |\n| DELETE | /v1/items/{id} | Delete an item |",
+    "word_count": 29,
+    "character_count": 223,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "REST API Reference",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > REST API Reference"
+  },
+  {
+    "chunk_id": "131133_004",
+    "page_id": "131133",
+    "title": "REST API Reference",
+    "section": "Example response",
+    "heading_path": [
+      "Authentication",
+      "Example response"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=131133",
+    "owner": "API Team",
+    "status": "STABLE",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## Example response\n\n```\n{\n  \"id\": 42,\n  \"name\": \"Widget\",\n  \"status\": \"active\"\n}\n```\n\nRate limit: 100 requests/minute per token.",
+    "word_count": 15,
+    "character_count": 129,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "REST API Reference",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > REST API Reference"
+  }
+]

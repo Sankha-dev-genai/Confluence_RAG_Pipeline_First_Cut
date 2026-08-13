@@ -1,0 +1,91 @@
+[
+  {
+    "chunk_id": "163913_001",
+    "page_id": "163913",
+    "title": "Release Notes v1.0",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163913",
+    "owner": "Release Manager",
+    "status": "RELEASED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Release Manager |\n| Status | RELEASED |\n| Last reviewed | 2026-07-28 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 136,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Release Notes v1.0",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Release Notes v1.0"
+  },
+  {
+    "chunk_id": "163913_002",
+    "page_id": "163913",
+    "title": "Release Notes v1.0",
+    "section": "v1.0.0 — 2026-07-28",
+    "heading_path": [
+      "v1.0.0 — 2026-07-28"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163913",
+    "owner": "Release Manager",
+    "status": "RELEASED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "## v1.0.0 — 2026-07-28",
+    "word_count": 6,
+    "character_count": 22,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Release Notes v1.0",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Release Notes v1.0"
+  },
+  {
+    "chunk_id": "163913_003",
+    "page_id": "163913",
+    "title": "Release Notes v1.0",
+    "section": "Added",
+    "heading_path": [
+      "v1.0.0 — 2026-07-28",
+      "Added"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163913",
+    "owner": "Release Manager",
+    "status": "RELEASED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "### Added\n\n- Initial public release\n- Item management API",
+    "word_count": 7,
+    "character_count": 57,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Release Notes v1.0",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Release Notes v1.0"
+  },
+  {
+    "chunk_id": "163913_004",
+    "page_id": "163913",
+    "title": "Release Notes v1.0",
+    "section": "Fixed",
+    "heading_path": [
+      "v1.0.0 — 2026-07-28",
+      "Added",
+      "Fixed"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=163913",
+    "owner": "Release Manager",
+    "status": "RELEASED",
+    "audience": "Internal",
+    "last_reviewed": "2026-07-28",
+    "text": "### Fixed\n\n- *[PLACEHOLDER] bug fixes*\n\nSee the full changelog attached: [changelog.txt](https://ghosalsankhasuvra09.atlassian.net/wiki/download/attachments/163913/sample-attachment.txt?version=1&modificationDate=1785188501872&cacheVersion=1&api=v2)",
+    "word_count": 30,
+    "character_count": 249,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Demo Handbook (Auto-generated)",
+    "child_page": "Release Notes v1.0",
+    "breadcrumb": "Overview > Demo Handbook (Auto-generated) > Release Notes v1.0"
+  }
+]
