@@ -21,15 +21,53 @@ load_dotenv()
 # ---------------------------------------------------------------- paths
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = BASE_DIR / "data"
-RAW_DIR = DATA_DIR / "raw"
-CLEANED_DIR = DATA_DIR / "cleaned"
-CHUNKS_DIR = DATA_DIR / "chunks"
-METADATA_DIR = DATA_DIR / "metadata"
-VECTORSTORE_DIR = DATA_DIR / "vectorstore"
-EVAL_DIR = DATA_DIR / "evaluation"
+COLLECTIONS_DIR = DATA_DIR / "collections"
 
-for _d in (RAW_DIR, CLEANED_DIR, CHUNKS_DIR, METADATA_DIR, VECTORSTORE_DIR, EVAL_DIR):
-    _d.mkdir(parents=True, exist_ok=True)
+
+class CollectionPaths:
+    """All directories for one named knowledge base (collection).
+
+    The special name "default" maps to the original data/ layout, so existing
+    data and behaviour are unchanged. Any other name lives under
+    data/collections/<name>/ and is fully isolated.
+    """
+
+    def __init__(self, name: str = "default") -> None:
+        self.name = name or "default"
+        base = DATA_DIR if self.name == "default" else (COLLECTIONS_DIR / self.name)
+        self.base = base
+        self.raw = base / "raw"
+        self.cleaned = base / "cleaned"
+        self.chunks = base / "chunks"
+        self.metadata = base / "metadata"
+        self.vectorstore = base / "vectorstore"
+        self.evaluation = base / "evaluation"
+        self.golden = base / "evaluation" / "golden_qa.json"
+
+    def mkdirs(self) -> "CollectionPaths":
+        for d in (self.raw, self.cleaned, self.chunks, self.metadata,
+                  self.vectorstore, self.evaluation):
+            d.mkdir(parents=True, exist_ok=True)
+        return self
+
+
+def collection_paths(name: str = "default") -> "CollectionPaths":
+    return CollectionPaths(name)
+
+
+# The active collection for THIS process is chosen by the COLLECTION env var,
+# read before any module binds the path constants below. Ingestion runs one
+# collection per process (python main.py --collection <name>); the app queries
+# many collections via explicit directory arguments.
+ACTIVE_COLLECTION = os.getenv("COLLECTION", "default")
+_paths = collection_paths(ACTIVE_COLLECTION).mkdirs()
+
+RAW_DIR = _paths.raw
+CLEANED_DIR = _paths.cleaned
+CHUNKS_DIR = _paths.chunks
+METADATA_DIR = _paths.metadata
+VECTORSTORE_DIR = _paths.vectorstore
+EVAL_DIR = _paths.evaluation
 
 
 # ---------------------------------------------------------------- settings
