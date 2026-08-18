@@ -1,0 +1,51 @@
+{
+  "page_id": "1121207",
+  "title": "BusinessObjects",
+  "parent_page": "Category:Data warehousing products",
+  "child_page": "BusinessObjects",
+  "breadcrumb": "Category:Data warehousing products > BusinessObjects",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/BusinessObjects",
+  "space_key": null,
+  "space_name": "Category:Data warehousing products",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Data warehousing products"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Legal"
+    },
+    {
+      "level": 3,
+      "text": "Timeline"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "1121207.md",
+  "character_count": 19046,
+  "word_count": 1768,
+  "extracted_at": "2026-08-17T06:36:06.674586+00:00"
+}

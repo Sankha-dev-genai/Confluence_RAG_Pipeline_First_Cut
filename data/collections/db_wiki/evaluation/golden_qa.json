@@ -1,0 +1,567 @@
+{
+  "description": "Golden set for collection 'db_wiki'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Which relational database management systems use the Apache License 2.0?",
+      "relevant_page_ids": [
+        "1568820"
+      ],
+      "answer_keywords": [
+        "Apache Derby",
+        "Apache Ignite",
+        "ClickHouse",
+        "CrateDB",
+        "FoundationDB",
+        "Greenplum"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "Is Microsoft SQL Server listed as a proprietary or open source relational database management system?",
+      "relevant_page_ids": [
+        "1568820"
+      ],
+      "answer_keywords": [
+        "Microsoft SQL Server",
+        "Proprietary"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "What types of issues does the article 'Comparison of object–relational database management systems' currently have?",
+      "relevant_page_ids": [
+        "1593534"
+      ],
+      "answer_keywords": [
+        "multiple issues",
+        "original research",
+        "no sources",
+        "original synthesis"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "Where can users discuss improvements or issues related to the 'Comparison of object–relational database management systems' article?",
+      "relevant_page_ids": [
+        "1593534"
+      ],
+      "answer_keywords": [
+        "talk page",
+        "improve",
+        "discuss issues"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "Why does the 'Alternate key' page redirect to the 'Primary key' page?",
+      "relevant_page_ids": [
+        "1763349"
+      ],
+      "answer_keywords": [
+        "redirect",
+        "merged content",
+        "preserve edit history"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What should you not do with the redirect tag on the 'Alternate key' page?",
+      "relevant_page_ids": [
+        "1763349"
+      ],
+      "answer_keywords": [
+        "do not remove",
+        "redirect tag",
+        "preserve edit history"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "What causes block contention in database management systems?",
+      "relevant_page_ids": [
+        "21675914"
+      ],
+      "answer_keywords": [
+        "multiple processes",
+        "competing access",
+        "index or data block",
+        "frequent scans or updates"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "How can contention for table blocks due to insert statements be reduced?",
+      "relevant_page_ids": [
+        "21675914"
+      ],
+      "answer_keywords": [
+        "increase freelists",
+        "buffer frames",
+        "reduce contention",
+        "insert statements"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What are the three forms in which AutoNumbers can be generated?",
+      "relevant_page_ids": [
+        "23469504"
+      ],
+      "answer_keywords": [
+        "start value plus increment",
+        "random",
+        "replication IDs"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm010",
+      "question": "Why might someone choose to raise the start value of an AutoNumber field?",
+      "relevant_page_ids": [
+        "23469504"
+      ],
+      "answer_keywords": [
+        "hide information",
+        "start value raised",
+        "customer ID example"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm011",
+      "question": "What maintenance issues are currently noted on the Bidirectionalization Wikipedia page?",
+      "relevant_page_ids": [
+        "29632635"
+      ],
+      "answer_keywords": [
+        "single source",
+        "dictionary definition",
+        "needs citations"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "What kind of help is requested to improve the Bidirectionalization article?",
+      "relevant_page_ids": [
+        "29632635"
+      ],
+      "answer_keywords": [
+        "adding citations",
+        "expand article",
+        "improve encyclopedically"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm013",
+      "question": "Who developed Armstrong's axioms and when?",
+      "relevant_page_ids": [
+        "3425793"
+      ],
+      "answer_keywords": [
+        "William W. Armstrong",
+        "1974 paper"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm014",
+      "question": "What properties do Armstrong's axioms have regarding functional dependencies?",
+      "relevant_page_ids": [
+        "3425793"
+      ],
+      "answer_keywords": [
+        "sound",
+        "complete",
+        "functional dependencies"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm015",
+      "question": "What techniques do Array DBMSs use to manage large arrays efficiently?",
+      "relevant_page_ids": [
+        "36394365"
+      ],
+      "answer_keywords": [
+        "tiles",
+        "chunks",
+        "partitioning",
+        "fast access"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm016",
+      "question": "How do Array DBMS query languages compare to SQL?",
+      "relevant_page_ids": [
+        "36394365"
+      ],
+      "answer_keywords": [
+        "declarative",
+        "core array operations",
+        "NoSQL",
+        "complex expressions"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm017",
+      "question": "Which in-memory database supports both JDBC and ODBC interfaces and is developed by Altibase Corporation?",
+      "relevant_page_ids": [
+        "42447955"
+      ],
+      "answer_keywords": [
+        "ALTIBASE HDB",
+        "ALTIBASE XDB",
+        "JDBC",
+        "ODBC"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm018",
+      "question": "What license does Apache Ignite use and what are its main features?",
+      "relevant_page_ids": [
+        "42447955"
+      ],
+      "answer_keywords": [
+        "Apache Ignite",
+        "Apache License 2.0",
+        "ACID",
+        "SQL support"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "Which free and open-source column-oriented DBMSes are implemented in Rust?",
+      "relevant_page_ids": [
+        "42500102"
+      ],
+      "answer_keywords": [
+        "Databend",
+        "InfluxDB",
+        "Rust"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "What platform as a service options are available for column-oriented databases?",
+      "relevant_page_ids": [
+        "42500102"
+      ],
+      "answer_keywords": [
+        "Amazon Redshift",
+        "Google BigQuery",
+        "Snowflake",
+        "Microsoft Azure"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm021",
+      "question": "When was the public version of Bigtable made available as part of Google Cloud?",
+      "relevant_page_ids": [
+        "5919973"
+      ],
+      "answer_keywords": [
+        "6 May 2015",
+        "public version",
+        "Cloud Bigtable"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "Which programming languages is Bigtable written in?",
+      "relevant_page_ids": [
+        "5919973"
+      ],
+      "answer_keywords": [
+        "C++",
+        "Java",
+        "Python",
+        "Go",
+        "Ruby"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm023",
+      "question": "What does ACID stand for in database transactions?",
+      "relevant_page_ids": [
+        "60776"
+      ],
+      "answer_keywords": [
+        "atomicity",
+        "consistency",
+        "isolation",
+        "durability"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm024",
+      "question": "What is the purpose of ACID properties in database transactions?",
+      "relevant_page_ids": [
+        "60776"
+      ],
+      "answer_keywords": [
+        "guarantee data validity",
+        "errors",
+        "power failures",
+        "mishaps"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm025",
+      "question": "Who developed Azure Data Explorer?",
+      "relevant_page_ids": [
+        "62516853"
+      ],
+      "answer_keywords": [
+        "Microsoft",
+        "developer"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm026",
+      "question": "What types of data can Azure Data Explorer ingest?",
+      "relevant_page_ids": [
+        "62516853"
+      ],
+      "answer_keywords": [
+        "structured data",
+        "semi-structured data",
+        "unstructured data"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm027",
+      "question": "What is a database management system (DBMS)?",
+      "relevant_page_ids": [
+        "8377"
+      ],
+      "answer_keywords": [
+        "software",
+        "interacts",
+        "administer",
+        "database"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "Where can small and large databases be stored?",
+      "relevant_page_ids": [
+        "8377"
+      ],
+      "answer_keywords": [
+        "file system",
+        "computer clusters",
+        "cloud storage"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm029",
+      "question": "What are the three levels in the ANSI-SPARC architecture and what does each represent?",
+      "relevant_page_ids": [
+        "9325118"
+      ],
+      "answer_keywords": [
+        "External Level",
+        "Conceptual Level",
+        "Internal Level"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm030",
+      "question": "How many conceptual schemas exist per database according to the ANSI-SPARC model?",
+      "relevant_page_ids": [
+        "9325118"
+      ],
+      "answer_keywords": [
+        "one conceptual schema",
+        "per database"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "What maintenance issues are currently noted on the Comparison of object–relational database management systems page?",
+      "relevant_page_ids": [
+        "1593534"
+      ],
+      "answer_keywords": [
+        "multiple issues",
+        "original research",
+        "no sources",
+        "original synthesis"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "Where can I go to help improve the article on Comparison of object–relational database management systems?",
+      "relevant_page_ids": [
+        "1593534"
+      ],
+      "answer_keywords": [
+        "improve it",
+        "talk page",
+        "adding citations",
+        "edit page"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What is the purpose of the redirect from the 'Alternate key' page?",
+      "relevant_page_ids": [
+        "1763349"
+      ],
+      "answer_keywords": [
+        "redirect",
+        "preserve edit history",
+        "merged content"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What should not be done to the redirect tag on the 'Alternate key' page?",
+      "relevant_page_ids": [
+        "1763349"
+      ],
+      "answer_keywords": [
+        "do not remove",
+        "redirect tag",
+        "unless recreate content"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What are the three forms in which AutoNumbers can be generated in Microsoft Access?",
+      "relevant_page_ids": [
+        "23469504"
+      ],
+      "answer_keywords": [
+        "start value plus increment",
+        "random",
+        "replication IDs"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "What actions does the page suggest to improve the Bidirectionalization article?",
+      "relevant_page_ids": [
+        "29632635"
+      ],
+      "answer_keywords": [
+        "add citations",
+        "expand article",
+        "improve encyclopedically"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "Which free and open-source column-oriented DBMS are implemented in Rust?",
+      "relevant_page_ids": [
+        "42500102"
+      ],
+      "answer_keywords": [
+        "Databend",
+        "InfluxDB",
+        "Rust"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "What are some examples of column-oriented DBMS available as Platform as a Service?",
+      "relevant_page_ids": [
+        "42500102"
+      ],
+      "answer_keywords": [
+        "Amazon Redshift",
+        "Google BigQuery",
+        "Snowflake",
+        "Microsoft Azure"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "What programming languages is Bigtable written in?",
+      "relevant_page_ids": [
+        "5919973"
+      ],
+      "answer_keywords": [
+        "C++",
+        "Java",
+        "Python",
+        "Go",
+        "Ruby"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "Where are small and large databases typically stored?",
+      "relevant_page_ids": [
+        "8377"
+      ],
+      "answer_keywords": [
+        "file system",
+        "computer clusters",
+        "cloud storage"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm029",
+      "question": "What are the three levels in the ANSI-SPARC architecture and their main purposes?",
+      "relevant_page_ids": [
+        "9325118"
+      ],
+      "answer_keywords": [
+        "External Level",
+        "Conceptual Level",
+        "Internal Level"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm030",
+      "question": "How many conceptual schemas exist per database according to the ANSI-SPARC architecture?",
+      "relevant_page_ids": [
+        "9325118"
+      ],
+      "answer_keywords": [
+        "one conceptual schema",
+        "per database"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

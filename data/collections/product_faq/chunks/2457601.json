@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "2457601_001",
+    "page_id": "2457601",
+    "title": "Features & Usage",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457601",
+    "owner": "Product",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Product |\n| Status | LIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 13,
+    "character_count": 124,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Product FAQ",
+    "child_page": "Features & Usage",
+    "breadcrumb": "Overview > Product FAQ > Features & Usage"
+  },
+  {
+    "chunk_id": "2457601_002",
+    "page_id": "2457601",
+    "title": "Features & Usage",
+    "section": "Usage",
+    "heading_path": [
+      "Usage"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457601",
+    "owner": "Product",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Usage\n\n1. Create a project\n2. Invite teammates\n3. Connect a data source\n4. Publish\n\nKeyboard shortcuts are listed under Help > Shortcuts.",
+    "word_count": 22,
+    "character_count": 140,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Product FAQ",
+    "child_page": "Features & Usage",
+    "breadcrumb": "Overview > Product FAQ > Features & Usage"
+  }
+]

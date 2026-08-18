@@ -1,0 +1,279 @@
+{
+  "page_id": "233488",
+  "title": "Machine learning",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Machine learning",
+  "breadcrumb": "Category:Machine_learning > Machine learning",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=233488",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Relationships to other fields"
+    },
+    {
+      "level": 3,
+      "text": "Artificial intelligence"
+    },
+    {
+      "level": 3,
+      "text": "Data compression"
+    },
+    {
+      "level": 3,
+      "text": "Data mining"
+    },
+    {
+      "level": 3,
+      "text": "Generalization"
+    },
+    {
+      "level": 3,
+      "text": "Statistics"
+    },
+    {
+      "level": 3,
+      "text": "Statistical physics"
+    },
+    {
+      "level": 2,
+      "text": "Theory"
+    },
+    {
+      "level": 2,
+      "text": "Approaches"
+    },
+    {
+      "level": 3,
+      "text": "Supervised learning"
+    },
+    {
+      "level": 3,
+      "text": "Unsupervised learning"
+    },
+    {
+      "level": 4,
+      "text": "Dimensionality reduction"
+    },
+    {
+      "level": 3,
+      "text": "Semi-supervised learning"
+    },
+    {
+      "level": 3,
+      "text": "Reinforcement learning"
+    },
+    {
+      "level": 3,
+      "text": "Other types"
+    },
+    {
+      "level": 4,
+      "text": "Self-learning"
+    },
+    {
+      "level": 4,
+      "text": "Feature learning"
+    },
+    {
+      "level": 4,
+      "text": "Sparse dictionary learning"
+    },
+    {
+      "level": 4,
+      "text": "Anomaly detection"
+    },
+    {
+      "level": 4,
+      "text": "Robot learning"
+    },
+    {
+      "level": 4,
+      "text": "Association rules"
+    },
+    {
+      "level": 2,
+      "text": "Models"
+    },
+    {
+      "level": 3,
+      "text": "Artificial neural networks"
+    },
+    {
+      "level": 3,
+      "text": "Decision trees"
+    },
+    {
+      "level": 3,
+      "text": "Random forest regression"
+    },
+    {
+      "level": 3,
+      "text": "Support-vector machines"
+    },
+    {
+      "level": 3,
+      "text": "Regression analysis"
+    },
+    {
+      "level": 3,
+      "text": "Bayesian networks"
+    },
+    {
+      "level": 3,
+      "text": "Gaussian processes"
+    },
+    {
+      "level": 3,
+      "text": "Genetic algorithms"
+    },
+    {
+      "level": 3,
+      "text": "Belief functions"
+    },
+    {
+      "level": 3,
+      "text": "Rule-based models"
+    },
+    {
+      "level": 3,
+      "text": "Training models"
+    },
+    {
+      "level": 4,
+      "text": "Federated learning"
+    },
+    {
+      "level": 2,
+      "text": "Applications"
+    },
+    {
+      "level": 2,
+      "text": "Limitations"
+    },
+    {
+      "level": 3,
+      "text": "Explainability"
+    },
+    {
+      "level": 3,
+      "text": "Overfitting"
+    },
+    {
+      "level": 3,
+      "text": "Model collapse"
+    },
+    {
+      "level": 3,
+      "text": "Hallucinations"
+    },
+    {
+      "level": 3,
+      "text": "Other limitations and vulnerabilities"
+    },
+    {
+      "level": 2,
+      "text": "Model assessments"
+    },
+    {
+      "level": 2,
+      "text": "Ethics"
+    },
+    {
+      "level": 3,
+      "text": "Bias"
+    },
+    {
+      "level": 3,
+      "text": "Financial incentives"
+    },
+    {
+      "level": 2,
+      "text": "Hardware"
+    },
+    {
+      "level": 3,
+      "text": "Tensor Processing Units (TPUs)"
+    },
+    {
+      "level": 3,
+      "text": "Neuromorphic computing"
+    },
+    {
+      "level": 4,
+      "text": "Physical neural networks"
+    },
+    {
+      "level": 3,
+      "text": "Embedded machine learning"
+    },
+    {
+      "level": 2,
+      "text": "Software"
+    },
+    {
+      "level": 3,
+      "text": "Free and open-source software"
+    },
+    {
+      "level": 3,
+      "text": "Proprietary software with free and open-source editions"
+    },
+    {
+      "level": 3,
+      "text": "Proprietary software"
+    },
+    {
+      "level": 2,
+      "text": "Journals"
+    },
+    {
+      "level": 2,
+      "text": "Conferences"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Sources"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "233488.md",
+  "character_count": 269848,
+  "word_count": 22429,
+  "extracted_at": "2026-08-16T10:51:25.265940+00:00"
+}

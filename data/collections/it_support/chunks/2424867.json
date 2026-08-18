@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2424867_001",
+    "page_id": "2424867",
+    "title": "IT Support",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2424867",
+    "owner": "IT Helpdesk",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | IT Helpdesk |\n| Status | LIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nSelf-service IT support: accounts, hardware, and troubleshooting.\n\n- Account Access\n- Hardware Requests\n- Troubleshooting",
+    "word_count": 27,
+    "character_count": 251,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Overview",
+    "child_page": "IT Support",
+    "breadcrumb": "Overview > IT Support"
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "page_id": "23824",
+  "title": "PostgreSQL",
+  "parent_page": "Selected pages",
+  "child_page": "PostgreSQL",
+  "breadcrumb": "Selected pages > PostgreSQL",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/PostgreSQL/PostgreSQL",
+  "space_key": null,
+  "space_name": "Selected pages",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Selected pages"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Ingres and University POSTGRES (1982–1994)"
+    },
+    {
+      "level": 3,
+      "text": "Postgres95 (1994–1996)"
+    },
+    {
+      "level": 3,
+      "text": "PostgreSQL (1996–present)"
+    },
+    {
+      "level": 2,
+      "text": "Multiversion concurrency control (MVCC)"
+    },
+    {
+      "level": 2,
+      "text": "Storage and replication"
+    },
+    {
+      "level": 3,
+      "text": "Replication"
+    },
+    {
+      "level": 3,
+      "text": "Indexes"
+    },
+    {
+      "level": 3,
+      "text": "Schemas"
+    },
+    {
+      "level": 3,
+      "text": "Data types"
+    },
+    {
+      "level": 3,
+      "text": "User-defined objects"
+    },
+    {
+      "level": 3,
+      "text": "Inheritance"
+    },
+    {
+      "level": 3,
+      "text": "Other storage features"
+    },
+    {
+      "level": 2,
+      "text": "Control and connectivity"
+    },
+    {
+      "level": 3,
+      "text": "Foreign data wrappers"
+    },
+    {
+      "level": 3,
+      "text": "Interfaces"
+    },
+    {
+      "level": 3,
+      "text": "Procedural languages"
+    },
+    {
+      "level": 3,
+      "text": "Triggers"
+    },
+    {
+      "level": 3,
+      "text": "Asynchronous notifications"
+    },
+    {
+      "level": 3,
+      "text": "Rules"
+    },
+    {
+      "level": 3,
+      "text": "Other querying features"
+    },
+    {
+      "level": 3,
+      "text": "Concurrency model"
+    },
+    {
+      "level": 2,
+      "text": "Security"
+    },
+    {
+      "level": 2,
+      "text": "Standards compliance"
+    },
+    {
+      "level": 2,
+      "text": "Benchmarks and performance"
+    },
+    {
+      "level": 2,
+      "text": "Platforms"
+    },
+    {
+      "level": 2,
+      "text": "Database administration"
+    },
+    {
+      "level": 2,
+      "text": "Notable users"
+    },
+    {
+      "level": 2,
+      "text": "Service implementations"
+    },
+    {
+      "level": 2,
+      "text": "Release history"
+    },
+    {
+      "level": 2,
+      "text": "Ecosystem and Derivatives"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "23824.md",
+  "character_count": 169492,
+  "word_count": 15467,
+  "extracted_at": "2026-08-17T20:30:08.423479+00:00"
+}

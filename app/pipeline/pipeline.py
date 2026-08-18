@@ -34,11 +34,13 @@ class RAGPipeline:
         model: str = "gpt-4.1-mini",
         use_hybrid: bool | None = None,
         hybrid_alpha: float | None = None,
+        vectorstore_dir: str | None = None,
     ) -> None:
         self.context_k = context_k
         self.retriever = Retriever(
             top_k=top_k, min_score=min_score,
             use_hybrid=use_hybrid, hybrid_alpha=hybrid_alpha,
+            vectorstore_dir=vectorstore_dir,
         )
 
         self.use_llm = bool(use_llm and config.OPENAI_API_KEY)

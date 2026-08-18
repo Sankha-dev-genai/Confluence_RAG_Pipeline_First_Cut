@@ -1,0 +1,63 @@
+{
+  "page_id": "16436055",
+  "title": "Array controller based encryption",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Array controller based encryption",
+  "breadcrumb": "Category:Cryptography > Array controller based encryption",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Array_controller_based_encryption",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Possible points of encryption in SAN"
+    },
+    {
+      "level": 2,
+      "text": "Array controller-based encryption"
+    },
+    {
+      "level": 3,
+      "text": "Internal array controller encryption"
+    },
+    {
+      "level": 3,
+      "text": "External array controller encryption"
+    },
+    {
+      "level": 4,
+      "text": "Encryption at the front-end or back-end side array controller"
+    },
+    {
+      "level": 3,
+      "text": "Software array controller encryption"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "16436055.md",
+  "character_count": 8901,
+  "word_count": 1004,
+  "extracted_at": "2026-08-17T15:57:14.944982+00:00"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2424850_001",
+    "page_id": "2424850",
+    "title": "Limits & Quotas",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2424850",
+    "owner": "Product",
+    "status": "UPDATED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Product |\n| Status | UPDATED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n| Plan | API calls / min | Storage |\n| --- | --- | --- |\n| Free | 60 | 1 GB |\n| Pro | 600 | 50 GB |\n| Enterprise | 6000 | Custom |\n\nExceeding a limit returns HTTP 429; retry after the reset window.",
+    "word_count": 40,
+    "character_count": 326,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Product FAQ",
+    "child_page": "Limits & Quotas",
+    "breadcrumb": "Overview > Product FAQ > Limits & Quotas"
+  }
+]

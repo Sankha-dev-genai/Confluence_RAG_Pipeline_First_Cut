@@ -1,0 +1,71 @@
+{
+  "page_id": "70372971",
+  "title": "DuckDB",
+  "parent_page": "Category:Data warehousing products",
+  "child_page": "DuckDB",
+  "breadcrumb": "Category:Data warehousing products > DuckDB",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/DuckDB",
+  "space_key": null,
+  "space_name": "Category:Data warehousing products",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Data warehousing products"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Features"
+    },
+    {
+      "level": 2,
+      "text": "Comparison"
+    },
+    {
+      "level": 2,
+      "text": "Commercial use"
+    },
+    {
+      "level": 2,
+      "text": "DuckDB Foundation"
+    },
+    {
+      "level": 2,
+      "text": "Language support"
+    },
+    {
+      "level": 2,
+      "text": "Extensions"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "70372971.md",
+  "character_count": 22303,
+  "word_count": 1772,
+  "extracted_at": "2026-08-17T06:36:07.501331+00:00"
+}

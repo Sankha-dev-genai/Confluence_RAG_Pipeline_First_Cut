@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "2326564_001",
+    "page_id": "2326564",
+    "title": "Account Access",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326564",
+    "owner": "IT Helpdesk",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | IT Helpdesk |\n| Status | LIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 128,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "IT Support",
+    "child_page": "Account Access",
+    "breadcrumb": "Overview > IT Support > Account Access"
+  },
+  {
+    "chunk_id": "2326564_002",
+    "page_id": "2326564",
+    "title": "Account Access",
+    "section": "Reset or unlock",
+    "heading_path": [
+      "Reset or unlock"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326564",
+    "owner": "IT Helpdesk",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Reset or unlock\n\n1. Go to the identity portal\n2. Choose 'Reset password' or 'Unlock account'\n3. Verify via MFA\n4. Sign in again\n\nLocked out of MFA? Raise a ticket tagged 'MFA-recovery'.",
+    "word_count": 34,
+    "character_count": 188,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "IT Support",
+    "child_page": "Account Access",
+    "breadcrumb": "Overview > IT Support > Account Access"
+  }
+]

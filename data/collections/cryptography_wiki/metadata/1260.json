@@ -1,0 +1,111 @@
+{
+  "page_id": "1260",
+  "title": "Advanced Encryption Standard",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Advanced Encryption Standard",
+  "breadcrumb": "Category:Cryptography > Advanced Encryption Standard",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Advanced_Encryption_Standard",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Definitive standards"
+    },
+    {
+      "level": 2,
+      "text": "Description of the ciphers"
+    },
+    {
+      "level": 3,
+      "text": "High-level description of the algorithm"
+    },
+    {
+      "level": 3,
+      "text": "The SubBytes step"
+    },
+    {
+      "level": 3,
+      "text": "The ShiftRows step"
+    },
+    {
+      "level": 3,
+      "text": "The MixColumns step"
+    },
+    {
+      "level": 3,
+      "text": "The AddRoundKey Step"
+    },
+    {
+      "level": 3,
+      "text": "Optimization of the cipher"
+    },
+    {
+      "level": 2,
+      "text": "Security"
+    },
+    {
+      "level": 3,
+      "text": "Known attacks"
+    },
+    {
+      "level": 3,
+      "text": "Side-channel attacks"
+    },
+    {
+      "level": 3,
+      "text": "Quantum attacks"
+    },
+    {
+      "level": 2,
+      "text": "NIST/CSEC validation"
+    },
+    {
+      "level": 2,
+      "text": "Test vectors"
+    },
+    {
+      "level": 2,
+      "text": "Performance"
+    },
+    {
+      "level": 2,
+      "text": "Implementations"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "Notes"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "1260.md",
+  "character_count": 74635,
+  "word_count": 7439,
+  "extracted_at": "2026-08-17T15:57:14.661906+00:00"
+}

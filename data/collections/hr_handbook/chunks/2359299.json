@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "2359299_001",
+    "page_id": "2359299",
+    "title": "HR Handbook",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359299",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | People Ops |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nThe HR Handbook covers policies, benefits, and day-to-day people processes. Use the child pages for specifics.",
+    "word_count": 32,
+    "character_count": 244,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "Overview",
+    "child_page": "HR Handbook",
+    "breadcrumb": "Overview > HR Handbook"
+  },
+  {
+    "chunk_id": "2359299_002",
+    "page_id": "2359299",
+    "title": "HR Handbook",
+    "section": "Contents",
+    "heading_path": [
+      "Contents"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359299",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Contents\n\n- Leave Policy\n- Benefits Overview\n- Code of Conduct",
+    "word_count": 8,
+    "character_count": 65,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "Overview",
+    "child_page": "HR Handbook",
+    "breadcrumb": "Overview > HR Handbook"
+  }
+]

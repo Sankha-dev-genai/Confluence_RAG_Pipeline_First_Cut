@@ -1,0 +1,55 @@
+{
+  "page_id": "43808044",
+  "title": "Action model learning",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Action model learning",
+  "breadcrumb": "Category:Machine_learning > Action model learning",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=43808044",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Action models"
+    },
+    {
+      "level": 2,
+      "text": "Action learning methods"
+    },
+    {
+      "level": 3,
+      "text": "State of the art"
+    },
+    {
+      "level": 3,
+      "text": "Literature"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "43808044.md",
+  "character_count": 26518,
+  "word_count": 2145,
+  "extracted_at": "2026-08-16T10:51:26.193669+00:00"
+}

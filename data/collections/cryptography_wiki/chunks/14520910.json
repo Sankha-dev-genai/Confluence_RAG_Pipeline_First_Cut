@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "14520910_001",
+    "page_id": "14520910",
+    "title": "Blacker (security)",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Blacker_(security)",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "**Blacker** (styled **BLACKER**) is a [U.S. Department of Defense](/wiki/United_States_Department_of_Defense \"United States Department of Defense\") computer [network security](/wiki/Network_security \"Network security\") project designed to achieve [A1 class](/wiki/Trusted_Computer_System_Evaluation_Criteria \"Trusted Computer System Evaluation Criteria\") ratings (very high assurance) of the Trusted Computer System Evaluation Criteria ([TCSEC](/wiki/TCSEC \"TCSEC\")).[[1]](#cite_note-1)[[2]](#cite_note-2)\n\nThe first Blacker program began in the late 1970s, with a follow-on eventually producing fielded devices in the late 1980s.[[3]](#cite_note-3) It was the first secure system with trusted [end-to-end encryption](/wiki/End-to-end_encryption \"End-to-end encryption\") on the United States' [Defense Data Network](/wiki/Defense_Data_Network \"Defense Data Network\").[[4]](#cite_note-4)\n\nThe project was implemented by [SDC](/wiki/System_Development_Corporation \"System Development Corporation\") (software), and [Burroughs](/wiki/Burroughs_Corporation \"Burroughs Corporation\") (hardware), and after their merger, by the resultant company [Unisys](/wiki/Unisys \"Unisys\").[[5]](#cite_note-5)",
+    "word_count": 151,
+    "character_count": 1189,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Blacker (security)",
+    "breadcrumb": "Category:Cryptography > Blacker (security)"
+  },
+  {
+    "chunk_id": "14520910_002",
+    "page_id": "14520910",
+    "title": "Blacker (security)",
+    "section": "See also",
+    "heading_path": [
+      "See also"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Blacker_(security)",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## See also\n\n- [RED/BLACK concept](/wiki/RED/BLACK_concept \"RED/BLACK concept\") for segregation of sensitive *plaintext* information (RED signals) from *encrypted* ciphertext (BLACK signals)",
+    "word_count": 24,
+    "character_count": 190,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Blacker (security)",
+    "breadcrumb": "Category:Cryptography > Blacker (security)"
+  },
+  {
+    "chunk_id": "14520910_003",
+    "page_id": "14520910",
+    "title": "Blacker (security)",
+    "section": "References",
+    "heading_path": [
+      "See also",
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Blacker_(security)",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## References\n\n1. **[^](#cite_ref-1)** Weissman, Clark (1992). \"BLACKER: security for the DDN examples of A1 security engineering trades\". *Proceedings 1992 IEEE Computer Society Symposium on Research in Security and Privacy*. pp. 286–292. [doi](/wiki/Doi_(identifier) \"Doi (identifier)\"):[10.1109/RISP.1992.213253](https://doi.org/10.1109%2FRISP.1992.213253). [ISBN](/wiki/ISBN_(identifier) \"ISBN (identifier)\") [0-8186-2825-1](/wiki/Special:BookSources/0-8186-2825-1 \"Special:BookSources/0-8186-2825-1\"). [S2CID](/wiki/S2CID_(identifier) \"S2CID (identifier)\") [6825365](https://api.semanticscholar.org/CorpusID:6825365).\n2. **[^](#cite_ref-2)** Weissman, Clark (1995-01-24). [\"Handbook for the Computer Security Certification of Trusted Systems\"](http://stinet.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA390673). Retrieved 2007-12-02.`{{cite web}}`: CS1 maint: deprecated archival service ([link](/wiki/Category:CS1_maint:_deprecated_archival_service \"Category:CS1 maint: deprecated archival service\"))\n3. **[^](#cite_ref-3)** Sidney G. Reed, Richard H. Van Atta, and Seymore J. Deitchman (1990). [\"DARPA Technical Accomplishments: An Historical Review of DARPA Projects\"](https://apps.dtic.mil/dtic/tr/fulltext/u2/a239925.pdf) (PDF). **1**. IDA Paper P-2192: 20-18 – 20-20. [Archived](https://web.archive.org/web/20190718094618/https://apps.dtic.mil/dtic/tr/fulltext/u2/a239925.pdf) (PDF) from the original on July 18, 2019. `{{cite journal}}`: Cite journal requires `|journal=` ([help](/wiki/Help:CS1_errors#missing_periodical \"Help:CS1 errors\"))CS1 maint: multiple names: authors list ([link](/wiki/Category:CS1_maint:_multiple_names:_authors_list \"Category:CS1 maint: multiple names: authors list\"))",
+    "word_count": 241,
+    "character_count": 1728,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Blacker (security)",
+    "breadcrumb": "Category:Cryptography > Blacker (security)"
+  },
+  {
+    "chunk_id": "14520910_004",
+    "page_id": "14520910",
+    "title": "Blacker (security)",
+    "section": "References",
+    "heading_path": [
+      "See also",
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Blacker_(security)",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "4. **[^](#cite_ref-4)** Pike, John (2000-02-11). [\"BLACKER, an article at the Intelligence Resource Program\"](http://www.fas.org/irp/program/security/blacker.htm). Retrieved 2007-12-02.\n5. **[^](#cite_ref-5)** Steve Kent (1996-06-19). [\"Re: Network Layer Encryption History and Prior Art\"](http://www.sandelman.ca/ipsec/1996/06/msg00050.html). ipsec mailing list.\n\n|  |  |\n| --- | --- |\n| [![Stub icon](//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Crystal_Clear_app_network.png/40px-Crystal_Clear_app_network.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)](/wiki/File:Crystal_Clear_app_network.png) | This [computer networking](/wiki/Computer_network \"Computer network\") article is a [stub](/wiki/Wikipedia:Stub \"Wikipedia:Stub\"). You can help Wikipedia by [adding missing information](https://en.wikipedia.org/w/index.php?title=Blacker_(security)&action=edit). |\n\n- [v](/wiki/Template:Compu-network-stub \"Template:Compu-network-stub\")\n- [t](/wiki/Template_talk:Compu-network-stub \"Template talk:Compu-network-stub\")\n- [e](/wiki/Special:EditPage/Template:Compu-network-stub \"Special:EditPage/Template:Compu-network-stub\")",
+    "word_count": 155,
+    "character_count": 1156,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Blacker (security)",
+    "breadcrumb": "Category:Cryptography > Blacker (security)"
+  }
+]

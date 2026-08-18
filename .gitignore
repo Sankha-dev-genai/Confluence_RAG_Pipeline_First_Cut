@@ -32,3 +32,10 @@ data/benchmark/_*.json
 Thumbs.db
 .idea/
 .vscode/
+# per-collection generated artifacts
+data/collections/*/vectorstore/embeddings.npy
+data/collections/*/vectorstore/faiss.index
+data/collections/*/raw/*.html
+data/collections/*/evaluation/results.json
+data/collections/*/evaluation/ask_history.json
+data/collections/*/evaluation/golden_candidates.json

@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326734_001",
+    "page_id": "2326734",
+    "title": "Reporting",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326734",
+    "owner": "Cloud FinOps",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Cloud FinOps |\n| Status | LIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nMonthly savings are tracked and reported to Finance.\n\n| Month | VMs reclaimed | Savings |\n| --- | --- | --- |\n| Jul 2026 | 18 | $4,200 |\n| Aug 2026 | TBD | TBD |",
+    "word_count": 35,
+    "character_count": 292,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "VM Reclaim Project",
+    "child_page": "Reporting",
+    "breadcrumb": "Overview > VM Reclaim Project > Reporting"
+  }
+]

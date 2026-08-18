@@ -1,0 +1,149 @@
+{
+  "description": "Golden set for collection 'dev_tooling_setup'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "How do I enable GitHub Copilot according to the Dev Tooling Setup?",
+      "relevant_page_ids": [
+        "2326615"
+      ],
+      "answer_keywords": [
+        "Enable Copilot",
+        "GitHub Copilot",
+        "Dev Tooling Setup"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What core developer tools are covered in the Dev Tooling Setup documentation?",
+      "relevant_page_ids": [
+        "2326615"
+      ],
+      "answer_keywords": [
+        "Python",
+        "GitHub",
+        "GitLab",
+        "Copilot"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "How do I install Python on Windows using winget?",
+      "relevant_page_ids": [
+        "2424884"
+      ],
+      "answer_keywords": [
+        "winget",
+        "install",
+        "Python.Python.3.12"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What command do I use to activate a virtual environment on macOS?",
+      "relevant_page_ids": [
+        "2424884"
+      ],
+      "answer_keywords": [
+        "source",
+        ".venv/bin/activate",
+        "macOS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "How do I configure my Git username and email globally?",
+      "relevant_page_ids": [
+        "2457618"
+      ],
+      "answer_keywords": [
+        "git config",
+        "user.name",
+        "user.email"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What authentication methods can I use to clone repositories from GitHub and GitLab?",
+      "relevant_page_ids": [
+        "2457618"
+      ],
+      "answer_keywords": [
+        "SSH keys",
+        "personal access token",
+        "authentication"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "What are the steps to enable GitHub Copilot in VS Code?",
+      "relevant_page_ids": [
+        "2457635"
+      ],
+      "answer_keywords": [
+        "install extension",
+        "sign in",
+        "authorize",
+        "accept suggestions"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What is required to access Copilot in my organization?",
+      "relevant_page_ids": [
+        "2457635"
+      ],
+      "answer_keywords": [
+        "active license",
+        "assigned by admin"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "Which core developer tools are covered in the Dev Tooling Setup documentation?",
+      "relevant_page_ids": [
+        "2326615"
+      ],
+      "answer_keywords": [
+        "Python",
+        "GitHub",
+        "GitLab",
+        "Copilot"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What command activates a virtual environment on macOS?",
+      "relevant_page_ids": [
+        "2424884"
+      ],
+      "answer_keywords": [
+        "source",
+        ".venv/bin/activate",
+        "macOS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What is required to access GitHub Copilot?",
+      "relevant_page_ids": [
+        "2457635"
+      ],
+      "answer_keywords": [
+        "active license",
+        "assigned by admin"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

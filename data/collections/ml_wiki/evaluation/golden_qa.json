@@ -1,0 +1,788 @@
+{
+  "description": "Golden set for collection 'ml_wiki'.",
+  "questions": [
+    {
+      "id": "auto001",
+      "question": "What information does the 'Algorithmic inference' page provide?",
+      "relevant_page_ids": [
+        "20890511"
+      ],
+      "answer_keywords": [
+        "Algorithmic",
+        "inference"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto002",
+      "question": "What does the 'The Fisher parametric inference problem' section of 'Algorithmic inference' cover?",
+      "relevant_page_ids": [
+        "20890511"
+      ],
+      "answer_keywords": [
+        "Fisher",
+        "parametric",
+        "inference",
+        "problem"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto003",
+      "question": "What information does the 'Machine learning' page provide?",
+      "relevant_page_ids": [
+        "233488"
+      ],
+      "answer_keywords": [
+        "Machine",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto004",
+      "question": "What does the 'History' section of 'Machine learning' cover?",
+      "relevant_page_ids": [
+        "233488"
+      ],
+      "answer_keywords": [
+        "History",
+        "Machine",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto005",
+      "question": "What information does the 'Active learning (machine learning)' page provide?",
+      "relevant_page_ids": [
+        "28801798"
+      ],
+      "answer_keywords": [
+        "Active",
+        "learning",
+        "machine"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto006",
+      "question": "What does the 'Definitions' section of 'Active learning (machine learning)' cover?",
+      "relevant_page_ids": [
+        "28801798"
+      ],
+      "answer_keywords": [
+        "Definitions",
+        "Active",
+        "learning",
+        "machine"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto007",
+      "question": "What information does the 'AIXI' page provide?",
+      "relevant_page_ids": [
+        "30511763"
+      ],
+      "answer_keywords": [
+        "AIXI"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto008",
+      "question": "What does the 'Etymology' section of 'AIXI' cover?",
+      "relevant_page_ids": [
+        "30511763"
+      ],
+      "answer_keywords": [
+        "Etymology",
+        "AIXI"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto009",
+      "question": "What information does the 'Action model learning' page provide?",
+      "relevant_page_ids": [
+        "43808044"
+      ],
+      "answer_keywords": [
+        "Action",
+        "model",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto010",
+      "question": "What does the 'Action models' section of 'Action model learning' cover?",
+      "relevant_page_ids": [
+        "43808044"
+      ],
+      "answer_keywords": [
+        "Action",
+        "models",
+        "model",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto011",
+      "question": "What information does the 'Adversarial machine learning' page provide?",
+      "relevant_page_ids": [
+        "45049676"
+      ],
+      "answer_keywords": [
+        "Adversarial",
+        "machine",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto012",
+      "question": "What does the 'History' section of 'Adversarial machine learning' cover?",
+      "relevant_page_ids": [
+        "45049676"
+      ],
+      "answer_keywords": [
+        "History",
+        "Adversarial",
+        "machine",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto013",
+      "question": "What information does the 'Algorithm selection' page provide?",
+      "relevant_page_ids": [
+        "50773876"
+      ],
+      "answer_keywords": [
+        "Algorithm",
+        "selection"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto014",
+      "question": "What does the 'Definition' section of 'Algorithm selection' cover?",
+      "relevant_page_ids": [
+        "50773876"
+      ],
+      "answer_keywords": [
+        "Definition",
+        "Algorithm",
+        "selection"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto015",
+      "question": "What information does the 'Outline of machine learning' page provide?",
+      "relevant_page_ids": [
+        "53587467"
+      ],
+      "answer_keywords": [
+        "Outline",
+        "machine",
+        "learning"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto016",
+      "question": "What does the 'How can machine learning be categorized?' section of 'Outline of machine learning' cover?",
+      "relevant_page_ids": [
+        "53587467"
+      ],
+      "answer_keywords": [
+        "machine",
+        "learning",
+        "categorized",
+        "Outline"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto017",
+      "question": "What information does the 'Algorithmic bias' page provide?",
+      "relevant_page_ids": [
+        "55817338"
+      ],
+      "answer_keywords": [
+        "Algorithmic",
+        "bias"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto018",
+      "question": "What does the 'Definitions' section of 'Algorithmic bias' cover?",
+      "relevant_page_ids": [
+        "55817338"
+      ],
+      "answer_keywords": [
+        "Definitions",
+        "Algorithmic",
+        "bias"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto019",
+      "question": "What information does the 'AIOps' page provide?",
+      "relevant_page_ids": [
+        "62566206"
+      ],
+      "answer_keywords": [
+        "AIOps"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto020",
+      "question": "What does the 'History' section of 'AIOps' cover?",
+      "relevant_page_ids": [
+        "62566206"
+      ],
+      "answer_keywords": [
+        "History",
+        "AIOps"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto021",
+      "question": "What information does the '80 Million Tiny Images' page provide?",
+      "relevant_page_ids": [
+        "64439717"
+      ],
+      "answer_keywords": [
+        "Million",
+        "Tiny",
+        "Images"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto022",
+      "question": "What does the 'Construction' section of '80 Million Tiny Images' cover?",
+      "relevant_page_ids": [
+        "64439717"
+      ],
+      "answer_keywords": [
+        "Construction",
+        "Million",
+        "Tiny",
+        "Images"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto023",
+      "question": "What information does the 'Accelerated Linear Algebra' page provide?",
+      "relevant_page_ids": [
+        "75530149"
+      ],
+      "answer_keywords": [
+        "Accelerated",
+        "Linear",
+        "Algebra"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto024",
+      "question": "What does the 'OpenXLA Project' section of 'Accelerated Linear Algebra' cover?",
+      "relevant_page_ids": [
+        "75530149"
+      ],
+      "answer_keywords": [
+        "OpenXLA",
+        "Project",
+        "Accelerated",
+        "Linear"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto025",
+      "question": "What information does the 'A Logical Calculus of the Ideas Immanent in Nervous Activity' page provide?",
+      "relevant_page_ids": [
+        "78113392"
+      ],
+      "answer_keywords": [
+        "Logical",
+        "Calculus",
+        "Ideas",
+        "Immanent"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto026",
+      "question": "What does the 'Mathematics' section of 'A Logical Calculus of the Ideas Immanent in Nervous Activity' cover?",
+      "relevant_page_ids": [
+        "78113392"
+      ],
+      "answer_keywords": [
+        "Mathematics",
+        "Logical",
+        "Calculus",
+        "Ideas"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto027",
+      "question": "What information does the 'AI data center' page provide?",
+      "relevant_page_ids": [
+        "81802552"
+      ],
+      "answer_keywords": [
+        "data",
+        "center"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto028",
+      "question": "What does the 'Operators' section of 'AI data center' cover?",
+      "relevant_page_ids": [
+        "81802552"
+      ],
+      "answer_keywords": [
+        "Operators",
+        "data",
+        "center"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto029",
+      "question": "What information does the 'AI observability' page provide?",
+      "relevant_page_ids": [
+        "83585468"
+      ],
+      "answer_keywords": [
+        "observability"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto030",
+      "question": "What does the 'Background' section of 'AI observability' cover?",
+      "relevant_page_ids": [
+        "83585468"
+      ],
+      "answer_keywords": [
+        "Background",
+        "observability"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "llm001",
+      "question": "What are the main fields that algorithmic inference builds upon?",
+      "relevant_page_ids": [
+        "20890511"
+      ],
+      "answer_keywords": [
+        "computational learning theory",
+        "granular computing",
+        "bioinformatics"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "How does Fisher define the fiducial distribution in the context of parameter inference?",
+      "relevant_page_ids": [
+        "20890511"
+      ],
+      "answer_keywords": [
+        "fiducial distribution",
+        "parameters",
+        "sample",
+        "random variable"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "What are some paradigms of machine learning listed on the page?",
+      "relevant_page_ids": [
+        "233488"
+      ],
+      "answer_keywords": [
+        "Supervised learning",
+        "Reinforcement learning",
+        "Transfer learning"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "Which problems are associated with machine learning according to the page?",
+      "relevant_page_ids": [
+        "233488"
+      ],
+      "answer_keywords": [
+        "Classification",
+        "Regression",
+        "Clustering"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What are some machine learning paradigms related to active learning?",
+      "relevant_page_ids": [
+        "28801798"
+      ],
+      "answer_keywords": [
+        "Supervised learning",
+        "Semi-supervised learning",
+        "Reinforcement learning"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "Which machine learning problems are associated with active learning?",
+      "relevant_page_ids": [
+        "28801798"
+      ],
+      "answer_keywords": [
+        "Classification",
+        "Regression",
+        "Clustering"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who first proposed the AIXI model and when?",
+      "relevant_page_ids": [
+        "30511763"
+      ],
+      "answer_keywords": [
+        "Marcus Hutter",
+        "2000"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What two theories does AIXI combine?",
+      "relevant_page_ids": [
+        "30511763"
+      ],
+      "answer_keywords": [
+        "Solomonoff induction",
+        "sequential decision theory"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What machine learning paradigms are related to action model learning?",
+      "relevant_page_ids": [
+        "43808044"
+      ],
+      "answer_keywords": [
+        "paradigms",
+        "supervised",
+        "reinforcement",
+        "transfer learning"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm010",
+      "question": "Which machine learning problems are associated with action model learning?",
+      "relevant_page_ids": [
+        "43808044"
+      ],
+      "answer_keywords": [
+        "problems",
+        "classification",
+        "regression",
+        "clustering"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm011",
+      "question": "What research fields does adversarial machine learning intersect?",
+      "relevant_page_ids": [
+        "45049676"
+      ],
+      "answer_keywords": [
+        "machine learning",
+        "computer security"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "Which concepts should adversarial machine learning not be confused with?",
+      "relevant_page_ids": [
+        "45049676"
+      ],
+      "answer_keywords": [
+        "Generative adversarial network",
+        "Competitive learning"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm013",
+      "question": "What is the main goal of algorithm selection?",
+      "relevant_page_ids": [
+        "50773876"
+      ],
+      "answer_keywords": [
+        "choose algorithm",
+        "optimize performance",
+        "instance-by-instance"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm014",
+      "question": "What is an example problem where algorithm selection is commonly applied?",
+      "relevant_page_ids": [
+        "50773876"
+      ],
+      "answer_keywords": [
+        "Boolean satisfiability",
+        "SAT solvers",
+        "NP-hard problems"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm015",
+      "question": "What are some paradigms of machine learning listed in the outline?",
+      "relevant_page_ids": [
+        "53587467"
+      ],
+      "answer_keywords": [
+        "Supervised learning",
+        "Reinforcement learning",
+        "Meta-learning",
+        "Quantum machine learning"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm016",
+      "question": "Which problems are identified as part of machine learning in the outline?",
+      "relevant_page_ids": [
+        "53587467"
+      ],
+      "answer_keywords": [
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Anomaly detection"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm017",
+      "question": "What warning does the Algorithmic bias page give about the use of large language models in its content?",
+      "relevant_page_ids": [
+        "55817338"
+      ],
+      "answer_keywords": [
+        "large language model",
+        "prohibited",
+        "hallucinated information"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm018",
+      "question": "What type of image is included on the Algorithmic bias page to illustrate decision-making?",
+      "relevant_page_ids": [
+        "55817338"
+      ],
+      "answer_keywords": [
+        "flow chart",
+        "recommendation engine",
+        "2001"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "What are some key processes and techniques included in AIOps?",
+      "relevant_page_ids": [
+        "62566206"
+      ],
+      "answer_keywords": [
+        "Anomaly Detection",
+        "Root Cause Analysis",
+        "Event Correlation",
+        "Predictive Analytics"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "When was the term AIOps first defined and by whom?",
+      "relevant_page_ids": [
+        "62566206"
+      ],
+      "answer_keywords": [
+        "2016",
+        "Gartner",
+        "artificial intelligence",
+        "IT operations"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm021",
+      "question": "Who constructed the 80 Million Tiny Images dataset and when was it published?",
+      "relevant_page_ids": [
+        "64439717"
+      ],
+      "answer_keywords": [
+        "Antonio Torralba",
+        "Rob Fergus",
+        "William T. Freeman",
+        "2008"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "Why was the 80 Million Tiny Images dataset retired and when?",
+      "relevant_page_ids": [
+        "64439717"
+      ],
+      "answer_keywords": [
+        "retired 2020",
+        "racist and misogynistic slurs",
+        "offensive images",
+        "dataset removed"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm023",
+      "question": "What hardware platforms does XLA support for optimizing machine learning models?",
+      "relevant_page_ids": [
+        "75530149"
+      ],
+      "answer_keywords": [
+        "CPUs",
+        "GPUs",
+        "NPUs"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm024",
+      "question": "Which machine learning frameworks can use the OpenXLA project's compilation stack?",
+      "relevant_page_ids": [
+        "75530149"
+      ],
+      "answer_keywords": [
+        "JAX",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm025",
+      "question": "Who wrote the paper 'A Logical Calculus of the Ideas Immanent in Nervous Activity' and when was it published?",
+      "relevant_page_ids": [
+        "78113392"
+      ],
+      "answer_keywords": [
+        "Warren Sturgis McCulloch",
+        "Walter Pitts",
+        "1943"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm026",
+      "question": "What is the firing condition for a neuron in the model proposed in the paper?",
+      "relevant_page_ids": [
+        "78113392"
+      ],
+      "answer_keywords": [
+        "threshold",
+        "weighted sum",
+        "fires if input exceeds threshold"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm027",
+      "question": "What types of hardware are typically used in AI data centers?",
+      "relevant_page_ids": [
+        "81802552"
+      ],
+      "answer_keywords": [
+        "AI accelerators",
+        "GPUs",
+        "TPUs",
+        "high-speed interconnects"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "How much electricity does an AI data center server rack typically consume compared to a general-purpose data center?",
+      "relevant_page_ids": [
+        "81802552"
+      ],
+      "answer_keywords": [
+        "60 kilowatts",
+        "10 kilowatts",
+        "electricity per rack"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm029",
+      "question": "What types of data does AI observability collect and analyze?",
+      "relevant_page_ids": [
+        "83585468"
+      ],
+      "answer_keywords": [
+        "telemetry",
+        "logs",
+        "metrics",
+        "traces"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm030",
+      "question": "How does AI observability differ from conventional monitoring?",
+      "relevant_page_ids": [
+        "83585468"
+      ],
+      "answer_keywords": [
+        "context",
+        "predefined metrics",
+        "thresholds",
+        "alerts"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

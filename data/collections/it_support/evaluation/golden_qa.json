@@ -1,0 +1,161 @@
+{
+  "description": "Golden set for collection 'it_support'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "How do I reset my password if I forget it?",
+      "relevant_page_ids": [
+        "2326564"
+      ],
+      "answer_keywords": [
+        "identity portal",
+        "Reset password",
+        "MFA"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What should I do if I am locked out of my MFA?",
+      "relevant_page_ids": [
+        "2326564"
+      ],
+      "answer_keywords": [
+        "locked out",
+        "MFA-recovery",
+        "raise a ticket"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who is responsible for approving a laptop replacement request?",
+      "relevant_page_ids": [
+        "2326581"
+      ],
+      "answer_keywords": [
+        "Laptop replacement",
+        "Manager",
+        "Approval"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What is the SLA for receiving a new monitor after request approval?",
+      "relevant_page_ids": [
+        "2326581"
+      ],
+      "answer_keywords": [
+        "Monitor",
+        "SLA",
+        "2 days"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What should I do if my laptop is running slowly?",
+      "relevant_page_ids": [
+        "2326598"
+      ],
+      "answer_keywords": [
+        "Slow laptop",
+        "Pending updates",
+        "Restart and update"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "How can I fix email not syncing on my device?",
+      "relevant_page_ids": [
+        "2326598"
+      ],
+      "answer_keywords": [
+        "Email not syncing",
+        "Token expired",
+        "Re-add the account"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who owns the IT Support documentation?",
+      "relevant_page_ids": [
+        "2424867"
+      ],
+      "answer_keywords": [
+        "IT Helpdesk",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "When was the IT Support page last reviewed?",
+      "relevant_page_ids": [
+        "2424867"
+      ],
+      "answer_keywords": [
+        "2026-08-16",
+        "Last reviewed"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm001",
+      "question": "How do I reset my password or unlock my account?",
+      "relevant_page_ids": [
+        "2326564"
+      ],
+      "answer_keywords": [
+        "identity portal",
+        "reset password",
+        "unlock account",
+        "MFA"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What should I do if I am locked out of MFA?",
+      "relevant_page_ids": [
+        "2326564"
+      ],
+      "answer_keywords": [
+        "locked out",
+        "MFA",
+        "raise ticket",
+        "MFA-recovery"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What is the SLA for a monitor hardware request?",
+      "relevant_page_ids": [
+        "2326581"
+      ],
+      "answer_keywords": [
+        "Monitor",
+        "SLA",
+        "2 days"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What should I do if my laptop is running slow?",
+      "relevant_page_ids": [
+        "2326598"
+      ],
+      "answer_keywords": [
+        "Slow laptop",
+        "Pending updates",
+        "Restart and update"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

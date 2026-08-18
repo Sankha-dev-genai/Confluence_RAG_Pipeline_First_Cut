@@ -1,0 +1,395 @@
+{
+  "description": "Golden set for collection 'data_warehousing_products'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Which companies were co-submitters of the CWM specification version 1.1?",
+      "relevant_page_ids": [
+        "1022841"
+      ],
+      "answer_keywords": [
+        "IBM",
+        "Unisys",
+        "NCR",
+        "Oracle"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What three OMG standards is CWM based on?",
+      "relevant_page_ids": [
+        "1022841"
+      ],
+      "answer_keywords": [
+        "UML",
+        "MOF",
+        "XMI"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who were the key founders and leaders of Business Objects?",
+      "relevant_page_ids": [
+        "1121207"
+      ],
+      "answer_keywords": [
+        "Bernard Liautaud",
+        "Denis Payre",
+        "John G. Schwarz",
+        "CEO"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What types of products did Business Objects specialize in?",
+      "relevant_page_ids": [
+        "1121207"
+      ],
+      "answer_keywords": [
+        "business intelligence",
+        "data visualization",
+        "analytics",
+        "ETL"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What is the latest stable release version and date of Apatar?",
+      "relevant_page_ids": [
+        "13415098"
+      ],
+      "answer_keywords": [
+        "v1.12.13",
+        "October 25, 2010",
+        "stable release"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "Which large organizations are known users of Apatar?",
+      "relevant_page_ids": [
+        "13415098"
+      ],
+      "answer_keywords": [
+        "World Bank Group",
+        "Thomson Reuters",
+        "John Wiley & Sons",
+        "Autodesk"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "When was Ab Initio Software founded?",
+      "relevant_page_ids": [
+        "1416977"
+      ],
+      "answer_keywords": [
+        "1995",
+        "founded",
+        "year"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "Where is the headquarters of Ab Initio Software located?",
+      "relevant_page_ids": [
+        "1416977"
+      ],
+      "answer_keywords": [
+        "Lexington",
+        "Massachusetts",
+        "headquarters"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What is the flagship product of Dataupia and what does it include?",
+      "relevant_page_ids": [
+        "17451993"
+      ],
+      "answer_keywords": [
+        "Satori Server",
+        "data warehouse appliance",
+        "Linux",
+        "parallel processors"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm010",
+      "question": "Who founded Dataupia and when was it founded?",
+      "relevant_page_ids": [
+        "17451993"
+      ],
+      "answer_keywords": [
+        "Foster Hinshaw",
+        "2005",
+        "founder"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm011",
+      "question": "Who were the co-founders of Aster Data Systems?",
+      "relevant_page_ids": [
+        "18829894"
+      ],
+      "answer_keywords": [
+        "George Candea",
+        "Mayank Bawa",
+        "Tasso Argyros"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "When did Teradata complete the acquisition of Aster Data Systems?",
+      "relevant_page_ids": [
+        "18829894"
+      ],
+      "answer_keywords": [
+        "April 2011",
+        "acquisition completed"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm013",
+      "question": "What types of database technologies does Exasol use?",
+      "relevant_page_ids": [
+        "19452995"
+      ],
+      "answer_keywords": [
+        "in-memory",
+        "column-oriented",
+        "relational database"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm014",
+      "question": "Which benchmark has Exasol led since 2008 for analytical scenarios?",
+      "relevant_page_ids": [
+        "19452995"
+      ],
+      "answer_keywords": [
+        "TPC-H",
+        "Transaction Processing Performance Council",
+        "benchmark"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm015",
+      "question": "Who founded DATAllegro and when?",
+      "relevant_page_ids": [
+        "20290829"
+      ],
+      "answer_keywords": [
+        "Stuart Frost",
+        "2003",
+        "founder"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm016",
+      "question": "What product succeeded DATAllegro after Microsoft's acquisition?",
+      "relevant_page_ids": [
+        "20290829"
+      ],
+      "answer_keywords": [
+        "SQL Server Parallel Data Warehouse",
+        "successor",
+        "Microsoft"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm017",
+      "question": "Which OLAP servers listed are licensed under the Apache 2.0 license?",
+      "relevant_page_ids": [
+        "24523966"
+      ],
+      "answer_keywords": [
+        "Apache Doris",
+        "Apache Druid",
+        "Apache Kylin",
+        "Apache Pinot",
+        "ClickHouse"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm018",
+      "question": "What is the latest stable version of Microsoft Analysis Services according to the comparison?",
+      "relevant_page_ids": [
+        "24523966"
+      ],
+      "answer_keywords": [
+        "Microsoft Analysis Services",
+        "2022"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "What programming language is BioMart written in?",
+      "relevant_page_ids": [
+        "33836207"
+      ],
+      "answer_keywords": [
+        "Java",
+        "programming language"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "Which operating systems does BioMart support?",
+      "relevant_page_ids": [
+        "33836207"
+      ],
+      "answer_keywords": [
+        "Unix-like",
+        "operating system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm021",
+      "question": "What type of workloads does Amazon Redshift handle that differentiates it from Amazon RDS?",
+      "relevant_page_ids": [
+        "38846696"
+      ],
+      "answer_keywords": [
+        "analytic workloads",
+        "big data",
+        "column-oriented DBMS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "What is the maximum amount of data Amazon Redshift can handle on a cluster?",
+      "relevant_page_ids": [
+        "38846696"
+      ],
+      "answer_keywords": [
+        "16 petabytes",
+        "cluster",
+        "data capacity"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm023",
+      "question": "Which operating systems does Fluentd support?",
+      "relevant_page_ids": [
+        "47518866"
+      ],
+      "answer_keywords": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm024",
+      "question": "What programming languages is Fluentd written in?",
+      "relevant_page_ids": [
+        "47518866"
+      ],
+      "answer_keywords": [
+        "C",
+        "Ruby"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm025",
+      "question": "What type of software is ClickHouse?",
+      "relevant_page_ids": [
+        "52244550"
+      ],
+      "answer_keywords": [
+        "open-source",
+        "database management system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm026",
+      "question": "What maintenance issues does the ClickHouse article currently have?",
+      "relevant_page_ids": [
+        "52244550"
+      ],
+      "answer_keywords": [
+        "multiple issues",
+        "self-published sources",
+        "excessive references",
+        "needs more citations"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm027",
+      "question": "What programming language is dbt written in?",
+      "relevant_page_ids": [
+        "68112151"
+      ],
+      "answer_keywords": [
+        "Python",
+        "written in",
+        "programming language"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "Under what license is dbt released?",
+      "relevant_page_ids": [
+        "68112151"
+      ],
+      "answer_keywords": [
+        "Apache License 2.0",
+        "license",
+        "open-source"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm029",
+      "question": "Who is the developer of DuckDB?",
+      "relevant_page_ids": [
+        "70372971"
+      ],
+      "answer_keywords": [
+        "DuckLabs",
+        "developer"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm030",
+      "question": "What programming language is DuckDB written in?",
+      "relevant_page_ids": [
+        "70372971"
+      ],
+      "answer_keywords": [
+        "C++",
+        "written in"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

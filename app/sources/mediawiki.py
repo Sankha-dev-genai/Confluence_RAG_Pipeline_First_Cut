@@ -54,12 +54,37 @@ class MediaWikiSource(KnowledgeSource):
         return {"sitename": general.get("sitename", "unknown"),
                 "generator": general.get("generator", "")}
 
+    def _resolve_titles(self, titles: list[str]) -> list[dict]:
+        """Resolve exact page titles to {pageid, title}; skip any that don't exist."""
+        pages: list[dict] = []
+        # the API accepts up to 50 titles per call, separated by "|"
+        titles = [t.replace("_", " ") for t in titles]
+        for i in range(0, len(titles), 50):
+            batch = titles[i:i + 50]
+            data = self._query({"action": "query", "titles": "|".join(batch),
+                                "redirects": 1})
+            raw = data.get("query", {}).get("pages", {})
+            # the API returns "pages" as a dict (legacy) or a list (formatversion=2)
+            page_objs = raw.values() if isinstance(raw, dict) else raw
+            for pg in page_objs:
+                if "missing" in pg or int(pg.get("pageid", 0)) <= 0:
+                    log.warning(f"Wiki page not found, skipping: {pg.get('title')}")
+                    continue
+                pages.append({"pageid": str(pg["pageid"]), "title": pg["title"]})
+        return pages
+
     def _list_pages(self) -> list[dict]:
         settings.require_wiki()
         pages: list[dict] = []
-        if settings.wiki_category:
+        if settings.wiki_titles:
+            # highest precedence: ingest ONLY these specific pages
+            pages = self._resolve_titles(settings.wiki_titles)
+        elif settings.wiki_category:
+            # accept either "Category:Data warehousing products" or the URL form
+            # with underscores; the API expects spaces.
+            _cat = settings.wiki_category.replace("_", " ")
             params = {"action": "query", "list": "categorymembers",
-                      "cmtitle": settings.wiki_category,
+                      "cmtitle": _cat,
                       "cmlimit": min(settings.wiki_page_limit, 500),
                       "cmtype": "page"}
             data = self._query(params)
@@ -82,7 +107,8 @@ class MediaWikiSource(KnowledgeSource):
 
     def build_tree(self) -> ConfluencePage:
         pages = self._list_pages()
-        root_title = settings.wiki_category or "Wiki"
+        root_title = (settings.wiki_category
+                      or ("Selected pages" if settings.wiki_titles else "Wiki"))
         root = ConfluencePage(page_id="__wiki_root__", title=root_title, level=0)
         for p in pages:
             root.children.append(

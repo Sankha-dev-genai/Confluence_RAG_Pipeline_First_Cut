@@ -1,0 +1,152 @@
+{
+  "description": "Golden set for collection 'vm_reclaim_project'.",
+  "questions": [
+    {
+      "id": "auto001",
+      "question": "What information does the 'VM Reclaim Project' page provide?",
+      "relevant_page_ids": [
+        "2326700"
+      ],
+      "answer_keywords": [
+        "Reclaim",
+        "Project"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto002",
+      "question": "What information does the 'Reclaim Criteria' page provide?",
+      "relevant_page_ids": [
+        "2326717"
+      ],
+      "answer_keywords": [
+        "Reclaim",
+        "Criteria"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto003",
+      "question": "What information does the 'Reporting' page provide?",
+      "relevant_page_ids": [
+        "2326734"
+      ],
+      "answer_keywords": [
+        "Reporting"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto004",
+      "question": "What information does the 'Reclaim Procedure' page provide?",
+      "relevant_page_ids": [
+        "2424918"
+      ],
+      "answer_keywords": [
+        "Reclaim",
+        "Procedure"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "llm001",
+      "question": "Who owns the VM Reclaim Project?",
+      "relevant_page_ids": [
+        "2326700"
+      ],
+      "answer_keywords": [
+        "Cloud FinOps",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What is the current status of the VM Reclaim Project?",
+      "relevant_page_ids": [
+        "2326700"
+      ],
+      "answer_keywords": [
+        "IN PROGRESS",
+        "Status"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "What are the signal thresholds that qualify a VM as a reclaim candidate?",
+      "relevant_page_ids": [
+        "2326717"
+      ],
+      "answer_keywords": [
+        "CPU < 3%",
+        "Network I/O ~0",
+        "Owner tag missing"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "How many criteria must a VM meet before it can be reclaimed?",
+      "relevant_page_ids": [
+        "2326717"
+      ],
+      "answer_keywords": [
+        "at least two criteria",
+        "before reclaim"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "Who owns the Reporting page?",
+      "relevant_page_ids": [
+        "2326734"
+      ],
+      "answer_keywords": [
+        "Owner",
+        "Cloud FinOps"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What were the savings reported for July 2026?",
+      "relevant_page_ids": [
+        "2326734"
+      ],
+      "answer_keywords": [
+        "Jul 2026",
+        "Savings",
+        "$4,200"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who should be notified first in the reclaim procedure?",
+      "relevant_page_ids": [
+        "2424918"
+      ],
+      "answer_keywords": [
+        "Notify",
+        "owner",
+        "7-day grace"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What happens if the VM remains unclaimed after 14 days?",
+      "relevant_page_ids": [
+        "2424918"
+      ],
+      "answer_keywords": [
+        "Wait 14 days",
+        "Delete",
+        "unclaimed"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

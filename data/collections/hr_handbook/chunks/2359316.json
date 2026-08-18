@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "2359316_001",
+    "page_id": "2359316",
+    "title": "Leave Policy",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359316",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | People Ops |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 132,
+    "chunk_number": 1,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Leave Policy",
+    "breadcrumb": "Overview > HR Handbook > Leave Policy"
+  },
+  {
+    "chunk_id": "2359316_002",
+    "page_id": "2359316",
+    "title": "Leave Policy",
+    "section": "Leave types",
+    "heading_path": [
+      "Leave types"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359316",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Leave types\n\n| Type | Days / year | Notice |\n| --- | --- | --- |\n| Annual leave | 24 | 2 weeks |\n| Sick leave | 12 | Same day |\n| Parental leave | 180 | 8 weeks |",
+    "word_count": 21,
+    "character_count": 165,
+    "chunk_number": 2,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Leave Policy",
+    "breadcrumb": "Overview > HR Handbook > Leave Policy"
+  },
+  {
+    "chunk_id": "2359316_003",
+    "page_id": "2359316",
+    "title": "Leave Policy",
+    "section": "How to apply",
+    "heading_path": [
+      "Leave types",
+      "How to apply"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359316",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## How to apply\n\n1. Open the HR portal\n2. Select leave type and dates\n3. Submit to your manager\n4. Await approval notification\n\nCarry-over: up to 5 unused annual-leave days roll into next year.",
+    "word_count": 36,
+    "character_count": 193,
+    "chunk_number": 3,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Leave Policy",
+    "breadcrumb": "Overview > HR Handbook > Leave Policy"
+  }
+]

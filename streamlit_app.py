@@ -18,9 +18,24 @@ import streamlit as st
 
 import app.core.config as config
 
-VSTORE = Path("data/vectorstore")
-META_PATH = VSTORE / "chunks_metadata.json"
-RESULTS_PATH = Path("data/evaluation/results.json")
+# --- collection-aware paths (reset each run from the sidebar picker) ---
+_def = config.collection_paths("default")
+VSTORE = _def.vectorstore
+META_PATH = _def.vectorstore / "chunks_metadata.json"
+RESULTS_PATH = _def.evaluation / "results.json"
+GOLDEN_PATH = _def.golden
+ASK_HISTORY = _def.evaluation / "ask_history.json"
+
+
+def set_active_collection(name):
+    """Point all app paths at the chosen collection for this run."""
+    global VSTORE, META_PATH, RESULTS_PATH, GOLDEN_PATH, ASK_HISTORY
+    p = config.collection_paths(name)
+    VSTORE = p.vectorstore
+    META_PATH = p.vectorstore / "chunks_metadata.json"
+    RESULTS_PATH = p.evaluation / "results.json"
+    GOLDEN_PATH = p.golden
+    ASK_HISTORY = p.evaluation / "ask_history.json"
 
 st.set_page_config(
     page_title="Confluence RAG",
@@ -53,34 +68,35 @@ st.markdown(
 
 # ------------------------------------------------------------------ loaders
 @st.cache_data(show_spinner=False)
-def load_metadata():
-    if not META_PATH.exists():
+def load_metadata(meta_path_str):
+    _mp = Path(meta_path_str)
+    if not _mp.exists():
         return []
-    return json.loads(META_PATH.read_text(encoding="utf-8"))
+    return json.loads(_mp.read_text(encoding="utf-8"))
 
 
 @st.cache_resource(show_spinner=True)
 def load_pipeline(top_k: int, min_score: float, context_k: int,
                   use_llm: bool, model: str,
-                  use_hybrid: bool, hybrid_alpha: float):
+                  use_hybrid: bool, hybrid_alpha: float,
+                  vectorstore_dir: str):
     from app.pipeline.pipeline import RAGPipeline
     return RAGPipeline(
         top_k=top_k, min_score=min_score, context_k=context_k,
         use_llm=use_llm, model=model,
         use_hybrid=use_hybrid, hybrid_alpha=hybrid_alpha,
+        vectorstore_dir=vectorstore_dir,
     )
 
 
 def load_golden_questions():
-    p = Path("data/evaluation/golden_qa.json")
-    if not p.exists():
+    if not GOLDEN_PATH.exists():
         return []
-    return json.loads(p.read_text(encoding="utf-8"))["questions"]
+    try:
+        return json.loads(GOLDEN_PATH.read_text(encoding="utf-8")).get("questions", [])
+    except Exception:
+        return []
 
-
-
-GOLDEN_PATH = Path("data/evaluation/golden_qa.json")
-ASK_HISTORY = Path("data/evaluation/ask_history.json")
 
 
 def load_ask_history():
@@ -130,14 +146,27 @@ def add_to_golden(question, page_id, keywords=None):
     return True
 
 
-meta = load_metadata()
-index_ready = META_PATH.exists() and (VSTORE / "faiss.index").exists()
 has_key = bool(config.OPENAI_API_KEY)
 
 # ------------------------------------------------------------------ sidebar
 with st.sidebar:
     st.markdown("## 📘 Confluence RAG")
     st.caption("Ask questions over your Confluence space with grounded, cited answers.")
+
+    # ---- collection picker: choose which knowledge base to query ----
+    from app.core import collections as _col
+    _all = _col.list_collections()
+    _cols = [c for c in _all if c["has_index"]] or _all
+    _names = [c["name"] for c in _cols]
+    _labels = {c["name"]: f"{(c.get('title') or c['name'])}  [{c['source']}]" for c in _cols}
+    _sel = st.selectbox("Knowledge base", _names,
+                        format_func=lambda n: _labels.get(n, n),
+                        help="Each collection is an isolated index + golden set.")
+    set_active_collection(_sel)
+    meta = load_metadata(str(META_PATH))
+    index_ready = META_PATH.exists() and (VSTORE / "faiss.index").exists()
+    st.caption(f"Collection: **{_sel}**  ·  golden: "
+               f"{'yes' if GOLDEN_PATH.exists() else 'none'}")
     st.divider()
 
     st.markdown("### ⚙️ Retrieval settings")
@@ -173,8 +202,8 @@ if not index_ready:
              "`python scripts/build_vector_store.py`.")
     st.stop()
 
-tab_ask, tab_eval, tab_corpus, tab_arch = st.tabs(
-    ["🔍 Ask", "📊 Evaluation", "📚 Corpus", "🏗️ Architecture"]
+tab_ask, tab_eval, tab_corpus, tab_arch, tab_add = st.tabs(
+    ["🔍 Ask", "📊 Evaluation", "📚 Corpus", "🏗️ Architecture", "➕ Add source"]
 )
 
 # ================================================================== ASK TAB
@@ -203,7 +232,7 @@ with tab_ask:
     if ask and question.strip():
         try:
             pipe = load_pipeline(top_k, min_score, context_k, use_llm, model,
-                                 use_hybrid, hybrid_alpha)
+                                 use_hybrid, hybrid_alpha, str(VSTORE))
         except Exception as exc:  # noqa: BLE001
             st.exception(exc)
             st.stop()
@@ -338,6 +367,45 @@ with tab_eval:
         "Asking a question on the Ask page does NOT change this number or the "
         "metrics \u2014 only marking it correct does, and then re-running."
     )
+
+    with st.expander("\U0001F3D7\uFE0F Build / grow this collection's golden set",
+                     expanded=(_gsize == 0)):
+        st.caption("A new collection needs its own labelled questions before it can be "
+                   "scored. Generate candidates, review, and approve them into the golden set.")
+        bc1, bc2 = st.columns(2)
+        if bc1.button("Auto-generate candidates (no LLM)"):
+            from app.evaluation.golden_bootstrap import auto_bootstrap
+            st.session_state.gold_cands = auto_bootstrap(_sel, per_page=2)
+        if bc2.button("LLM-generate candidates", disabled=not has_key,
+                      help=None if has_key else "Needs an OpenAI key"):
+            from app.evaluation.golden_bootstrap import llm_bootstrap
+            with st.spinner("Asking the model to draft questions per page\u2026"):
+                try:
+                    st.session_state.gold_cands = llm_bootstrap(_sel, model=model, per_page=2)
+                except Exception as exc:  # noqa: BLE001
+                    st.warning(f"LLM bootstrap failed: {exc}")
+
+        cands = st.session_state.get("gold_cands")
+        if cands:
+            st.caption(f"{len(cands)} candidates \u2014 untick any you don't want, then approve.")
+            edit_df = pd.DataFrame([{
+                "approve": True, "question": c["question"],
+                "page": c["relevant_page_ids"][0],
+                "keywords": ", ".join(c.get("answer_keywords", [])),
+            } for c in cands])
+            edited = st.data_editor(edit_df, hide_index=True, use_container_width=True,
+                                    disabled=["question", "page", "keywords"],
+                                    key="gold_editor")
+            if st.button("\u2713 Add approved to golden set", type="primary"):
+                from app.evaluation.golden_bootstrap import approve_into_golden
+                approved = []
+                for c, keep in zip(cands, edited["approve"].tolist()):
+                    if keep:
+                        approved.append(c)
+                n = approve_into_golden(_sel, approved)
+                st.success(f"Added {n} question(s) to '{_sel}' golden set. "
+                           "Re-run the evaluation to score them.")
+                st.session_state.pop("gold_cands", None)
     st.caption(
         "Runs the golden question set through the live retriever and scores "
         "page-level ranking. No LLM required."
@@ -366,9 +434,9 @@ with tab_eval:
 
     if run_eval:
         try:
-            pipe = load_pipeline(top_k, min_score, context_k, use_llm, model, use_hybrid, hybrid_alpha)
+            pipe = load_pipeline(top_k, min_score, context_k, use_llm, model, use_hybrid, hybrid_alpha, str(VSTORE))
             from app.evaluation.evaluator import RetrievalEvaluator
-            evaluator = RetrievalEvaluator(retriever=pipe.retriever)
+            evaluator = RetrievalEvaluator(retriever=pipe.retriever, golden_path=str(GOLDEN_PATH))
             with st.spinner("Scoring golden questions…"):
                 st.session_state.eval_report = evaluator.run(save=True)
         except Exception as exc:  # noqa: BLE001
@@ -426,12 +494,12 @@ with tab_eval:
             from app.retrieval.retriever import Retriever
             from app.evaluation.comparison import run_comparison
             with st.spinner("Running both retrievers over the golden set…"):
-                dense_r = Retriever(top_k=top_k, min_score=0.0, use_hybrid=False)
+                dense_r = Retriever(top_k=top_k, min_score=0.0, use_hybrid=False, vectorstore_dir=str(VSTORE))
                 hyb_r = Retriever(top_k=top_k, min_score=0.0, use_hybrid=True,
-                                  hybrid_alpha=hybrid_alpha)
+                                  hybrid_alpha=hybrid_alpha, vectorstore_dir=str(VSTORE))
                 st.session_state.cmp = run_comparison(
                     dense_retriever=dense_r, hybrid_retriever=hyb_r,
-                    hybrid_alpha=hybrid_alpha, save=True)
+                    hybrid_alpha=hybrid_alpha, golden_path=str(GOLDEN_PATH), save=True)
         except Exception as exc:  # noqa: BLE001
             st.exception(exc)
 
@@ -515,3 +583,136 @@ with tab_arch:
         "6. **Evaluation** scores retrieval against a golden question set "
         "(Precision@k, Recall@k, Hit@k, MRR, MAP)."
     )
+
+# ============================================================ ADD SOURCE TAB
+with tab_add:
+    st.markdown("### Add a knowledge base")
+    st.caption("Register a Confluence space or a MediaWiki source, then ingest it "
+               "into its own isolated index. Credentials are read from the server's "
+               ".env \u2014 they are never entered here.")
+
+    from app.core import collections as _colmod
+
+    existing = {c["name"] for c in _colmod.list_collections()}
+
+    c1, c2 = st.columns(2)
+    new_name = c1.text_input("Collection name (no spaces)", key="add_name",
+                             placeholder="e.g. client_x")
+    new_title = c2.text_input("Display title", key="add_title",
+                              placeholder="e.g. Client X Space")
+    src_type = st.radio("Source type", ["confluence", "mediawiki"], horizontal=True,
+                        key="add_src")
+
+    cfg_kwargs = {}
+    if src_type == "confluence":
+        cc1, cc2 = st.columns(2)
+        cfg_kwargs["confluence_base_url"] = cc1.text_input(
+            "Confluence base URL", placeholder="https://your-site.atlassian.net")
+        cfg_kwargs["confluence_parent_page_id"] = cc2.text_input(
+            "Parent page ID", placeholder="e.g. 65710")
+        cfg_kwargs["token_env"] = st.text_input(
+            "Token env-var name (read from .env)", value="CONFLUENCE_API_TOKEN")
+        st.info("The API token is read from this environment variable in the "
+                "server's .env \u2014 it is not entered or stored here.", icon="\U0001F512")
+    else:
+        wc1, wc2 = st.columns(2)
+        cfg_kwargs["wiki_api_url"] = wc1.text_input(
+            "Wiki API URL", value="https://en.wikipedia.org/w/api.php",
+            help="Always <wiki>/w/api.php. For Wikipedia it's this value.")
+        cfg_kwargs["wiki_base_url"] = wc2.text_input(
+            "Wiki base URL (optional)", placeholder="https://en.wikipedia.org/wiki")
+
+        wiki_mode = st.radio(
+            "What to ingest", ["Category (a theme / many pages)",
+                               "Specific page(s) by title"], horizontal=True,
+            help="Category pulls all pages in a Wikipedia category. "
+                 "Specific pages ingests only the exact titles you list.")
+        if wiki_mode.startswith("Category"):
+            wc3, wc4 = st.columns([2, 1])
+            cfg_kwargs["wiki_category"] = wc3.text_input(
+                "Category", placeholder="Category:Machine_learning",
+                help="Find it at the bottom of any Wikipedia article under 'Categories'.")
+            cfg_kwargs["wiki_page_limit"] = int(wc4.number_input("Page limit", 1, 500, 15))
+        else:
+            titles = st.text_area(
+                "Page titles (one per line, or comma-separated)",
+                placeholder="Snowflake Inc.\nData build tool\nSnapLogic",
+                help="Use the exact article title as it appears on Wikipedia.")
+            parsed = [t.strip() for t in titles.replace(",", "\n").splitlines() if t.strip()]
+            cfg_kwargs["wiki_titles"] = ", ".join(parsed)
+            cfg_kwargs["wiki_page_limit"] = max(len(parsed), 1)
+            if parsed:
+                st.caption(f"Will ingest {len(parsed)} page(s): {', '.join(parsed[:5])}"
+                           + ("\u2026" if len(parsed) > 5 else ""))
+
+    valid_name = bool(new_name) and new_name.replace("_", "").isalnum() and new_name != "default"
+
+    b1, b2 = st.columns([1, 2])
+    if b1.button("1\uFE0F\u20E3 Register", disabled=not valid_name):
+        if new_name in existing:
+            st.warning(f"'{new_name}' already exists.")
+        else:
+            clean = {k: v for k, v in cfg_kwargs.items() if v}
+            _colmod.register_collection(new_name, src_type, title=new_title or new_name,
+                                        **clean)
+            st.success(f"Registered '{new_name}'. Now use ‘Ingest & prepare’ below.")
+
+    # ---- Ingest & prepare: ONE step = ingest + golden set (no terminal) ----
+    st.markdown("#### Ingest & prepare")
+    ing_target = st.selectbox(
+        "Collection to ingest",
+        [c["name"] for c in _colmod.list_collections() if c["name"] != "default"] or ["\u2014"],
+        help="Registered collections appear here. This builds the index AND a starter golden set.")
+    gmethod = st.radio(
+        "Starter golden set", ["auto", "llm", "none"], horizontal=True,
+        format_func=lambda m: {"auto": "Auto (no LLM)", "llm": "LLM (needs key)",
+                               "none": "Skip"}[m],
+        help="auto = instant, generic questions \u00b7 llm = sharper, needs an OpenAI key \u00b7 skip = none")
+    if gmethod == "llm" and not has_key:
+        st.caption("\u26A0\uFE0F No OpenAI key detected \u2014 will fall back to auto.")
+
+    if st.button("\u25B6 Ingest & prepare", type="primary",
+                 disabled=(ing_target in ("", "\u2014"))):
+        from app.core.ingest_runner import stream_ingest
+        log_box = st.empty(); lines = []; ok = False
+        try:
+            with st.spinner(f"Ingesting '{ing_target}' \u2014 this can take a few minutes\u2026"):
+                for line in stream_ingest(ing_target):
+                    lines.append(line)
+                    log_box.code("\n".join(lines[-18:]), language="text")
+            ok = True
+        except Exception as exc:  # noqa: BLE001
+            log_box.code("\n".join(lines[-30:]), language="text")
+            st.error(f"Ingestion failed: {exc}")
+
+        if ok and gmethod != "none":
+            try:
+                from app.evaluation.golden_bootstrap import (
+                    auto_bootstrap, llm_bootstrap, approve_into_golden)
+                method = "auto" if (gmethod == "llm" and not has_key) else gmethod
+                with st.spinner(f"Building starter golden set ({method})\u2026"):
+                    cands = (llm_bootstrap(ing_target, model=model)
+                             if method == "llm" else auto_bootstrap(ing_target))
+                    n = approve_into_golden(ing_target, cands)
+                st.success(f"\u2705 '{ing_target}' is ready \u2014 indexed and {n} golden "
+                           "questions added. Select it in the sidebar to query it.")
+            except Exception as exc:  # noqa: BLE001
+                # ingest succeeded; golden set is optional \u2014 don't fail the whole thing
+                st.success(f"\u2705 '{ing_target}' ingested and indexed. "
+                           "Select it in the sidebar to query it.")
+                st.warning(f"Starter golden set was skipped ({exc}). "
+                           "You can build one anytime in the Evaluation tab.")
+        elif ok:
+            st.success(f"\u2705 '{ing_target}' ingested and indexed. "
+                       "Select it in the sidebar to query it.")
+
+    st.divider()
+    st.markdown("#### Registered collections")
+    st.dataframe(
+        pd.DataFrame([{
+            "name": c["name"], "source": c["source"],
+            "indexed": "\u2705" if c["has_index"] else "\u2014",
+            "golden": "\u2705" if c["has_golden"] else "\u2014",
+            "title": c.get("title", ""),
+        } for c in _colmod.list_collections()]),
+        hide_index=True, use_container_width=True)

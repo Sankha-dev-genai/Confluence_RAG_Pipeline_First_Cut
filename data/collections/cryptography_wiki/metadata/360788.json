@@ -1,0 +1,91 @@
+{
+  "page_id": "360788",
+  "title": "Backdoor (computing)",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Backdoor (computing)",
+  "breadcrumb": "Category:Cryptography > Backdoor (computing)",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Backdoor_(computing)",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "text": "Examples"
+    },
+    {
+      "level": 3,
+      "text": "Worms"
+    },
+    {
+      "level": 3,
+      "text": "Object code backdoors"
+    },
+    {
+      "level": 3,
+      "text": "Asymmetric backdoors"
+    },
+    {
+      "level": 3,
+      "text": "Backdooring large language models through model poisoning"
+    },
+    {
+      "level": 4,
+      "text": "Latent-space backdoors in malware detection"
+    },
+    {
+      "level": 2,
+      "text": "Compiler backdoors"
+    },
+    {
+      "level": 3,
+      "text": "Occurrences"
+    },
+    {
+      "level": 3,
+      "text": "Countermeasures"
+    },
+    {
+      "level": 2,
+      "text": "List of known backdoors"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "Notes"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "360788.md",
+  "character_count": 62027,
+  "word_count": 6111,
+  "extracted_at": "2026-08-17T15:57:15.444556+00:00"
+}

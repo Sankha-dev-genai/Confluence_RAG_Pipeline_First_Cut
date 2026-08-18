@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "2326530_001",
+    "page_id": "2326530",
+    "title": "Benefits Overview",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326530",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | People Ops |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 132,
+    "chunk_number": 1,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Benefits Overview",
+    "breadcrumb": "Overview > HR Handbook > Benefits Overview"
+  },
+  {
+    "chunk_id": "2326530_002",
+    "page_id": "2326530",
+    "title": "Benefits Overview",
+    "section": "Benefits",
+    "heading_path": [
+      "Benefits"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326530",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Benefits\n\n- Health insurance (family cover)\n- Annual learning budget of 50,000 INR\n- Hybrid work: 3 office days per week\n- Employee assistance program",
+    "word_count": 22,
+    "character_count": 153,
+    "chunk_number": 2,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Benefits Overview",
+    "breadcrumb": "Overview > HR Handbook > Benefits Overview"
+  },
+  {
+    "chunk_id": "2326530_003",
+    "page_id": "2326530",
+    "title": "Benefits Overview",
+    "section": "Enrolment window",
+    "heading_path": [
+      "Benefits",
+      "Enrolment window"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326530",
+    "owner": "People Ops",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Enrolment window\n\nNew joiners must enrol within 30 days. Contact [email protected] for help.",
+    "word_count": 14,
+    "character_count": 95,
+    "chunk_number": 3,
+    "total_chunks": 3,
+    "parent_page": "HR Handbook",
+    "child_page": "Benefits Overview",
+    "breadcrumb": "Overview > HR Handbook > Benefits Overview"
+  }
+]

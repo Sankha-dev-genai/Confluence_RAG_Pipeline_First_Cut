@@ -1,0 +1,135 @@
+{
+  "page_id": "18934432",
+  "title": "Cryptography",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Cryptography",
+  "breadcrumb": "Category:Cryptography > Cryptography",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Cryptography",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Terminology"
+    },
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Classic cryptography"
+    },
+    {
+      "level": 3,
+      "text": "Early computer-era cryptography"
+    },
+    {
+      "level": 2,
+      "text": "Modern cryptography"
+    },
+    {
+      "level": 3,
+      "text": "Symmetric-key cryptography"
+    },
+    {
+      "level": 3,
+      "text": "Public-key cryptography"
+    },
+    {
+      "level": 3,
+      "text": "Cryptographic hash functions"
+    },
+    {
+      "level": 3,
+      "text": "Cryptanalysis"
+    },
+    {
+      "level": 3,
+      "text": "Cryptographic primitives"
+    },
+    {
+      "level": 3,
+      "text": "Cryptosystems"
+    },
+    {
+      "level": 3,
+      "text": "Lightweight cryptography"
+    },
+    {
+      "level": 2,
+      "text": "Applications"
+    },
+    {
+      "level": 3,
+      "text": "Cybersecurity"
+    },
+    {
+      "level": 3,
+      "text": "Cryptocurrencies and cryptoeconomics"
+    },
+    {
+      "level": 3,
+      "text": "Quantum computing cybersecurity"
+    },
+    {
+      "level": 2,
+      "text": "Legal issues"
+    },
+    {
+      "level": 3,
+      "text": "Prohibitions"
+    },
+    {
+      "level": 3,
+      "text": "Export controls"
+    },
+    {
+      "level": 3,
+      "text": "NSA involvement"
+    },
+    {
+      "level": 3,
+      "text": "Digital rights management"
+    },
+    {
+      "level": 3,
+      "text": "Forced disclosure of encryption keys"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "18934432.md",
+  "character_count": 203438,
+  "word_count": 18185,
+  "extracted_at": "2026-08-17T15:57:15.203538+00:00"
+}

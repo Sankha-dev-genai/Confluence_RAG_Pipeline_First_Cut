@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326700_001",
+    "page_id": "2326700",
+    "title": "VM Reclaim Project",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326700",
+    "owner": "Cloud FinOps",
+    "status": "IN PROGRESS",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Cloud FinOps |\n| Status | IN PROGRESS |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nIdentify and reclaim idle virtual machines to reduce cloud spend.\n\n- Reclaim Criteria\n- Reclaim Procedure\n- Reporting",
+    "word_count": 30,
+    "character_count": 255,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Overview",
+    "child_page": "VM Reclaim Project",
+    "breadcrumb": "Overview > VM Reclaim Project"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "20290829_001",
+    "page_id": "20290829",
+    "title": "DATAllegro",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/DATAllegro",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "**DATAllegro** was a company that specialized in [data warehousing](/wiki/Data_warehouse \"Data warehouse\") appliances. It was founded by Stuart Frost in 2003 inspired by and as a competitor to [Data warehouse appliance](/wiki/Data_warehouse_appliance \"Data warehouse appliance\") pioneer [Netezza](/wiki/Netezza \"Netezza\").[[1]](#cite_note-1) DATAllegro - like Netezza - used open source software stack ([Ingres](/wiki/INGRES \"INGRES\") DBMS running on [Linux](/wiki/Linux \"Linux\")). [Microsoft](/wiki/Microsoft \"Microsoft\") announced it had acquired DATAllegro as of September 2008.[[2]](#cite_note-2) SQL Server Parallel Data Warehouse (PDW) is the successor product to DATAllegro on Windows Server using a version of the SQL Server database engine.[[3]](#cite_note-3)",
+    "word_count": 107,
+    "character_count": 768,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Category:Data warehousing products",
+    "child_page": "DATAllegro",
+    "breadcrumb": "Category:Data warehousing products > DATAllegro"
+  },
+  {
+    "chunk_id": "20290829_002",
+    "page_id": "20290829",
+    "title": "DATAllegro",
+    "section": "See also",
+    "heading_path": [
+      "See also"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/DATAllegro",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## See also\n\n- [Data warehouse appliance](/wiki/Data_warehouse_appliance \"Data warehouse appliance\")",
+    "word_count": 10,
+    "character_count": 100,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Category:Data warehousing products",
+    "child_page": "DATAllegro",
+    "breadcrumb": "Category:Data warehousing products > DATAllegro"
+  },
+  {
+    "chunk_id": "20290829_003",
+    "page_id": "20290829",
+    "title": "DATAllegro",
+    "section": "References",
+    "heading_path": [
+      "See also",
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/DATAllegro",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## References\n\n1. **[^](#cite_ref-1)** [\"DATAllegro founder Stuart Frost on DATAllegro\"](https://web.archive.org/web/20090101132357/http://www.beyeblogs.com/DATAllegro/archive/2008/04/who_i_am_and_why_im_here.php). Archived from [the original](http://www.beyeblogs.com/DATAllegro/archive/2008/04/who_i_am_and_why_im_here.php) on 2009-01-01. Retrieved 2008-11-19.\n2. **[^](#cite_ref-2)** [\"Microsoft Closes Acquisition of DATAllegro\"](https://news.microsoft.com/2008/09/16/microsoft-closes-acquisition-of-datallegro). Sep 16, 2008.\n3. **[^](#cite_ref-3)** [\"Microsoft ships the final Technology Preview for SQL Server 2008 R2 Parallel Data Warehouse\"](http://blogs.technet.com/b/dataplatforminsider/archive/2010/04/02/microsoft-ships-the-final-technology-preview-for-sql-server-2008-r2-parallel-data-warehouse.aspx). 2 Apr 2010. \"DATAllegro technology as Parallel Data Warehouse now runs on Windows Server and SQL Server\"",
+    "word_count": 130,
+    "character_count": 920,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Category:Data warehousing products",
+    "child_page": "DATAllegro",
+    "breadcrumb": "Category:Data warehousing products > DATAllegro"
+  },
+  {
+    "chunk_id": "20290829_004",
+    "page_id": "20290829",
+    "title": "DATAllegro",
+    "section": "External links",
+    "heading_path": [
+      "See also",
+      "External links"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/DATAllegro",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## External links\n\n- [Official Website](https://web.archive.org/web/20081105135653/http://www.datallegro.com/)\n- [\"DATAllegro - Is It All Hype?\"](https://www.theregister.co.uk/2006/02/03/datallegro_claims_founded/). *[The Register](/wiki/The_Register \"The Register\")*.\n\n|  |  |\n| --- | --- |\n| [![Stub icon](//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Computer-blue.svg/40px-Computer-blue.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)](/wiki/File:Computer-blue.svg) | This article about an IT-related or software-related company or corporation is a [stub](/wiki/Wikipedia:Stub \"Wikipedia:Stub\"). You can help Wikipedia by [adding missing information](https://en.wikipedia.org/w/index.php?title=DATAllegro&action=edit). |\n\n- [v](/wiki/Template:Ict-company-stub \"Template:Ict-company-stub\")\n- [t](/wiki/Template_talk:Ict-company-stub \"Template talk:Ict-company-stub\")\n- [e](/wiki/Special:EditPage/Template:Ict-company-stub \"Special:EditPage/Template:Ict-company-stub\")",
+    "word_count": 139,
+    "character_count": 1007,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Category:Data warehousing products",
+    "child_page": "DATAllegro",
+    "breadcrumb": "Category:Data warehousing products > DATAllegro"
+  }
+]

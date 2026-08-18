@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326581_001",
+    "page_id": "2326581",
+    "title": "Hardware Requests",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326581",
+    "owner": "IT Helpdesk",
+    "status": "LIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | IT Helpdesk |\n| Status | LIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n| Item | Approval | SLA |\n| --- | --- | --- |\n| Laptop replacement | Manager | 3 days |\n| Monitor | Auto | 2 days |\n| Peripheral | Auto | 1 day |",
+    "word_count": 30,
+    "character_count": 275,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "IT Support",
+    "child_page": "Hardware Requests",
+    "breadcrumb": "Overview > IT Support > Hardware Requests"
+  }
+]

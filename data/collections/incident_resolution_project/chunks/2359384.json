@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2359384_001",
+    "page_id": "2359384",
+    "title": "Severity & Response",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359384",
+    "owner": "SRE",
+    "status": "ACTIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | SRE |\n| Status | ACTIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n| Severity | Impact | Response time |\n| --- | --- | --- |\n| SEV1 | Full outage | 15 min |\n| SEV2 | Major degradation | 30 min |\n| SEV3 | Minor issue | 1 business day |\n\nSEV1/SEV2 require an incident commander and a status page update.",
+    "word_count": 44,
+    "character_count": 358,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Incident Resolution Project",
+    "child_page": "Severity & Response",
+    "breadcrumb": "Overview > Incident Resolution Project > Severity & Response"
+  }
+]

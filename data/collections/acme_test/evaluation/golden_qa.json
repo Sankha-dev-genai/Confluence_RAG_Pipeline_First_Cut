@@ -1,0 +1,13 @@
+{
+  "description": "Golden set for collection 'acme_test'.",
+  "questions": [
+    {
+      "question": "Q1?",
+      "relevant_page_ids": [
+        "1"
+      ],
+      "answer_keywords": [],
+      "tag": "auto"
+    }
+  ]
+}

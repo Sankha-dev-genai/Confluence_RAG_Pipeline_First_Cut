@@ -1,0 +1,372 @@
+{
+  "description": "Golden set for collection 'cryptography_wiki'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Who designed the Advanced Encryption Standard (AES)?",
+      "relevant_page_ids": [
+        "1260"
+      ],
+      "answer_keywords": [
+        "Joan Daemen",
+        "Vincent Rijmen"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What are the key sizes supported by AES?",
+      "relevant_page_ids": [
+        "1260"
+      ],
+      "answer_keywords": [
+        "128 bits",
+        "192 bits",
+        "256 bits"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Which companies were involved in implementing the Blacker project?",
+      "relevant_page_ids": [
+        "14520910"
+      ],
+      "answer_keywords": [
+        "SDC",
+        "Burroughs",
+        "Unisys"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What security rating was the Blacker project designed to achieve?",
+      "relevant_page_ids": [
+        "14520910"
+      ],
+      "answer_keywords": [
+        "A1 class",
+        "TCSEC",
+        "very high assurance"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "At what hardware level does array controller based encryption occur?",
+      "relevant_page_ids": [
+        "16436055"
+      ],
+      "answer_keywords": [
+        "disk array controller",
+        "before disk drives",
+        "hardware level"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What does the article provide an overview of regarding array controller based encryption?",
+      "relevant_page_ids": [
+        "16436055"
+      ],
+      "answer_keywords": [
+        "implementation techniques",
+        "overview",
+        "array controller based encryption"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "What is the primary focus of cryptography?",
+      "relevant_page_ids": [
+        "18934432"
+      ],
+      "answer_keywords": [
+        "secure communication",
+        "practice",
+        "study"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What historical device is shown in the cryptography article image?",
+      "relevant_page_ids": [
+        "18934432"
+      ],
+      "answer_keywords": [
+        "Lorenz cipher",
+        "World War II",
+        "German High Command"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What is the main purpose of the anonymous matching protocol?",
+      "relevant_page_ids": [
+        "2791110"
+      ],
+      "answer_keywords": [
+        "avoid embarrassment",
+        "mutual attraction",
+        "romantic relationships"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm010",
+      "question": "Who patented the general concept of anonymous matching and when?",
+      "relevant_page_ids": [
+        "2791110"
+      ],
+      "answer_keywords": [
+        "David J. Blumberg",
+        "Gil S. Sudai",
+        "7 September 1999"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm011",
+      "question": "What are some forms a backdoor can take in computing?",
+      "relevant_page_ids": [
+        "360788"
+      ],
+      "answer_keywords": [
+        "hidden program part",
+        "separate program",
+        "firmware code",
+        "operating system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "What U.S. law requires internet providers to provide backdoors for government authorities?",
+      "relevant_page_ids": [
+        "360788"
+      ],
+      "answer_keywords": [
+        "Communications Assistance for Law Enforcement Act",
+        "1994",
+        "internet providers",
+        "government"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm013",
+      "question": "What types of cryptographic operations can batch cryptography perform on multiple inputs simultaneously?",
+      "relevant_page_ids": [
+        "43092670"
+      ],
+      "answer_keywords": [
+        "encryption",
+        "decryption",
+        "key exchange",
+        "authentication"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm014",
+      "question": "Who first introduced the principle of batching cryptographic operations and when?",
+      "relevant_page_ids": [
+        "43092670"
+      ],
+      "answer_keywords": [
+        "Amos Fiat",
+        "1989"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm015",
+      "question": "What types of information can adaptive redaction remove from documents?",
+      "relevant_page_ids": [
+        "47578523"
+      ],
+      "answer_keywords": [
+        "visible content",
+        "invisible information",
+        "active content"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm016",
+      "question": "How does adaptive redaction help reduce false positive events in DLP solutions?",
+      "relevant_page_ids": [
+        "47578523"
+      ],
+      "answer_keywords": [
+        "alleviate false positives",
+        "DLP policy triggers",
+        "legitimate communication"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm017",
+      "question": "How does RSA blinding prevent timing attacks?",
+      "relevant_page_ids": [
+        "490067"
+      ],
+      "answer_keywords": [
+        "RSA blinding",
+        "random r",
+        "unblinding",
+        "timing attacks"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm018",
+      "question": "What risks are associated with improper blinding in Rabin–Williams signatures?",
+      "relevant_page_ids": [
+        "490067"
+      ],
+      "answer_keywords": [
+        "Rabin–Williams signatures",
+        "Jacobi requirements",
+        "private key recovery",
+        "CVE-2015-2141"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "When was 123 Reg founded and who were its founders?",
+      "relevant_page_ids": [
+        "49901691"
+      ],
+      "answer_keywords": [
+        "2000",
+        "Jonathan and Tim Beresford-Brealey"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "Which company currently owns 123 Reg?",
+      "relevant_page_ids": [
+        "49901691"
+      ],
+      "answer_keywords": [
+        "GoDaddy",
+        "parent company",
+        "acquired 2017"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm021",
+      "question": "What is the main function of an anonymous remailer?",
+      "relevant_page_ids": [
+        "54666"
+      ],
+      "answer_keywords": [
+        "forwards messages",
+        "privacy",
+        "computer server"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "What issues does the 'Anonymous remailer' article currently have?",
+      "relevant_page_ids": [
+        "54666"
+      ],
+      "answer_keywords": [
+        "multiple issues",
+        "needs citations",
+        "reorganization"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm023",
+      "question": "Who created the fictional characters Alice and Bob?",
+      "relevant_page_ids": [
+        "679079"
+      ],
+      "answer_keywords": [
+        "Ron Rivest",
+        "Adi Shamir",
+        "Leonard Adleman"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm024",
+      "question": "Why are the names Alice and Bob used in cryptographic examples?",
+      "relevant_page_ids": [
+        "679079"
+      ],
+      "answer_keywords": [
+        "convenience",
+        "aid comprehension",
+        "conventional names"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm025",
+      "question": "When did Bitcoin Satoshi Vision split from Bitcoin Cash?",
+      "relevant_page_ids": [
+        "77963815"
+      ],
+      "answer_keywords": [
+        "15 November 2018",
+        "hard fork",
+        "split height #556766"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm026",
+      "question": "Why was Bitcoin SV delisted from Binance in 2019?",
+      "relevant_page_ids": [
+        "77963815"
+      ],
+      "answer_keywords": [
+        "Binance",
+        "delisting",
+        "review standards",
+        "Craig Wright feud"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm027",
+      "question": "What payment system did Serge Belamant develop in 1989?",
+      "relevant_page_ids": [
+        "78737233"
+      ],
+      "answer_keywords": [
+        "Universal Electronic Payment System",
+        "UEPS",
+        "1989"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "Which fintech company has Serge Belamant been non-executive chair of since 2018?",
+      "relevant_page_ids": [
+        "78737233"
+      ],
+      "answer_keywords": [
+        "Zilch",
+        "non-executive chair",
+        "2018"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

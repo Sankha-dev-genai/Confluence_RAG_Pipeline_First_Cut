@@ -1,0 +1,63 @@
+{
+  "page_id": "1568820",
+  "title": "List of relational database management systems",
+  "parent_page": "Category:Database management systems",
+  "child_page": "List of relational database management systems",
+  "breadcrumb": "Category:Database management systems > List of relational database management systems",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=1568820",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "List of software"
+    },
+    {
+      "level": 3,
+      "text": "Front-end User interfaces Only"
+    },
+    {
+      "level": 2,
+      "text": "Discontinued"
+    },
+    {
+      "level": 3,
+      "text": "Front-end User interfaces Only"
+    },
+    {
+      "level": 2,
+      "text": "Relational by the Date–Darwen–Pascal Model"
+    },
+    {
+      "level": 3,
+      "text": "Current"
+    },
+    {
+      "level": 3,
+      "text": "Obsolete"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "1568820.md",
+  "character_count": 16291,
+  "word_count": 1548,
+  "extracted_at": "2026-08-17T06:13:05.754445+00:00"
+}

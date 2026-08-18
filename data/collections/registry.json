@@ -1,0 +1,155 @@
+{
+  "collections": [
+    {
+      "name": "ml_wiki",
+      "title": "ml_wiki",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_category": "Category:Machine_learning",
+      "wiki_page_limit": 15
+    },
+    {
+      "name": "hr_handbook",
+      "title": "hr_handbook",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net",
+      "confluence_parent_page_id": "2359299",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "product_faq",
+      "title": "Product FAQ",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2326547/Product+FAQ",
+      "confluence_parent_page_id": "2326547",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "it_support",
+      "title": "IT Support",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2424867/IT+Support",
+      "confluence_parent_page_id": "2424867",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "dev_tooling_setup",
+      "title": "Dev Tooling Setup",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2326615/Dev+Tooling+Setup",
+      "confluence_parent_page_id": "2326615",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "engineering_onboarding",
+      "title": "Engineering Onboarding",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2359350/Engineering+Onboarding",
+      "confluence_parent_page_id": "2359350",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "incident_resolution_project",
+      "title": "Incident Resolution Project",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2326666/Incident+Resolution+Project",
+      "confluence_parent_page_id": "2326666",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "vm_reclaim_project",
+      "title": "VM Reclaim Project",
+      "source": "confluence",
+      "description": "",
+      "confluence_base_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/spaces/~712020e9a524ccaadb48d5894054eb2ad1b6fa/pages/2326700/VM+Reclaim+Project",
+      "confluence_parent_page_id": "2326700",
+      "token_env": "CONFLUENCE_API_TOKEN"
+    },
+    {
+      "name": "snowflake_inc",
+      "title": "Snowflake Inc.",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Snowflake_Inc.",
+      "wiki_titles": "Snowflake Inc.",
+      "wiki_page_limit": 1
+    },
+    {
+      "name": "db_wiki",
+      "title": "Databases Wiki",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_category": "Category:Database management systems",
+      "wiki_page_limit": 15
+    },
+    {
+      "name": "data_warehousing_products",
+      "title": "Data Warehousing Products",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products",
+      "wiki_category": "Category:Data warehousing products",
+      "wiki_page_limit": 15
+    },
+    {
+      "name": "shah_rukh_khan",
+      "title": "Shah Rukh Khan",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Shah_Rukh_Khan",
+      "wiki_titles": "Shah Rukh Khan",
+      "wiki_page_limit": 1
+    },
+    {
+      "name": "operating_systems",
+      "title": "Operating Systems",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Category:Operating_systems",
+      "wiki_category": "Category:Operating systems",
+      "wiki_page_limit": 15
+    },
+    {
+      "name": "cryptography_wiki",
+      "title": "Cryptography",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Category:Cryptography",
+      "wiki_category": "Category:Cryptography",
+      "wiki_page_limit": 15
+    },
+    {
+      "name": "kubernets_wiki",
+      "title": "Kubernetes",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/Kubernetes",
+      "wiki_titles": "Kubernetes",
+      "wiki_page_limit": 1
+    },
+    {
+      "name": "postgresql_wiki",
+      "title": "PostgreSQL",
+      "source": "mediawiki",
+      "description": "",
+      "wiki_api_url": "https://en.wikipedia.org/w/api.php",
+      "wiki_base_url": "https://en.wikipedia.org/wiki/PostgreSQL",
+      "wiki_titles": "PostgreSQL",
+      "wiki_page_limit": 1
+    }
+  ]
+}

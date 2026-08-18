@@ -1,0 +1,43 @@
+{
+  "page_id": "49901691",
+  "title": "123 Reg",
+  "parent_page": "Category:Cryptography",
+  "child_page": "123 Reg",
+  "breadcrumb": "Category:Cryptography > 123 Reg",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/123_Reg",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "49901691.md",
+  "character_count": 8603,
+  "word_count": 771,
+  "extracted_at": "2026-08-17T15:57:16.284006+00:00"
+}

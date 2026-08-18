@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2424918_001",
+    "page_id": "2424918",
+    "title": "Reclaim Procedure",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2424918",
+    "owner": "Cloud FinOps",
+    "status": "REVIEW",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Cloud FinOps |\n| Status | REVIEW |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n1. Notify the owner (7-day grace)\n2. Snapshot the VM\n3. Stop the VM\n4. Wait 14 days\n5. Delete if unclaimed\n\n```\n# example (Azure CLI)\naz vm deallocate -g rg-name -n vm-name\naz vm delete -g rg-name -n vm-name --yes\n```",
+    "word_count": 59,
+    "character_count": 350,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "VM Reclaim Project",
+    "child_page": "Reclaim Procedure",
+    "breadcrumb": "Overview > VM Reclaim Project > Reclaim Procedure"
+  }
+]

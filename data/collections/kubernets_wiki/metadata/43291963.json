@@ -1,0 +1,207 @@
+{
+  "page_id": "43291963",
+  "title": "Kubernetes",
+  "parent_page": "Selected pages",
+  "child_page": "Kubernetes",
+  "breadcrumb": "Selected pages > Kubernetes",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Kubernetes/Kubernetes",
+  "space_key": null,
+  "space_name": "Selected pages",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Selected pages"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Concepts"
+    },
+    {
+      "level": 3,
+      "text": "Control plane"
+    },
+    {
+      "level": 4,
+      "text": "Etcd"
+    },
+    {
+      "level": 4,
+      "text": "API server"
+    },
+    {
+      "level": 4,
+      "text": "Scheduler"
+    },
+    {
+      "level": 4,
+      "text": "Controllers"
+    },
+    {
+      "level": 3,
+      "text": "Nodes"
+    },
+    {
+      "level": 4,
+      "text": "kubelet"
+    },
+    {
+      "level": 4,
+      "text": "Container runtime"
+    },
+    {
+      "level": 4,
+      "text": "kube-proxy"
+    },
+    {
+      "level": 3,
+      "text": "Namespaces"
+    },
+    {
+      "level": 3,
+      "text": "Pods"
+    },
+    {
+      "level": 3,
+      "text": "Workloads"
+    },
+    {
+      "level": 4,
+      "text": "ReplicaSets, ReplicationControllers and Deployments"
+    },
+    {
+      "level": 4,
+      "text": "StatefulSets"
+    },
+    {
+      "level": 4,
+      "text": "DaemonSets"
+    },
+    {
+      "level": 3,
+      "text": "Services"
+    },
+    {
+      "level": 3,
+      "text": "Volumes"
+    },
+    {
+      "level": 3,
+      "text": "ConfigMaps and Secrets"
+    },
+    {
+      "level": 3,
+      "text": "Labels and selectors"
+    },
+    {
+      "level": 3,
+      "text": "Add-ons"
+    },
+    {
+      "level": 3,
+      "text": "Storage"
+    },
+    {
+      "level": 4,
+      "text": "Container Storage Interface (CSI)"
+    },
+    {
+      "level": 2,
+      "text": "API"
+    },
+    {
+      "level": 3,
+      "text": "API objects"
+    },
+    {
+      "level": 3,
+      "text": "Custom resources, controllers and operators"
+    },
+    {
+      "level": 3,
+      "text": "API security"
+    },
+    {
+      "level": 4,
+      "text": "Transport security"
+    },
+    {
+      "level": 4,
+      "text": "Authentication"
+    },
+    {
+      "level": 4,
+      "text": "Authorization"
+    },
+    {
+      "level": 3,
+      "text": "API clients"
+    },
+    {
+      "level": 3,
+      "text": "Cluster API"
+    },
+    {
+      "level": 2,
+      "text": "Uses"
+    },
+    {
+      "level": 2,
+      "text": "Criticism"
+    },
+    {
+      "level": 2,
+      "text": "Distributions"
+    },
+    {
+      "level": 3,
+      "text": "Open-source distributions"
+    },
+    {
+      "level": 3,
+      "text": "Commercial distributions"
+    },
+    {
+      "level": 3,
+      "text": "Managed distributions"
+    },
+    {
+      "level": 2,
+      "text": "Release timeline"
+    },
+    {
+      "level": 3,
+      "text": "Support windows"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "43291963.md",
+  "character_count": 105265,
+  "word_count": 9656,
+  "extracted_at": "2026-08-17T16:07:08.986076+00:00"
+}

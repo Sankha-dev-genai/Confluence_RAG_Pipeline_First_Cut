@@ -1,0 +1,200 @@
+{
+  "description": "Golden set for collection 'hr_handbook'.",
+  "questions": [
+    {
+      "id": "auto001",
+      "question": "What information does the 'Benefits Overview' page provide?",
+      "relevant_page_ids": [
+        "2326530"
+      ],
+      "answer_keywords": [
+        "Benefits",
+        "Overview"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto002",
+      "question": "What does the 'Benefits' section of 'Benefits Overview' cover?",
+      "relevant_page_ids": [
+        "2326530"
+      ],
+      "answer_keywords": [
+        "Benefits",
+        "Overview"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto003",
+      "question": "What information does the 'HR Handbook' page provide?",
+      "relevant_page_ids": [
+        "2359299"
+      ],
+      "answer_keywords": [
+        "Handbook"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto004",
+      "question": "What does the 'Contents' section of 'HR Handbook' cover?",
+      "relevant_page_ids": [
+        "2359299"
+      ],
+      "answer_keywords": [
+        "Contents",
+        "Handbook"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto005",
+      "question": "What information does the 'Leave Policy' page provide?",
+      "relevant_page_ids": [
+        "2359316"
+      ],
+      "answer_keywords": [
+        "Leave",
+        "Policy"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto006",
+      "question": "What does the 'Leave types' section of 'Leave Policy' cover?",
+      "relevant_page_ids": [
+        "2359316"
+      ],
+      "answer_keywords": [
+        "Leave",
+        "types",
+        "Policy"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto007",
+      "question": "What information does the 'Code of Conduct' page provide?",
+      "relevant_page_ids": [
+        "2359333"
+      ],
+      "answer_keywords": [
+        "Code",
+        "Conduct"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto008",
+      "question": "What does the 'Principles' section of 'Code of Conduct' cover?",
+      "relevant_page_ids": [
+        "2359333"
+      ],
+      "answer_keywords": [
+        "Principles",
+        "Code",
+        "Conduct"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "llm001",
+      "question": "What is the annual learning budget provided to employees?",
+      "relevant_page_ids": [
+        "2326530"
+      ],
+      "answer_keywords": [
+        "annual learning budget",
+        "50,000 INR"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "How many office days per week are employees expected to work on-site?",
+      "relevant_page_ids": [
+        "2326530"
+      ],
+      "answer_keywords": [
+        "hybrid work",
+        "3 office days per week"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who is the owner of the HR Handbook?",
+      "relevant_page_ids": [
+        "2359299"
+      ],
+      "answer_keywords": [
+        "People Ops",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "When was the HR Handbook last reviewed?",
+      "relevant_page_ids": [
+        "2359299"
+      ],
+      "answer_keywords": [
+        "2026-08-16",
+        "Last reviewed"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "How many days of sick leave am I entitled to per year?",
+      "relevant_page_ids": [
+        "2359316"
+      ],
+      "answer_keywords": [
+        "Sick leave",
+        "12 days",
+        "per year"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What is the notice period required to apply for parental leave?",
+      "relevant_page_ids": [
+        "2359316"
+      ],
+      "answer_keywords": [
+        "Parental leave",
+        "8 weeks",
+        "notice"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who owns the Code of Conduct document?",
+      "relevant_page_ids": [
+        "2359333"
+      ],
+      "answer_keywords": [
+        "People Ops",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What should employees do if they have concerns about violations?",
+      "relevant_page_ids": [
+        "2359333"
+      ],
+      "answer_keywords": [
+        "Report concerns",
+        "promptly"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

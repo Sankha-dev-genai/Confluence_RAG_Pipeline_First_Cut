@@ -1,0 +1,71 @@
+{
+  "page_id": "24523966",
+  "title": "Comparison of OLAP servers",
+  "parent_page": "Category:Data warehousing products",
+  "child_page": "Comparison of OLAP servers",
+  "breadcrumb": "Category:Data warehousing products > Comparison of OLAP servers",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/Comparison_of_OLAP_servers",
+  "space_key": null,
+  "space_name": "Category:Data warehousing products",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Data warehousing products"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "General information"
+    },
+    {
+      "level": 2,
+      "text": "Data storage modes"
+    },
+    {
+      "level": 2,
+      "text": "APIs and query languages"
+    },
+    {
+      "level": 2,
+      "text": "OLAP distinctive features"
+    },
+    {
+      "level": 2,
+      "text": "System limits"
+    },
+    {
+      "level": 2,
+      "text": "Security"
+    },
+    {
+      "level": 2,
+      "text": "Operating systems"
+    },
+    {
+      "level": 2,
+      "text": "Support information"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "24523966.md",
+  "character_count": 38300,
+  "word_count": 4390,
+  "extracted_at": "2026-08-17T06:36:06.965339+00:00"
+}

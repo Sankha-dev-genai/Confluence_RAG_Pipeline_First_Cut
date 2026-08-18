@@ -122,6 +122,27 @@ to roughly match dense on the semantic half and clearly beat it on the exact-mat
 half (error-code lookups), lifting aggregate Hit@1 / MRR. BM25 alone already scores
 100% Hit@1 on the exact-match questions offline.
 
+## Multiple knowledge bases (collections)
+
+Each source is an isolated **collection** with its own index and golden set. The
+special collection `default` is the original `data/` layout.
+
+    # register a new collection (Confluence space or wiki)
+    python main.py --add-collection eng_wiki --source mediawiki \
+        --wiki-api-url https://en.wikipedia.org/w/api.php \
+        --wiki-category Category:Machine_learning
+
+    python main.py --list-collections
+    python main.py --collection eng_wiki            # ingest it (own folder/index)
+
+    # bootstrap its golden set (auto = no LLM; or --method llm)
+    python scripts/bootstrap_golden.py --collection eng_wiki --method auto
+
+In the Streamlit app, a **Knowledge base** picker in the sidebar switches which
+collection the Ask and Evaluation pages query — each with its own index and
+golden set. New questions can also be labelled via **Mark correct** (Ask page) or
+the golden-set builder in the Evaluation tab.
+
 ## Docker
 
     docker build -t knowledge-rag .

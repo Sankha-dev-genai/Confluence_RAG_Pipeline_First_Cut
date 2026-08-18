@@ -1,0 +1,91 @@
+{
+  "page_id": "83585468",
+  "title": "AI observability",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "AI observability",
+  "breadcrumb": "Category:Machine_learning > AI observability",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=83585468",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Background"
+    },
+    {
+      "level": 2,
+      "text": "Observability versus monitoring"
+    },
+    {
+      "level": 2,
+      "text": "Signals and dimensions"
+    },
+    {
+      "level": 2,
+      "text": "Techniques and methods"
+    },
+    {
+      "level": 3,
+      "text": "Open source tools and standards"
+    },
+    {
+      "level": 3,
+      "text": "Proprietary platforms"
+    },
+    {
+      "level": 3,
+      "text": "Agent observability"
+    },
+    {
+      "level": 2,
+      "text": "Relation to MLOps"
+    },
+    {
+      "level": 2,
+      "text": "Relation to explainability"
+    },
+    {
+      "level": 2,
+      "text": "Regulatory and compliance context"
+    },
+    {
+      "level": 2,
+      "text": "Security, privacy and governance"
+    },
+    {
+      "level": 2,
+      "text": "Challenges and limitations"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "83585468.md",
+  "character_count": 52755,
+  "word_count": 4815,
+  "extracted_at": "2026-08-16T10:51:27.463452+00:00"
+}

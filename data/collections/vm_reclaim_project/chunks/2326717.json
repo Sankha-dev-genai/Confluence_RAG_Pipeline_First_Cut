@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326717_001",
+    "page_id": "2326717",
+    "title": "Reclaim Criteria",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326717",
+    "owner": "Cloud FinOps",
+    "status": "IN PROGRESS",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Cloud FinOps |\n| Status | IN PROGRESS |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n| Signal | Threshold | Action |\n| --- | --- | --- |\n| CPU (7-day avg) | < 3% | Candidate |\n| Network I/O | ~0 | Candidate |\n| Owner tag | Missing | Flag for review |\n\nA VM must meet at least two criteria before reclaim.",
+    "word_count": 45,
+    "character_count": 357,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "VM Reclaim Project",
+    "child_page": "Reclaim Criteria",
+    "breadcrumb": "Overview > VM Reclaim Project > Reclaim Criteria"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "page_id": "5919973",
+  "title": "Bigtable",
+  "parent_page": "Category:Database management systems",
+  "child_page": "Bigtable",
+  "breadcrumb": "Category:Database management systems > Bigtable",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=5919973",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Design"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Bibliography"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "5919973.md",
+  "character_count": 64108,
+  "word_count": 5996,
+  "extracted_at": "2026-08-17T06:13:06.559235+00:00"
+}

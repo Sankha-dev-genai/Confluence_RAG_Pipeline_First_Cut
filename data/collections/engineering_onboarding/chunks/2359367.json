@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2359367_001",
+    "page_id": "2359367",
+    "title": "Week 1 Setup",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359367",
+    "owner": "Eng Enablement",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Eng Enablement |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n1. Get accounts provisioned (SSO, GitHub, cloud)\n2. Install dev tooling (see Dev Tooling Setup)\n3. Clone the main repositories\n4. Run the app locally\n\n```\nmake install\nmake test\nmake run\n```",
+    "word_count": 45,
+    "character_count": 328,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Engineering Onboarding",
+    "child_page": "Week 1 Setup",
+    "breadcrumb": "Overview > Engineering Onboarding > Week 1 Setup"
+  }
+]

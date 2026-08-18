@@ -1,0 +1,51 @@
+{
+  "page_id": "9325118",
+  "title": "ANSI-SPARC Architecture",
+  "parent_page": "Category:Database management systems",
+  "child_page": "ANSI-SPARC Architecture",
+  "breadcrumb": "Category:Database management systems > ANSI-SPARC Architecture",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=9325118",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Three-level architecture"
+    },
+    {
+      "level": 2,
+      "text": "Database schemas"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "9325118.md",
+  "character_count": 4428,
+  "word_count": 612,
+  "extracted_at": "2026-08-17T06:13:07.068779+00:00"
+}

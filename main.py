@@ -1,125 +1,164 @@
 """
 End-to-end ingestion & indexing pipeline (the project's front door).
 
-Source-agnostic: set SOURCE=confluence or SOURCE=mediawiki in .env.
+Multi-collection & source-agnostic. Each collection is an isolated knowledge
+base (own folder, index and golden set). The special collection 'default' maps
+to the original data/ layout.
 
-Stages, in order:
-    connect -> tree -> download -> clean -> metadata -> chunk -> embed -> index
+Stages:  connect -> tree -> download -> clean -> metadata -> chunk -> embed -> index
 
 Usage:
-    python main.py                              # whole pipeline for the active source
-    python main.py --source mediawiki           # override source for this run
-    python main.py --steps tree                 # just print the page hierarchy
-    python main.py --steps chunk embed index    # rebuild the index from cleaned data
-    python main.py --list-steps
+    python main.py                                   # ingest the 'default' collection
+    python main.py --collection eng_wiki             # ingest a named collection
+    python main.py --collection eng_wiki --steps embed index
+    python main.py --list-collections
+    python main.py --add-collection eng_wiki --source mediawiki \
+                   --wiki-api-url https://en.wikipedia.org/w/api.php \
+                   --wiki-category Category:Machine_learning
 """
 from __future__ import annotations
 
 import argparse
+import os
 
-from app.core.config import settings
-from app.core.exceptions import IngestionError
-from app.core.logger import get_logger
+# --- choose the active collection BEFORE importing config (paths depend on it) ---
+_pre = argparse.ArgumentParser(add_help=False)
+_pre.add_argument("--collection", default="default")
+_known, _ = _pre.parse_known_args()
+os.environ["COLLECTION"] = _known.collection
+
+import app.core.config as cfg                                # noqa: E402
+from app.core.config import settings                         # noqa: E402
+from app.core.exceptions import IngestionError               # noqa: E402
+from app.core.logger import get_logger                       # noqa: E402
+from app.core import collections as col                      # noqa: E402
 
 log = get_logger("pipeline")
 
 
-def stage_connect(state: dict) -> None:
+def stage_connect(state):
     from app.sources import get_source
-    src = get_source()
-    info = src.test_connection()
+    src = get_source(); info = src.test_connection()
     log.info(f"Connected to '{src.name}': {info}")
 
 
-def stage_tree(state: dict) -> None:
+def stage_tree(state):
     from app.sources import get_source
     from app.ingestion.tree_utils import print_tree
-    root = get_source().build_tree()
-    state["tree"] = root
-    log.info("Page hierarchy:")
-    print_tree(root)
+    root = get_source().build_tree(); state["tree"] = root
+    log.info("Page hierarchy:"); print_tree(root)
 
 
-def stage_download(state: dict) -> None:
+def stage_download(state):
     from app.sources import get_source
-    src = get_source()
-    root = state.get("tree") or src.build_tree()
-    src.download_all(root)
-    log.info("Download complete.")
+    src = get_source(); root = state.get("tree") or src.build_tree()
+    src.download_all(root); log.info("Download complete.")
 
 
-def stage_clean(state: dict) -> None:
+def stage_clean(state):
     from app.processing.html_cleaner import HTMLCleaner
-    HTMLCleaner().clean_all()
-    log.info("HTML cleaned -> markdown.")
+    HTMLCleaner().clean_all(); log.info("HTML cleaned -> markdown.")
 
 
-def stage_metadata(state: dict) -> None:
+def stage_metadata(state):
     from app.sources import get_source
-    get_source().metadata_extractor().extract_all()
-    log.info("Metadata extracted.")
+    get_source().metadata_extractor().extract_all(); log.info("Metadata extracted.")
 
 
-def stage_chunk(state: dict) -> None:
+def stage_chunk(state):
     from app.processing.chunker import MarkdownChunker
-    MarkdownChunker().process_all()
-    log.info("Chunks created.")
+    MarkdownChunker().process_all(); log.info("Chunks created.")
 
 
-def stage_embed(state: dict) -> None:
+def stage_embed(state):
+    # IMPORTANT: use the ACTIVE collection's directories (env-switched via cfg),
+    # not the class defaults, so a named collection isn't embedded into 'default'.
     from app.embeddings.embedding_generator import EmbeddingGenerator
-    EmbeddingGenerator().process_all()
-    log.info("Embeddings generated.")
+    EmbeddingGenerator(chunk_dir=cfg.CHUNKS_DIR,
+                       output_dir=cfg.VECTORSTORE_DIR).process_all()
+    log.info(f"Embeddings generated -> {cfg.VECTORSTORE_DIR}")
 
 
-def stage_index(state: dict) -> None:
+def stage_index(state):
     from app.embeddings.vector_store import VectorStore
-    VectorStore().build_index()
-    log.info("FAISS index built.")
+    VectorStore(str(cfg.VECTORSTORE_DIR)).build_index()
+    log.info(f"FAISS index built -> {cfg.VECTORSTORE_DIR}")
 
 
-STAGES = {
-    "connect": stage_connect, "tree": stage_tree, "download": stage_download,
-    "clean": stage_clean, "metadata": stage_metadata, "chunk": stage_chunk,
-    "embed": stage_embed, "index": stage_index,
-}
-DEFAULT_ORDER = ["connect", "tree", "download", "clean",
-                 "metadata", "chunk", "embed", "index"]
+STAGES = {"connect": stage_connect, "tree": stage_tree, "download": stage_download,
+          "clean": stage_clean, "metadata": stage_metadata, "chunk": stage_chunk,
+          "embed": stage_embed, "index": stage_index}
+DEFAULT_ORDER = ["connect", "tree", "download", "clean", "metadata", "chunk", "embed", "index"]
 
 
-def run(steps: list[str]) -> None:
-    state: dict = {}
-    log.info("=" * 52)
-    log.info(f"INGESTION PIPELINE  (source={settings.source})")
-    log.info("=" * 52)
+def run(steps, collection):
+    state = {}
+    log.info("=" * 56)
+    log.info(f"INGESTION  collection='{collection}'  source={settings.source}")
+    log.info("=" * 56)
     for name in steps:
         log.info(f"[stage] {name}")
         try:
             STAGES[name](state)
         except Exception as exc:  # noqa: BLE001
             raise IngestionError(f"stage '{name}' failed: {exc}") from exc
-    log.info("Pipeline finished successfully.")
+    log.info(f"Pipeline finished. Collection '{collection}' is ready.")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Knowledge ingestion pipeline")
-    parser.add_argument("--source", choices=["confluence", "mediawiki"],
-                        help="override SOURCE for this run")
-    parser.add_argument("--steps", nargs="+", choices=list(STAGES),
-                        help="subset of stages (default: all, in order)")
-    parser.add_argument("--list-steps", action="store_true")
-    args = parser.parse_args()
+def main():
+    p = argparse.ArgumentParser(description="Knowledge ingestion pipeline (multi-collection)")
+    p.add_argument("--collection", default="default", help="which knowledge base to build")
+    p.add_argument("--source", choices=["confluence", "mediawiki"], help="override source")
+    p.add_argument("--steps", nargs="+", choices=list(STAGES), help="subset of stages")
+    p.add_argument("--list-steps", action="store_true")
+    p.add_argument("--list-collections", action="store_true")
+    p.add_argument("--add-collection", metavar="NAME", help="register a new collection")
+    p.add_argument("--title"); p.add_argument("--description", default="")
+    p.add_argument("--confluence-base-url"); p.add_argument("--confluence-email")
+    p.add_argument("--parent-page-id"); p.add_argument("--token-env", default="CONFLUENCE_API_TOKEN")
+    p.add_argument("--wiki-api-url"); p.add_argument("--wiki-base-url")
+    p.add_argument("--wiki-category"); p.add_argument("--wiki-page-limit", type=int)
+    p.add_argument("--wiki-titles", help="comma-separated exact page titles (single/multi page mode)")
+    args = p.parse_args()
 
+    if args.list_collections:
+        print("Registered collections:")
+        for c in col.list_collections():
+            flags = ("index" if c["has_index"] else "no-index") + \
+                    (", golden" if c["has_golden"] else "")
+            print(f"  \u2022 {c['name']:16s} [{c['source']}]  ({flags})  {c.get('title','')}")
+        return
+
+    if args.add_collection:
+        src = args.source or ("mediawiki" if args.wiki_api_url else "confluence")
+        if src == "confluence":
+            cfgd = {"confluence_base_url": args.confluence_base_url,
+                    "confluence_email": args.confluence_email,
+                    "confluence_parent_page_id": args.parent_page_id,
+                    "token_env": args.token_env}
+        else:
+            cfgd = {"wiki_api_url": args.wiki_api_url, "wiki_base_url": args.wiki_base_url,
+                    "wiki_category": args.wiki_category, "wiki_titles": args.wiki_titles,
+                    "wiki_page_limit": args.wiki_page_limit}
+        cfgd = {k: v for k, v in cfgd.items() if v is not None}
+        entry = col.register_collection(args.add_collection, src, title=args.title,
+                                        description=args.description, **cfgd)
+        print(f"Registered collection '{entry['name']}' [{src}].")
+        print(f"Now ingest it:  python main.py --collection {entry['name']}")
+        return
+
+    if args.list_steps:
+        print(f"Collection: {args.collection}  |  Stages:", " -> ".join(DEFAULT_ORDER))
+        return
+
+    if args.collection != "default":
+        entry = col.get_collection(args.collection)
+        col.apply_source_config(entry, settings)
     if args.source:
         settings.source = args.source
 
-    if args.list_steps:
-        print(f"Source: {settings.source}")
-        print("Stages:", " -> ".join(DEFAULT_ORDER))
-        return
-
     steps = [s for s in DEFAULT_ORDER if s in (args.steps or DEFAULT_ORDER)]
-    run(steps)
+    run(steps, args.collection)
 
 
 if __name__ == "__main__":

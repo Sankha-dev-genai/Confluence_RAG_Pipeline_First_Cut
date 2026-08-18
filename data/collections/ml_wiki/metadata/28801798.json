@@ -1,0 +1,59 @@
+{
+  "page_id": "28801798",
+  "title": "Active learning (machine learning)",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Active learning (machine learning)",
+  "breadcrumb": "Category:Machine_learning > Active learning (machine learning)",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=28801798",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Definitions"
+    },
+    {
+      "level": 2,
+      "text": "Scenarios"
+    },
+    {
+      "level": 2,
+      "text": "Query strategies"
+    },
+    {
+      "level": 2,
+      "text": "Minimum marginal hyperplane"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "Literature"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "28801798.md",
+  "character_count": 34548,
+  "word_count": 3159,
+  "extracted_at": "2026-08-16T10:51:25.406501+00:00"
+}

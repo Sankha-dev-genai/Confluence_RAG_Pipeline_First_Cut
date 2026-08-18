@@ -1,0 +1,88 @@
+[
+  {
+    "chunk_id": "43092670_001",
+    "page_id": "43092670",
+    "title": "Batch cryptography",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Batch_cryptography",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "**Batch cryptography** is a field of [cryptology](/wiki/Cryptology \"Cryptology\") focused on the design of [cryptographic protocols](/wiki/Cryptographic_protocol \"Cryptographic protocol\") that perform operations—such as [encryption](/wiki/Encryption \"Encryption\"), decryption, [key exchange](/wiki/Key_exchange \"Key exchange\"), and [authentication](/wiki/Authentication \"Authentication\")—on multiple inputs simultaneously, rather than processing each input individually.[[1]](#cite_note-1) Batching cryptographic operations can significantly reduce the marginal cost of handling individual inputs—a principle that was first introduced by Amos Fiat in 1989.[[2]](#cite_note-2)",
+    "word_count": 82,
+    "character_count": 674,
+    "chunk_number": 1,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Batch cryptography",
+    "breadcrumb": "Category:Cryptography > Batch cryptography"
+  },
+  {
+    "chunk_id": "43092670_002",
+    "page_id": "43092670",
+    "title": "Batch cryptography",
+    "section": "References",
+    "heading_path": [
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Batch_cryptography",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "## References\n\n1. **[^](#cite_ref-1)** Zhenfu Cao (2012). [*New Directions of Modern Cryptography*](https://books.google.com/books?id=T2wkaz8lUEAC). Boca Raton: CRC Press, Taylor & Francis Group. p. 171. [ISBN](/wiki/ISBN_(identifier) \"ISBN (identifier)\") [9781466501386](/wiki/Special:BookSources/9781466501386 \"Special:BookSources/9781466501386\").\n2. **[^](#cite_ref-2)** Amos Fiat (1997). \"Batch RSA\". *Journal of Cryptology*. **10** (2): 75–88. [doi](/wiki/Doi_(identifier) \"Doi (identifier)\"):[10.1007/s001459900021](https://doi.org/10.1007%2Fs001459900021). [S2CID](/wiki/S2CID_(identifier) \"S2CID (identifier)\") [15613430](https://api.semanticscholar.org/CorpusID:15613430).",
+    "word_count": 85,
+    "character_count": 681,
+    "chunk_number": 2,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Batch cryptography",
+    "breadcrumb": "Category:Cryptography > Batch cryptography"
+  },
+  {
+    "chunk_id": "43092670_003",
+    "page_id": "43092670",
+    "title": "Batch cryptography",
+    "section": "References",
+    "heading_path": [
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Batch_cryptography",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "1. **[^](#cite_ref-1)** Zhenfu Cao (2012). [*New Directions of Modern Cryptography*](https://books.google.com/books?id=T2wkaz8lUEAC). Boca Raton: CRC Press, Taylor & Francis Group. p. 171. [ISBN](/wiki/ISBN_(identifier) \"ISBN (identifier)\") [9781466501386](/wiki/Special:BookSources/9781466501386 \"Special:BookSources/9781466501386\").\n2. **[^](#cite_ref-2)** Amos Fiat (1997). \"Batch RSA\". *Journal of Cryptology*. **10** (2): 75–88. [doi](/wiki/Doi_(identifier) \"Doi (identifier)\"):[10.1007/s001459900021](https://doi.org/10.1007%2Fs001459900021). [S2CID](/wiki/S2CID_(identifier) \"S2CID (identifier)\") [15613430](https://api.semanticscholar.org/CorpusID:15613430).\n\n|  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | - [v](/wiki/Template:Cryptography \"Template:Cryptography\") - [t](/wiki/Template_talk:Cryptography \"Template talk:Cryptography\") - [e](/wiki/Special:EditPage/Template:Cryptography \"Special:EditPage/Template:Cryptography\")  [Cryptography](/wiki/Cryptography \"Cryptography\") | | | --- | --- | | General | - [History of cryptography](/wiki/History_of_cryptography \"History of cryptography\") - [Outline of cryptography](/wiki/Outline_of_cryptography \"Outline of cryptography\") - [Classical cipher](/wiki/Classical_cipher \"Classical cipher\") - [Cryptographic protocol](/wiki/Cryptographic_protocol \"Cryptographic protocol\")   - [Authentication protocol](/wiki/Authentication_protocol \"Authentication protocol\") - [Cryptographic primitive](/wiki/Cryptographic_primitive \"Cryptographic primitive\") - [Cryptanalysis](/wiki/Cryptanalysis \"Cryptanalysis\") - [Cryptocurrency](/wiki/Cryptocurrency \"Cryptocurrency\") - [Cryptosystem](/wiki/Cryptosystem \"Cryptosystem\") - [Cryptographic nonce](/wiki/Cryptographic_nonce \"Cryptographic nonce\") - [Cryptovirology](/wiki/Cryptovirology \"Cryptovirology\") - [Hash function](/wiki/Hash_function \"Hash function\")   - [Cryptographic hash function](/wiki/Cryptographic_hash_function \"Cryptographic hash function\")   - [Key derivation function](/wiki/Key_derivation_function \"Key derivation function\")   - [Secure Hash Algorithms](/wiki/Secure_Hash_Algorithms \"Secure Hash Algorithms\") - [Digital signature](/wiki/Digital_signature \"Digital signature\") - [Kleptography](/wiki/Kleptography \"Kleptography\") - [Key (cryptography)](/wiki/Key_(cryptography) \"Key (cryptography)\") - [Key exchange](/wiki/Key_exchange \"Key exchange\") - [Key generator](/wiki/Key_generator \"Key generator\") - [Key schedule](/wiki/Key_schedule \"Key schedule\") - [Key stretching](/wiki/Key_stretching \"Key stretching\") - [Keygen](/wiki/Keygen \"Keygen\") - [Machines](/wiki/Template:Cryptography_machines \"Template:Cryptography machines\") - [Ransomware](/wiki/Ransomware \"Ransomware\") - [Random number generation](/wiki/Random_number_generation \"Random number generation\")   - [Cryptographically secure pseudorandom number generator](/wiki/Cryptographically_secure_pseudorandom_number_generator \"Cryptographically secure pseudorandom number generator\") (CSPRNG) - [Pseudorandom noise](/wiki/Pseudorandom_noise \"Pseudorandom noise\") (PRN) - [Secure channel](/wiki/Secure_channel \"Secure channel\") - [Insecure channel](/wiki/Insecure_channel \"Insecure channel\") - [Subliminal channel](/wiki/Subliminal_channel \"Subliminal channel\") - [Encryption](/wiki/Encryption \"Encryption\") - [Decryption](/wiki/Decryption \"Decryption\") - [End-to-end encryption](/wiki/End-to-end_encryption \"End-to-end encryption\") - [Harvest now, decrypt later](/wiki/Harvest_now,_decrypt_later \"Harvest now, decrypt later\") - [Information-theoretic security](/wiki/Information-theoretic_security \"Information-theoretic security\") - [Plaintext](/wiki/Plaintext \"Plaintext\") - [Codetext](/wiki/Codetext \"Codetext\") - [Ciphertext](/wiki/Ciphertext \"Ciphertext\") - [Shared secret](/wiki/Shared_secret \"Shared secret\") - [Trapdoor function](/wiki/Trapdoor_function \"Trapdoor function\") - [Trusted timestamping](/wiki/Trusted_timestamping \"Trusted timestamping\") - [Key-based routing](/wiki/Key-based_routing \"Key-based routing\") - [Onion routing](/wiki/Onion_routing \"Onion routing\") - [Garlic routing](/wiki/Garlic_routing \"Garlic routing\") - [Kademlia](/wiki/Kademlia \"Kademlia\") - [Mix network](/wiki/Mix_network \"Mix network\") | | Mathematics | - [Cryptographic hash function](/wiki/Cryptographic_hash_function \"Cryptographic hash function\") - [Block cipher](/wiki/Block_cipher \"Block cipher\") - [Stream cipher](/wiki/Stream_cipher \"Stream cipher\") - [Symmetric-key algorithm](/wiki/Symmetric-key_algorithm \"Symmetric-key algorithm\") - [Authenticated encryption](/wiki/Authenticated_encryption \"Authenticated encryption\") - [Public-key cryptography](/wiki/Public-key_cryptography \"Public-key cryptography\") - [Quantum key distribution](/wiki/Quantum_key_distribution \"Quantum key distribution\") - [Quantum cryptography](/wiki/Quantum_cryptography \"Quantum cryptography\") - [Post-quantum cryptography](/wiki/Post-quantum_cryptography \"Post-quantum cryptography\") - [Message authentication code](/wiki/Message_authentication_code \"Message authentication code\") - [Random numbers](/wiki/Cryptographically_secure_pseudorandom_number_generator \"Cryptographically secure pseudorandom number generator\") - [Steganography](/wiki/Steganography \"Steganography\") | | - ![Image](//upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail) [Category](/wiki/Category:Cryptography \"Category:Cryptography\") | | | |",
+    "word_count": 525,
+    "character_count": 5549,
+    "chunk_number": 3,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Batch cryptography",
+    "breadcrumb": "Category:Cryptography > Batch cryptography"
+  },
+  {
+    "chunk_id": "43092670_004",
+    "page_id": "43092670",
+    "title": "Batch cryptography",
+    "section": "References",
+    "heading_path": [
+      "References"
+    ],
+    "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Batch_cryptography",
+    "owner": null,
+    "status": null,
+    "audience": null,
+    "last_reviewed": null,
+    "text": "|  |  |\n| --- | --- |\n| [![Stub icon](//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Emoji_u1f510.svg/40px-Emoji_u1f510.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)](/wiki/File:Emoji_u1f510.svg) | This cryptography-related article is a [stub](/wiki/Wikipedia:Stub \"Wikipedia:Stub\"). You can help Wikipedia by [adding missing information](https://en.wikipedia.org/w/index.php?title=Batch_cryptography&action=edit). |\n\n- [v](/wiki/Template:Crypto-stub \"Template:Crypto-stub\")\n- [t](/wiki/Template_talk:Crypto-stub \"Template talk:Crypto-stub\")\n- [e](/wiki/Special:EditPage/Template:Crypto-stub \"Special:EditPage/Template:Crypto-stub\")",
+    "word_count": 88,
+    "character_count": 670,
+    "chunk_number": 4,
+    "total_chunks": 4,
+    "parent_page": "Category:Cryptography",
+    "child_page": "Batch cryptography",
+    "breadcrumb": "Category:Cryptography > Batch cryptography"
+  }
+]

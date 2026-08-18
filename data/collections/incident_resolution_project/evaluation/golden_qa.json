@@ -1,0 +1,107 @@
+{
+  "description": "Golden set for collection 'incident_resolution_project'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Who is the owner of the Incident Resolution Project?",
+      "relevant_page_ids": [
+        "2326666"
+      ],
+      "answer_keywords": [
+        "Owner",
+        "SRE"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What is the current status of the Incident Resolution Project?",
+      "relevant_page_ids": [
+        "2326666"
+      ],
+      "answer_keywords": [
+        "Status",
+        "ACTIVE"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who is responsible for owning the resolution process?",
+      "relevant_page_ids": [
+        "2326683"
+      ],
+      "answer_keywords": [
+        "Owner",
+        "On-call"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What are the common mitigation commands listed in the runbook?",
+      "relevant_page_ids": [
+        "2326683"
+      ],
+      "answer_keywords": [
+        "kubectl rollout undo",
+        "kubectl scale",
+        "mitigate"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What is the response time for a SEV2 incident?",
+      "relevant_page_ids": [
+        "2359384"
+      ],
+      "answer_keywords": [
+        "SEV2",
+        "30 min",
+        "response time"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "Who is responsible for incidents with severity SEV1 or SEV2?",
+      "relevant_page_ids": [
+        "2359384"
+      ],
+      "answer_keywords": [
+        "incident commander",
+        "SEV1",
+        "SEV2"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who is the owner of the postmortem template?",
+      "relevant_page_ids": [
+        "2424901"
+      ],
+      "answer_keywords": [
+        "Owner",
+        "SRE"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What are the main sections included in the postmortem template?",
+      "relevant_page_ids": [
+        "2424901"
+      ],
+      "answer_keywords": [
+        "Summary",
+        "Timeline",
+        "Root cause",
+        "Impact",
+        "Action items"
+      ],
+      "tag": "llm"
+    }
+  ]
+}
