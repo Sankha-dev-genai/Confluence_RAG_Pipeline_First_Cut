@@ -1,0 +1,67 @@
+{
+  "page_id": "679079",
+  "title": "Alice and Bob",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Alice and Bob",
+  "breadcrumb": "Category:Cryptography > Alice and Bob",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Alice_and_Bob",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Cast of characters"
+    },
+    {
+      "level": 3,
+      "text": "Cryptographic systems"
+    },
+    {
+      "level": 3,
+      "text": "Interactive proof systems"
+    },
+    {
+      "level": 3,
+      "text": "Physics"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "679079.md",
+  "character_count": 33324,
+  "word_count": 3119,
+  "extracted_at": "2026-08-17T15:57:16.716022+00:00"
+}

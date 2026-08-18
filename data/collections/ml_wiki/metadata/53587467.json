@@ -1,0 +1,207 @@
+{
+  "page_id": "53587467",
+  "title": "Outline of machine learning",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Outline of machine learning",
+  "breadcrumb": "Category:Machine_learning > Outline of machine learning",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=53587467",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "How can machine learning be categorized?"
+    },
+    {
+      "level": 3,
+      "text": "Paradigms of machine learning"
+    },
+    {
+      "level": 2,
+      "text": "Applications of machine learning"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning hardware"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning tools"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning frameworks"
+    },
+    {
+      "level": 4,
+      "text": "Proprietary machine learning frameworks"
+    },
+    {
+      "level": 4,
+      "text": "Open source machine learning frameworks"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning libraries"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning algorithms"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning methods"
+    },
+    {
+      "level": 3,
+      "text": "Instance-based algorithm"
+    },
+    {
+      "level": 3,
+      "text": "Regression analysis"
+    },
+    {
+      "level": 3,
+      "text": "Dimensionality reduction"
+    },
+    {
+      "level": 3,
+      "text": "Ensemble learning"
+    },
+    {
+      "level": 3,
+      "text": "Meta-learning"
+    },
+    {
+      "level": 3,
+      "text": "Reinforcement learning"
+    },
+    {
+      "level": 3,
+      "text": "Supervised learning"
+    },
+    {
+      "level": 4,
+      "text": "Bayesian"
+    },
+    {
+      "level": 4,
+      "text": "Decision tree algorithms"
+    },
+    {
+      "level": 4,
+      "text": "Linear classifier"
+    },
+    {
+      "level": 3,
+      "text": "Unsupervised learning"
+    },
+    {
+      "level": 4,
+      "text": "Artificial neural networks"
+    },
+    {
+      "level": 4,
+      "text": "Association rule learning"
+    },
+    {
+      "level": 4,
+      "text": "Hierarchical clustering"
+    },
+    {
+      "level": 4,
+      "text": "Cluster analysis"
+    },
+    {
+      "level": 4,
+      "text": "Anomaly detection"
+    },
+    {
+      "level": 3,
+      "text": "Semi-supervised learning"
+    },
+    {
+      "level": 3,
+      "text": "Deep learning"
+    },
+    {
+      "level": 3,
+      "text": "Other machine learning methods and problems"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning research"
+    },
+    {
+      "level": 2,
+      "text": "History of machine learning"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning projects"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning organizations"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning conferences and workshops"
+    },
+    {
+      "level": 2,
+      "text": "Machine learning publications"
+    },
+    {
+      "level": 3,
+      "text": "Books on machine learning"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning journals"
+    },
+    {
+      "level": 2,
+      "text": "Persons influential in machine learning"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 3,
+      "text": "Other"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "53587467.md",
+  "character_count": 114353,
+  "word_count": 8540,
+  "extracted_at": "2026-08-16T10:51:26.602804+00:00"
+}

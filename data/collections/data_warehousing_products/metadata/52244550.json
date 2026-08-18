@@ -1,0 +1,51 @@
+{
+  "page_id": "52244550",
+  "title": "ClickHouse",
+  "parent_page": "Category:Data warehousing products",
+  "child_page": "ClickHouse",
+  "breadcrumb": "Category:Data warehousing products > ClickHouse",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/ClickHouse",
+  "space_key": null,
+  "space_name": "Category:Data warehousing products",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Data warehousing products"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Acquisitions"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "52244550.md",
+  "character_count": 15900,
+  "word_count": 1281,
+  "extracted_at": "2026-08-17T06:36:07.378281+00:00"
+}

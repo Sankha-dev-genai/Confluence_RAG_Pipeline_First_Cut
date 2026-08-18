@@ -1,0 +1,79 @@
+{
+  "page_id": "54666",
+  "title": "Anonymous remailer",
+  "parent_page": "Category:Cryptography",
+  "child_page": "Anonymous remailer",
+  "breadcrumb": "Category:Cryptography > Anonymous remailer",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Cryptography/Anonymous_remailer",
+  "space_key": null,
+  "space_name": "Category:Cryptography",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Cryptography"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Types of remailers"
+    },
+    {
+      "level": 3,
+      "text": "Pseudonymous remailers"
+    },
+    {
+      "level": 3,
+      "text": "Cypherpunk remailers"
+    },
+    {
+      "level": 3,
+      "text": "Mixmaster remailers"
+    },
+    {
+      "level": 3,
+      "text": "Mixminion remailers"
+    },
+    {
+      "level": 2,
+      "text": "Traceable remailers"
+    },
+    {
+      "level": 2,
+      "text": "Modern Tor-based and Mixnet alternatives"
+    },
+    {
+      "level": 2,
+      "text": "Web-based mailer"
+    },
+    {
+      "level": 2,
+      "text": "Remailer statistics"
+    },
+    {
+      "level": 2,
+      "text": "Remailer abuse and blocking by governments"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "54666.md",
+  "character_count": 16739,
+  "word_count": 1812,
+  "extracted_at": "2026-08-17T15:57:16.567993+00:00"
+}

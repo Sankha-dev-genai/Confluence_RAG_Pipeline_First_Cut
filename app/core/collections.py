@@ -121,5 +121,9 @@ def apply_source_config(entry: dict[str, Any], settings) -> None:
         for k in ("wiki_api_url", "wiki_base_url", "wiki_category"):
             if entry.get(k):
                 setattr(settings, k, entry[k])
+        if entry.get("wiki_titles"):
+            t = entry["wiki_titles"]
+            settings.wiki_titles = ([x.strip() for x in t.split(",") if x.strip()]
+                                    if isinstance(t, str) else list(t))
         if entry.get("wiki_page_limit"):
             settings.wiki_page_limit = int(entry["wiki_page_limit"])

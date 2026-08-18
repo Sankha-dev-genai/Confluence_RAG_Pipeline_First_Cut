@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326666_001",
+    "page_id": "2326666",
+    "title": "Incident Resolution Project",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326666",
+    "owner": "SRE",
+    "status": "ACTIVE",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | SRE |\n| Status | ACTIVE |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nRunbooks and procedures for detecting, resolving, and reviewing incidents.\n\n- Severity & Response\n- Resolution Runbook\n- Postmortem Template",
+    "word_count": 28,
+    "character_count": 264,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Overview",
+    "child_page": "Incident Resolution Project",
+    "breadcrumb": "Overview > Incident Resolution Project"
+  }
+]

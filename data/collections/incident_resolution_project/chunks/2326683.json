@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326683_001",
+    "page_id": "2326683",
+    "title": "Resolution Runbook",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326683",
+    "owner": "On-call",
+    "status": "CRITICAL",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | On-call |\n| Status | CRITICAL |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n1. Acknowledge the alert\n2. Declare severity and open a channel\n3. Mitigate (rollback / failover)\n4. Verify recovery\n5. Communicate resolution\n\n```\n# common mitigations\nkubectl rollout undo deployment/api\nkubectl scale deployment/api --replicas=6\n```",
+    "word_count": 48,
+    "character_count": 380,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Incident Resolution Project",
+    "child_page": "Resolution Runbook",
+    "breadcrumb": "Overview > Incident Resolution Project > Resolution Runbook"
+  }
+]

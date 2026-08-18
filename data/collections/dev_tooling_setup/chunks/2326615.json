@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2326615_001",
+    "page_id": "2326615",
+    "title": "Dev Tooling Setup",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2326615",
+    "owner": "Platform Team",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Platform Team |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\nHow to install and configure the core developer tools: Python, GitHub, GitLab, and GitHub Copilot.\n\n- Install Python\n- Set up GitHub & GitLab\n- Enable Copilot",
+    "word_count": 37,
+    "character_count": 295,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Overview",
+    "child_page": "Dev Tooling Setup",
+    "breadcrumb": "Overview > Dev Tooling Setup"
+  }
+]

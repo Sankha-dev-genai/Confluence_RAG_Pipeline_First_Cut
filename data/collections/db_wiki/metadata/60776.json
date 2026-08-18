@@ -1,0 +1,91 @@
+{
+  "page_id": "60776",
+  "title": "ACID",
+  "parent_page": "Category:Database management systems",
+  "child_page": "ACID",
+  "breadcrumb": "Category:Database management systems > ACID",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=60776",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Characteristics"
+    },
+    {
+      "level": 3,
+      "text": "Atomicity"
+    },
+    {
+      "level": 3,
+      "text": "Consistency"
+    },
+    {
+      "level": 3,
+      "text": "Isolation"
+    },
+    {
+      "level": 3,
+      "text": "Durability"
+    },
+    {
+      "level": 2,
+      "text": "Examples"
+    },
+    {
+      "level": 3,
+      "text": "Atomicity"
+    },
+    {
+      "level": 3,
+      "text": "Consistency failure"
+    },
+    {
+      "level": 3,
+      "text": "Isolation failure"
+    },
+    {
+      "level": 3,
+      "text": "Durability failure"
+    },
+    {
+      "level": 2,
+      "text": "Implementation"
+    },
+    {
+      "level": 3,
+      "text": "Locking vs. multiversioning"
+    },
+    {
+      "level": 3,
+      "text": "Distributed transactions"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "60776.md",
+  "character_count": 29185,
+  "word_count": 3053,
+  "extracted_at": "2026-08-17T06:13:06.806254+00:00"
+}

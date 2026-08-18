@@ -1,0 +1,43 @@
+{
+  "description": "Golden set for collection 'postgresql_wiki'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Who develops PostgreSQL?",
+      "relevant_page_ids": [
+        "23824"
+      ],
+      "answer_keywords": [
+        "PostgreSQL Global Development Group",
+        "developer"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What is the stable release version of PostgreSQL?",
+      "relevant_page_ids": [
+        "23824"
+      ],
+      "answer_keywords": [
+        "18.6",
+        "stable release",
+        "13 August 2026"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What is the latest stable release version of PostgreSQL?",
+      "relevant_page_ids": [
+        "23824"
+      ],
+      "answer_keywords": [
+        "18.6",
+        "stable release",
+        "13 August 2026"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

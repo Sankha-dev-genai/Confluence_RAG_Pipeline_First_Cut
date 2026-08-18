@@ -1,0 +1,41 @@
+{
+  "description": "Golden set for collection 'shah_rukh_khan'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "What honours has Shah Rukh Khan received?",
+      "relevant_page_ids": [
+        "352699"
+      ],
+      "answer_keywords": [
+        "Padma Shri",
+        "Order of Arts and Letters",
+        "Legion of Honour",
+        "National Film Award"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What is Shah Rukh Khan's role at Red Chillies Entertainment?",
+      "relevant_page_ids": [
+        "352699"
+      ],
+      "answer_keywords": [
+        "MD",
+        "Managing director",
+        "Red Chillies Entertainment"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "ask001",
+      "question": "How many movies Shah Rukh Khan has worked on?",
+      "relevant_page_ids": [
+        "352699"
+      ],
+      "answer_keywords": [],
+      "tag": "from_ask"
+    }
+  ]
+}

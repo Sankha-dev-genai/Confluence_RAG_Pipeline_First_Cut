@@ -1,0 +1,71 @@
+{
+  "page_id": "75659158",
+  "title": "DBOS",
+  "parent_page": "Category:Operating systems",
+  "child_page": "DBOS",
+  "breadcrumb": "Category:Operating systems > DBOS",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Operating_systems/DBOS",
+  "space_key": null,
+  "space_name": "Category:Operating systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Operating systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "2020: Academic R&D Project"
+    },
+    {
+      "level": 4,
+      "text": "See also"
+    },
+    {
+      "level": 3,
+      "text": "2023: DBOS, Inc."
+    },
+    {
+      "level": 2,
+      "text": "Durable Execution"
+    },
+    {
+      "level": 3,
+      "text": "Examples"
+    },
+    {
+      "level": 4,
+      "text": "Example 1: Durable Workflows"
+    },
+    {
+      "level": 4,
+      "text": "Example 2: Queues and Concurrency"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "75659158.md",
+  "character_count": 8167,
+  "word_count": 829,
+  "extracted_at": "2026-08-17T15:48:26.782118+00:00"
+}

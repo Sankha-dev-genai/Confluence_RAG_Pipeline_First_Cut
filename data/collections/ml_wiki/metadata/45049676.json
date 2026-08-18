@@ -1,0 +1,175 @@
+{
+  "page_id": "45049676",
+  "title": "Adversarial machine learning",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Adversarial machine learning",
+  "breadcrumb": "Category:Machine_learning > Adversarial machine learning",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=45049676",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Examples"
+    },
+    {
+      "level": 2,
+      "text": "Challenges in applying machine learning to security"
+    },
+    {
+      "level": 3,
+      "text": "Data collection issues"
+    },
+    {
+      "level": 3,
+      "text": "Labeling and ground truth challenges"
+    },
+    {
+      "level": 3,
+      "text": "Concept drift"
+    },
+    {
+      "level": 3,
+      "text": "Feature robustness"
+    },
+    {
+      "level": 3,
+      "text": "Class imbalance"
+    },
+    {
+      "level": 3,
+      "text": "System design and learning"
+    },
+    {
+      "level": 3,
+      "text": "Performance evaluation"
+    },
+    {
+      "level": 3,
+      "text": "Deployment and operation"
+    },
+    {
+      "level": 2,
+      "text": "Attack modalities"
+    },
+    {
+      "level": 3,
+      "text": "Taxonomy"
+    },
+    {
+      "level": 3,
+      "text": "Strategies"
+    },
+    {
+      "level": 4,
+      "text": "Data poisoning"
+    },
+    {
+      "level": 4,
+      "text": "Byzantine attacks"
+    },
+    {
+      "level": 4,
+      "text": "Evasion"
+    },
+    {
+      "level": 4,
+      "text": "Model extraction"
+    },
+    {
+      "level": 2,
+      "text": "Categories"
+    },
+    {
+      "level": 3,
+      "text": "Adversarial attacks and training in linear models"
+    },
+    {
+      "level": 3,
+      "text": "Adversarial deep reinforcement learning"
+    },
+    {
+      "level": 3,
+      "text": "Adversarial natural language processing"
+    },
+    {
+      "level": 2,
+      "text": "Specific attack types"
+    },
+    {
+      "level": 3,
+      "text": "Adversarial examples"
+    },
+    {
+      "level": 4,
+      "text": "Black box attacks"
+    },
+    {
+      "level": 5,
+      "text": "Simple black-box adversarial attacks"
+    },
+    {
+      "level": 5,
+      "text": "Square attack"
+    },
+    {
+      "level": 5,
+      "text": "HopSkipJump attack"
+    },
+    {
+      "level": 4,
+      "text": "White box attacks"
+    },
+    {
+      "level": 5,
+      "text": "Fast gradient sign method"
+    },
+    {
+      "level": 5,
+      "text": "Carlini & Wagner"
+    },
+    {
+      "level": 2,
+      "text": "Defenses"
+    },
+    {
+      "level": 3,
+      "text": "Mechanisms"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "45049676.md",
+  "character_count": 146601,
+  "word_count": 12409,
+  "extracted_at": "2026-08-16T10:51:26.308719+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "page_id": "30511763",
+  "title": "AIXI",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "AIXI",
+  "breadcrumb": "Category:Machine_learning > AIXI",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=30511763",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Etymology"
+    },
+    {
+      "level": 2,
+      "text": "Definition"
+    },
+    {
+      "level": 3,
+      "text": "Parameters"
+    },
+    {
+      "level": 2,
+      "text": "Optimality"
+    },
+    {
+      "level": 2,
+      "text": "Computational aspects"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "30511763.md",
+  "character_count": 27794,
+  "word_count": 2513,
+  "extracted_at": "2026-08-16T10:51:26.085696+00:00"
+}

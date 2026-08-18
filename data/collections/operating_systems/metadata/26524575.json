@@ -1,0 +1,203 @@
+{
+  "page_id": "26524575",
+  "title": "Distributed operating system",
+  "parent_page": "Category:Operating systems",
+  "child_page": "Distributed operating system",
+  "breadcrumb": "Category:Operating systems > Distributed operating system",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Operating_systems/Distributed_operating_system",
+  "space_key": null,
+  "space_name": "Category:Operating systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Operating systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Description"
+    },
+    {
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "level": 3,
+      "text": "The kernel"
+    },
+    {
+      "level": 3,
+      "text": "System management"
+    },
+    {
+      "level": 3,
+      "text": "Working together as an operating system"
+    },
+    {
+      "level": 3,
+      "text": "The price of complexity"
+    },
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "The DYSEAC"
+    },
+    {
+      "level": 3,
+      "text": "Lincoln TX-2"
+    },
+    {
+      "level": 3,
+      "text": "Intercommunicating Cells"
+    },
+    {
+      "level": 3,
+      "text": "Foundational work"
+    },
+    {
+      "level": 4,
+      "text": "Coherent memory abstraction"
+    },
+    {
+      "level": 4,
+      "text": "File System abstraction"
+    },
+    {
+      "level": 4,
+      "text": "Transaction abstraction"
+    },
+    {
+      "level": 4,
+      "text": "Persistence abstraction"
+    },
+    {
+      "level": 4,
+      "text": "Coordinator abstraction"
+    },
+    {
+      "level": 4,
+      "text": "Reliability abstraction"
+    },
+    {
+      "level": 2,
+      "text": "Distributed computing models"
+    },
+    {
+      "level": 3,
+      "text": "Three basic distributions"
+    },
+    {
+      "level": 4,
+      "text": "Organization"
+    },
+    {
+      "level": 4,
+      "text": "Connection"
+    },
+    {
+      "level": 4,
+      "text": "Control"
+    },
+    {
+      "level": 2,
+      "text": "Design considerations"
+    },
+    {
+      "level": 3,
+      "text": "Transparency"
+    },
+    {
+      "level": 3,
+      "text": "Inter-process communication"
+    },
+    {
+      "level": 3,
+      "text": "Process management"
+    },
+    {
+      "level": 3,
+      "text": "Resource management"
+    },
+    {
+      "level": 3,
+      "text": "Reliability"
+    },
+    {
+      "level": 3,
+      "text": "Availability"
+    },
+    {
+      "level": 3,
+      "text": "Performance"
+    },
+    {
+      "level": 3,
+      "text": "Synchronization"
+    },
+    {
+      "level": 3,
+      "text": "Flexibility"
+    },
+    {
+      "level": 2,
+      "text": "Research"
+    },
+    {
+      "level": 3,
+      "text": "Replicated model extended to a component object model"
+    },
+    {
+      "level": 3,
+      "text": "Complexity/Trust exposure through accepted responsibility"
+    },
+    {
+      "level": 3,
+      "text": "Multi/Many-core focused systems"
+    },
+    {
+      "level": 3,
+      "text": "Distributed processing over extremes in heterogeneity"
+    },
+    {
+      "level": 3,
+      "text": "Effective and stable in multiple levels of complexity"
+    },
+    {
+      "level": 3,
+      "text": "Dispersed operating system computing"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "26524575.md",
+  "character_count": 62441,
+  "word_count": 6591,
+  "extracted_at": "2026-08-17T15:48:25.527720+00:00"
+}

@@ -86,6 +86,7 @@ class Settings(BaseModel):
     wiki_base_url: str | None = None     # e.g. https://en.wikipedia.org/wiki
     wiki_namespace: int = 0
     wiki_category: str | None = None     # optional: only pages in this category
+    wiki_titles: list[str] | None = None # optional: ingest ONLY these exact page titles
     wiki_page_limit: int = 200
 
     # --- LLM ---
@@ -126,6 +127,8 @@ class Settings(BaseModel):
             wiki_base_url=g("WIKI_BASE_URL"),
             wiki_namespace=_int("WIKI_NAMESPACE", "0"),
             wiki_category=g("WIKI_CATEGORY"),
+            wiki_titles=([t.strip() for t in g("WIKI_TITLES").split(",") if t.strip()]
+                         if g("WIKI_TITLES") else None),
             wiki_page_limit=_int("WIKI_PAGE_LIMIT", "200"),
             llm_provider=g("LLM_PROVIDER", "openai"),
             openai_api_key=g("OPENAI_API_KEY"),

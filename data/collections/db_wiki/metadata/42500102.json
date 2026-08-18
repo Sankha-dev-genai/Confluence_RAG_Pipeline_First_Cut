@@ -1,0 +1,47 @@
+{
+  "page_id": "42500102",
+  "title": "List of column-oriented DBMSes",
+  "parent_page": "Category:Database management systems",
+  "child_page": "List of column-oriented DBMSes",
+  "breadcrumb": "Category:Database management systems > List of column-oriented DBMSes",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=42500102",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Free and open-source software (FOSS)"
+    },
+    {
+      "level": 2,
+      "text": "Platform as a Service (PaaS)"
+    },
+    {
+      "level": 2,
+      "text": "Proprietary"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "42500102.md",
+  "character_count": 5645,
+  "word_count": 612,
+  "extracted_at": "2026-08-17T06:13:06.421101+00:00"
+}

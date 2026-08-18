@@ -1,0 +1,182 @@
+{
+  "description": "Golden set for collection 'product_faq'.",
+  "questions": [
+    {
+      "id": "auto001",
+      "question": "What information does the 'Product FAQ' page provide?",
+      "relevant_page_ids": [
+        "2326547"
+      ],
+      "answer_keywords": [
+        "Product",
+        "FAQ"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto002",
+      "question": "What information does the 'Accounts & Billing' page provide?",
+      "relevant_page_ids": [
+        "2424833"
+      ],
+      "answer_keywords": [
+        "Accounts",
+        "Billing"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto003",
+      "question": "What does the 'Common questions' section of 'Accounts & Billing' cover?",
+      "relevant_page_ids": [
+        "2424833"
+      ],
+      "answer_keywords": [
+        "Common",
+        "questions",
+        "Accounts",
+        "Billing"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto004",
+      "question": "What information does the 'Limits & Quotas' page provide?",
+      "relevant_page_ids": [
+        "2424850"
+      ],
+      "answer_keywords": [
+        "Limits",
+        "Quotas"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto005",
+      "question": "What information does the 'Features & Usage' page provide?",
+      "relevant_page_ids": [
+        "2457601"
+      ],
+      "answer_keywords": [
+        "Features",
+        "Usage"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "auto006",
+      "question": "What does the 'Usage' section of 'Features & Usage' cover?",
+      "relevant_page_ids": [
+        "2457601"
+      ],
+      "answer_keywords": [
+        "Usage",
+        "Features"
+      ],
+      "tag": "auto"
+    },
+    {
+      "id": "llm001",
+      "question": "What themes are the FAQs about on the Product FAQ page?",
+      "relevant_page_ids": [
+        "2326547"
+      ],
+      "answer_keywords": [
+        "Accounts & Billing",
+        "Features & Usage",
+        "Limits & Quotas"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "When was the Product FAQ page last reviewed?",
+      "relevant_page_ids": [
+        "2326547"
+      ],
+      "answer_keywords": [
+        "2026-08-16",
+        "Last reviewed"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "How do I change my subscription plan?",
+      "relevant_page_ids": [
+        "2424833"
+      ],
+      "answer_keywords": [
+        "Settings",
+        "Billing",
+        "Change plan"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What is the refund policy timeframe?",
+      "relevant_page_ids": [
+        "2424833"
+      ],
+      "answer_keywords": [
+        "refunds",
+        "14 days",
+        "purchase"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What is the maximum number of API calls per minute allowed on the Pro plan?",
+      "relevant_page_ids": [
+        "2424850"
+      ],
+      "answer_keywords": [
+        "Pro",
+        "600",
+        "API calls / min"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What happens if I exceed the API call limit?",
+      "relevant_page_ids": [
+        "2424850"
+      ],
+      "answer_keywords": [
+        "HTTP 429",
+        "retry",
+        "reset window"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "What are the main steps to use the product?",
+      "relevant_page_ids": [
+        "2457601"
+      ],
+      "answer_keywords": [
+        "Create a project",
+        "Invite teammates",
+        "Connect data source",
+        "Publish"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "Where can I find keyboard shortcuts for the product?",
+      "relevant_page_ids": [
+        "2457601"
+      ],
+      "answer_keywords": [
+        "Help",
+        "Shortcuts"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

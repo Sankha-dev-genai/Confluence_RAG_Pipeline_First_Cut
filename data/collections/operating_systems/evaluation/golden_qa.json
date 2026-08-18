@@ -1,0 +1,383 @@
+{
+  "description": "Golden set for collection 'operating_systems'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "What is the global market share of Android among all devices connecting to the web as of December 2025?",
+      "relevant_page_ids": [
+        "11381701"
+      ],
+      "answer_keywords": [
+        "Android",
+        "34.9%",
+        "global market",
+        "December 2025"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "Which operating system has the highest market share for desktop computers and laptops as of June 2026?",
+      "relevant_page_ids": [
+        "11381701"
+      ],
+      "answer_keywords": [
+        "Windows",
+        "62.16%",
+        "desktop",
+        "June 2026"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "What is the Human68k page redirected to?",
+      "relevant_page_ids": [
+        "2014529"
+      ],
+      "answer_keywords": [
+        "redirect",
+        "X68000",
+        "Operating system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "Where can I find information about the Human68k operating system?",
+      "relevant_page_ids": [
+        "2014529"
+      ],
+      "answer_keywords": [
+        "Human68k",
+        "redirect",
+        "X68000 Operating system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "What is the role of an operating system in managing hardware and software?",
+      "relevant_page_ids": [
+        "22194"
+      ],
+      "answer_keywords": [
+        "manages hardware",
+        "manages software",
+        "intermediary",
+        "system calls"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "Which operating system had the largest market share as of November 2025?",
+      "relevant_page_ids": [
+        "22194"
+      ],
+      "answer_keywords": [
+        "Android",
+        "38% market share",
+        "most popular"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Which operating system was developed by Maurice Wilkes and manufactured by the University of Cambridge?",
+      "relevant_page_ids": [
+        "247968"
+      ],
+      "answer_keywords": [
+        "EDSAC",
+        "Maurice Wilkes",
+        "University of Cambridge"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What was the name of the commercial development of the EDSAC computing platform supported by J. Lyons and Co.?",
+      "relevant_page_ids": [
+        "247968"
+      ],
+      "answer_keywords": [
+        "LEO I",
+        "EDSAC",
+        "J. Lyons and Co."
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm009",
+      "question": "What components make up the software subset on each node in a distributed operating system?",
+      "relevant_page_ids": [
+        "26524575"
+      ],
+      "answer_keywords": [
+        "microkernel",
+        "system management components",
+        "software subset",
+        "node"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm010",
+      "question": "How does a distributed operating system appear to users despite consisting of multiple nodes?",
+      "relevant_page_ids": [
+        "26524575"
+      ],
+      "answer_keywords": [
+        "single system image",
+        "transparency",
+        "single-node appearance",
+        "global system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm011",
+      "question": "Which companies have been involved in the development of RISC OS?",
+      "relevant_page_ids": [
+        "32304306"
+      ],
+      "answer_keywords": [
+        "Acorn Computers",
+        "Element 14",
+        "RISCOS Ltd",
+        "Castle Technology"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm012",
+      "question": "What are some of the major versions of RISC OS released between 1986 and 2024?",
+      "relevant_page_ids": [
+        "32304306"
+      ],
+      "answer_keywords": [
+        "Arthur 1.2",
+        "3.5",
+        "4.39",
+        "5.30"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm013",
+      "question": "What is an Internet OS designed to run its applications through?",
+      "relevant_page_ids": [
+        "32429305"
+      ],
+      "answer_keywords": [
+        "Internet client",
+        "web browser",
+        "thin client"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm014",
+      "question": "Who announced products to transform their browser into an Internet OS during the browser wars?",
+      "relevant_page_ids": [
+        "32429305"
+      ],
+      "answer_keywords": [
+        "Marc Andreessen",
+        "Netscape",
+        "Internet OS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm015",
+      "question": "What are the advantages of running software on a bare machine compared to using an operating system?",
+      "relevant_page_ids": [
+        "33699676"
+      ],
+      "answer_keywords": [
+        "faster",
+        "less memory",
+        "power efficient",
+        "no OS vulnerabilities"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm016",
+      "question": "Why is debugging a bare-metal program more complicated than debugging software running on an operating system?",
+      "relevant_page_ids": [
+        "33699676"
+      ],
+      "answer_keywords": [
+        "lack of standard output",
+        "different target hardware",
+        "flashing",
+        "access target resources"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm017",
+      "question": "What is an access token in Microsoft Windows operating systems?",
+      "relevant_page_ids": [
+        "42100545"
+      ],
+      "answer_keywords": [
+        "access token",
+        "security credentials",
+        "login session"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm018",
+      "question": "What tasks do daemons perform in operating systems?",
+      "relevant_page_ids": [
+        "42100545"
+      ],
+      "answer_keywords": [
+        "daemon",
+        "network requests",
+        "hardware activity",
+        "scheduled tasks"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm019",
+      "question": "What operating systems did the Holborn 9100 support?",
+      "relevant_page_ids": [
+        "54407764"
+      ],
+      "answer_keywords": [
+        "CP/M",
+        "Holborn OS",
+        "operating system"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm020",
+      "question": "How many Holborn 9100 units were sold before the company went bankrupt?",
+      "relevant_page_ids": [
+        "54407764"
+      ],
+      "answer_keywords": [
+        "200 units",
+        "sold",
+        "bankruptcy",
+        "1983"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm021",
+      "question": "What are the current market shares of major desktop operating systems as of June 2024?",
+      "relevant_page_ids": [
+        "67094405"
+      ],
+      "answer_keywords": [
+        "Windows 72.91%",
+        "macOS 14.93%",
+        "Linux 4.04%"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm022",
+      "question": "Which operating systems dominate the mobile sector including smartphones and tablets?",
+      "relevant_page_ids": [
+        "67094405"
+      ],
+      "answer_keywords": [
+        "Android 71%",
+        "iOS 28%"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm023",
+      "question": "Which operating systems did Apple develop for the iPhone and iPod Touch?",
+      "relevant_page_ids": [
+        "71916"
+      ],
+      "answer_keywords": [
+        "iOS",
+        "iPadOS",
+        "watchOS",
+        "tvOS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm024",
+      "question": "Name some operating systems developed by Acorn Computers.",
+      "relevant_page_ids": [
+        "71916"
+      ],
+      "answer_keywords": [
+        "Arthur",
+        "ARX",
+        "MOS",
+        "RISC OS"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm025",
+      "question": "Which programming languages does the DBOS library support?",
+      "relevant_page_ids": [
+        "75659158"
+      ],
+      "answer_keywords": [
+        "Python",
+        "TypeScript",
+        "Java",
+        "Go"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm026",
+      "question": "What is the main concept behind the DBOS operating system architecture?",
+      "relevant_page_ids": [
+        "75659158"
+      ],
+      "answer_keywords": [
+        "database tables",
+        "stateless tasks",
+        "scalability",
+        "microkernel"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm027",
+      "question": "What maintenance issues are currently noted on the 'Comparison of operating systems' page?",
+      "relevant_page_ids": [
+        "981531"
+      ],
+      "answer_keywords": [
+        "multiple issues",
+        "original research",
+        "original synthesis"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm028",
+      "question": "Where can users discuss improvements or issues related to the 'Comparison of operating systems' article?",
+      "relevant_page_ids": [
+        "981531"
+      ],
+      "answer_keywords": [
+        "talk page",
+        "improve",
+        "discuss"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

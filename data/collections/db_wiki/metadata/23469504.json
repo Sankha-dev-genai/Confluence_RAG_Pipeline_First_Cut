@@ -1,0 +1,55 @@
+{
+  "page_id": "23469504",
+  "title": "AutoNumber",
+  "parent_page": "Category:Database management systems",
+  "child_page": "AutoNumber",
+  "breadcrumb": "Category:Database management systems > AutoNumber",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=23469504",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Forms"
+    },
+    {
+      "level": 2,
+      "text": "Use"
+    },
+    {
+      "level": 2,
+      "text": "Manipulation of counters using DDL"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "23469504.md",
+  "character_count": 20039,
+  "word_count": 1863,
+  "extracted_at": "2026-08-17T06:13:05.939092+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Golden set for collection 'kubernets_wiki'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Who originally authored Kubernetes?",
+      "relevant_page_ids": [
+        "43291963"
+      ],
+      "answer_keywords": [
+        "Google",
+        "Original author"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What license is Kubernetes released under?",
+      "relevant_page_ids": [
+        "43291963"
+      ],
+      "answer_keywords": [
+        "Apache License 2.0",
+        "License"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What programming language is Kubernetes written in?",
+      "relevant_page_ids": [
+        "43291963"
+      ],
+      "answer_keywords": [
+        "Go",
+        "programming language"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

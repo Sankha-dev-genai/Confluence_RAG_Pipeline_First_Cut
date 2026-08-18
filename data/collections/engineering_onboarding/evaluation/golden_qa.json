@@ -1,0 +1,159 @@
+{
+  "description": "Golden set for collection 'engineering_onboarding'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "How do I create and push a new feature branch?",
+      "relevant_page_ids": [
+        "2326632"
+      ],
+      "answer_keywords": [
+        "git checkout -b",
+        "git push -u origin",
+        "feature branch"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What are the steps required to complete a code review?",
+      "relevant_page_ids": [
+        "2326632"
+      ],
+      "answer_keywords": [
+        "pull request",
+        "CI checks",
+        "approval",
+        "squash and merge"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who is responsible for merging the pull request in the first contribution workflow?",
+      "relevant_page_ids": [
+        "2326649"
+      ],
+      "answer_keywords": [
+        "Reviewer",
+        "Merge",
+        "Approved"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What status indicates that the pull request is ready to be merged?",
+      "relevant_page_ids": [
+        "2326649"
+      ],
+      "answer_keywords": [
+        "CI green",
+        "Open PR",
+        "Done when"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm005",
+      "question": "Who owns the Engineering Onboarding documentation?",
+      "relevant_page_ids": [
+        "2359350"
+      ],
+      "answer_keywords": [
+        "Eng Enablement",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What topics are covered in the first two weeks for new engineers?",
+      "relevant_page_ids": [
+        "2359350"
+      ],
+      "answer_keywords": [
+        "environment",
+        "workflow",
+        "first tasks"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm007",
+      "question": "Who is the owner of the Week 1 Setup documentation?",
+      "relevant_page_ids": [
+        "2359367"
+      ],
+      "answer_keywords": [
+        "Eng Enablement",
+        "Owner"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What are the commands to run the app locally?",
+      "relevant_page_ids": [
+        "2359367"
+      ],
+      "answer_keywords": [
+        "make install",
+        "make test",
+        "make run"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm003",
+      "question": "Who is responsible for reviewing the first contribution?",
+      "relevant_page_ids": [
+        "2326649"
+      ],
+      "answer_keywords": [
+        "Reviewer",
+        "Merge",
+        "Approved"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm004",
+      "question": "What is the status of the 'First Contribution' documentation page?",
+      "relevant_page_ids": [
+        "2326649"
+      ],
+      "answer_keywords": [
+        "REVIEW",
+        "Status"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm006",
+      "question": "What topics are covered in the first two weeks as an engineer?",
+      "relevant_page_ids": [
+        "2359350"
+      ],
+      "answer_keywords": [
+        "environment",
+        "workflow",
+        "first tasks"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm008",
+      "question": "What is the command to run the app locally according to Week 1 Setup?",
+      "relevant_page_ids": [
+        "2359367"
+      ],
+      "answer_keywords": [
+        "make run",
+        "run app",
+        "command"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

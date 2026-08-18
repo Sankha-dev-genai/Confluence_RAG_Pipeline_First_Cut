@@ -1,0 +1,63 @@
+{
+  "page_id": "62566206",
+  "title": "AIOps",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "AIOps",
+  "breadcrumb": "Category:Machine_learning > AIOps",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=62566206",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "text": "Definition"
+    },
+    {
+      "level": 2,
+      "text": "Components"
+    },
+    {
+      "level": 2,
+      "text": "Comparison with DevOps"
+    },
+    {
+      "level": 2,
+      "text": "Results"
+    },
+    {
+      "level": 2,
+      "text": "AIOps vs. MLOps"
+    },
+    {
+      "level": 2,
+      "text": "Conferences"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "62566206.md",
+  "character_count": 15482,
+  "word_count": 1330,
+  "extracted_at": "2026-08-16T10:51:26.897281+00:00"
+}

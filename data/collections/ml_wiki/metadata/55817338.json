@@ -1,0 +1,231 @@
+{
+  "page_id": "55817338",
+  "title": "Algorithmic bias",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Algorithmic bias",
+  "breadcrumb": "Category:Machine_learning > Algorithmic bias",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=55817338",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Definitions"
+    },
+    {
+      "level": 2,
+      "text": "Methods"
+    },
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "Early critiques"
+    },
+    {
+      "level": 3,
+      "text": "Contemporary critiques and responses"
+    },
+    {
+      "level": 2,
+      "text": "Types"
+    },
+    {
+      "level": 3,
+      "text": "Pre-existing"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning bias"
+    },
+    {
+      "level": 4,
+      "text": "Language bias"
+    },
+    {
+      "level": 4,
+      "text": "Selection bias"
+    },
+    {
+      "level": 4,
+      "text": "Gender bias"
+    },
+    {
+      "level": 4,
+      "text": "Stereotyping"
+    },
+    {
+      "level": 4,
+      "text": "Political bias"
+    },
+    {
+      "level": 4,
+      "text": "Racial bias"
+    },
+    {
+      "level": 4,
+      "text": "Speciesist bias"
+    },
+    {
+      "level": 3,
+      "text": "Technical"
+    },
+    {
+      "level": 3,
+      "text": "Emergent"
+    },
+    {
+      "level": 4,
+      "text": "Correlations"
+    },
+    {
+      "level": 4,
+      "text": "Unanticipated uses"
+    },
+    {
+      "level": 4,
+      "text": "Feedback loops"
+    },
+    {
+      "level": 2,
+      "text": "Impact"
+    },
+    {
+      "level": 3,
+      "text": "Commercial influences"
+    },
+    {
+      "level": 3,
+      "text": "Voting behavior"
+    },
+    {
+      "level": 3,
+      "text": "Gender discrimination"
+    },
+    {
+      "level": 3,
+      "text": "Racial and ethnic discrimination"
+    },
+    {
+      "level": 4,
+      "text": "Law enforcement and legal proceedings"
+    },
+    {
+      "level": 4,
+      "text": "Online hate speech"
+    },
+    {
+      "level": 4,
+      "text": "Surveillance"
+    },
+    {
+      "level": 3,
+      "text": "Discrimination against the LGBTQ community"
+    },
+    {
+      "level": 3,
+      "text": "Disability discrimination"
+    },
+    {
+      "level": 3,
+      "text": "Google Search"
+    },
+    {
+      "level": 2,
+      "text": "Obstacles to research"
+    },
+    {
+      "level": 3,
+      "text": "Defining fairness"
+    },
+    {
+      "level": 3,
+      "text": "Complexity"
+    },
+    {
+      "level": 3,
+      "text": "Lack of transparency"
+    },
+    {
+      "level": 3,
+      "text": "Lack of data about sensitive categories"
+    },
+    {
+      "level": 2,
+      "text": "Solutions"
+    },
+    {
+      "level": 3,
+      "text": "Technical"
+    },
+    {
+      "level": 3,
+      "text": "Transparency and monitoring"
+    },
+    {
+      "level": 3,
+      "text": "Documentation and accountability frameworks"
+    },
+    {
+      "level": 3,
+      "text": "Right to remedy"
+    },
+    {
+      "level": 3,
+      "text": "Diversity and inclusion"
+    },
+    {
+      "level": 3,
+      "text": "Interdisciplinarity and Collaboration"
+    },
+    {
+      "level": 2,
+      "text": "Regulation"
+    },
+    {
+      "level": 3,
+      "text": "Europe"
+    },
+    {
+      "level": 3,
+      "text": "United States"
+    },
+    {
+      "level": 3,
+      "text": "India"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "55817338.md",
+  "character_count": 198169,
+  "word_count": 18853,
+  "extracted_at": "2026-08-16T10:51:26.778678+00:00"
+}

@@ -10,21 +10,16 @@ Stages:  connect -> tree -> download -> clean -> metadata -> chunk -> embed -> i
 Usage:
     python main.py                                   # ingest the 'default' collection
     python main.py --collection eng_wiki             # ingest a named collection
-    python main.py --collection eng_wiki --steps chunk embed index
+    python main.py --collection eng_wiki --steps embed index
     python main.py --list-collections
     python main.py --add-collection eng_wiki --source mediawiki \
                    --wiki-api-url https://en.wikipedia.org/w/api.php \
                    --wiki-category Category:Machine_learning
-    python main.py --add-collection space2 --source confluence \
-                   --confluence-base-url https://site.atlassian.net \
-                   --parent-page-id 12345 --token-env CONFLUENCE_API_TOKEN
-    python main.py --list-steps
 """
 from __future__ import annotations
 
 import argparse
 import os
-import sys
 
 # --- choose the active collection BEFORE importing config (paths depend on it) ---
 _pre = argparse.ArgumentParser(add_help=False)
@@ -32,10 +27,11 @@ _pre.add_argument("--collection", default="default")
 _known, _ = _pre.parse_known_args()
 os.environ["COLLECTION"] = _known.collection
 
-from app.core.config import settings                       # noqa: E402
-from app.core.exceptions import IngestionError             # noqa: E402
-from app.core.logger import get_logger                     # noqa: E402
-from app.core import collections as col                    # noqa: E402
+import app.core.config as cfg                                # noqa: E402
+from app.core.config import settings                         # noqa: E402
+from app.core.exceptions import IngestionError               # noqa: E402
+from app.core.logger import get_logger                       # noqa: E402
+from app.core import collections as col                      # noqa: E402
 
 log = get_logger("pipeline")
 
@@ -75,13 +71,18 @@ def stage_chunk(state):
 
 
 def stage_embed(state):
+    # IMPORTANT: use the ACTIVE collection's directories (env-switched via cfg),
+    # not the class defaults, so a named collection isn't embedded into 'default'.
     from app.embeddings.embedding_generator import EmbeddingGenerator
-    EmbeddingGenerator().process_all(); log.info("Embeddings generated.")
+    EmbeddingGenerator(chunk_dir=cfg.CHUNKS_DIR,
+                       output_dir=cfg.VECTORSTORE_DIR).process_all()
+    log.info(f"Embeddings generated -> {cfg.VECTORSTORE_DIR}")
 
 
 def stage_index(state):
     from app.embeddings.vector_store import VectorStore
-    VectorStore().build_index(); log.info("FAISS index built.")
+    VectorStore(str(cfg.VECTORSTORE_DIR)).build_index()
+    log.info(f"FAISS index built -> {cfg.VECTORSTORE_DIR}")
 
 
 STAGES = {"connect": stage_connect, "tree": stage_tree, "download": stage_download,
@@ -111,13 +112,13 @@ def main():
     p.add_argument("--steps", nargs="+", choices=list(STAGES), help="subset of stages")
     p.add_argument("--list-steps", action="store_true")
     p.add_argument("--list-collections", action="store_true")
-    # collection registration
     p.add_argument("--add-collection", metavar="NAME", help="register a new collection")
     p.add_argument("--title"); p.add_argument("--description", default="")
     p.add_argument("--confluence-base-url"); p.add_argument("--confluence-email")
     p.add_argument("--parent-page-id"); p.add_argument("--token-env", default="CONFLUENCE_API_TOKEN")
     p.add_argument("--wiki-api-url"); p.add_argument("--wiki-base-url")
     p.add_argument("--wiki-category"); p.add_argument("--wiki-page-limit", type=int)
+    p.add_argument("--wiki-titles", help="comma-separated exact page titles (single/multi page mode)")
     args = p.parse_args()
 
     if args.list_collections:
@@ -130,18 +131,18 @@ def main():
 
     if args.add_collection:
         src = args.source or ("mediawiki" if args.wiki_api_url else "confluence")
-        cfg = {}
         if src == "confluence":
-            cfg = {"confluence_base_url": args.confluence_base_url,
-                   "confluence_email": args.confluence_email,
-                   "confluence_parent_page_id": args.parent_page_id,
-                   "token_env": args.token_env}
+            cfgd = {"confluence_base_url": args.confluence_base_url,
+                    "confluence_email": args.confluence_email,
+                    "confluence_parent_page_id": args.parent_page_id,
+                    "token_env": args.token_env}
         else:
-            cfg = {"wiki_api_url": args.wiki_api_url, "wiki_base_url": args.wiki_base_url,
-                   "wiki_category": args.wiki_category, "wiki_page_limit": args.wiki_page_limit}
-        cfg = {k: v for k, v in cfg.items() if v is not None}
+            cfgd = {"wiki_api_url": args.wiki_api_url, "wiki_base_url": args.wiki_base_url,
+                    "wiki_category": args.wiki_category, "wiki_titles": args.wiki_titles,
+                    "wiki_page_limit": args.wiki_page_limit}
+        cfgd = {k: v for k, v in cfgd.items() if v is not None}
         entry = col.register_collection(args.add_collection, src, title=args.title,
-                                        description=args.description, **cfg)
+                                        description=args.description, **cfgd)
         print(f"Registered collection '{entry['name']}' [{src}].")
         print(f"Now ingest it:  python main.py --collection {entry['name']}")
         return
@@ -150,7 +151,6 @@ def main():
         print(f"Collection: {args.collection}  |  Stages:", " -> ".join(DEFAULT_ORDER))
         return
 
-    # apply this collection's registered source config (unless it's default)
     if args.collection != "default":
         entry = col.get_collection(args.collection)
         col.apply_source_config(entry, settings)

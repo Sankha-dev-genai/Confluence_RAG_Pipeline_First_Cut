@@ -1,0 +1,31 @@
+{
+  "description": "Golden set for collection 'snowflake_inc'.",
+  "questions": [
+    {
+      "id": "llm001",
+      "question": "Who are the founders of Snowflake Inc.?",
+      "relevant_page_ids": [
+        "47443042"
+      ],
+      "answer_keywords": [
+        "Benoît Dageville",
+        "Thierry Cruanes",
+        "Marcin Żukowski"
+      ],
+      "tag": "llm"
+    },
+    {
+      "id": "llm002",
+      "question": "What was Snowflake Inc.'s revenue in 2026?",
+      "relevant_page_ids": [
+        "47443042"
+      ],
+      "answer_keywords": [
+        "US$4.68 billion",
+        "2026",
+        "revenue"
+      ],
+      "tag": "llm"
+    }
+  ]
+}

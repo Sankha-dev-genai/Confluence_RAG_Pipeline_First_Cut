@@ -1,0 +1,175 @@
+{
+  "page_id": "8377",
+  "title": "Database",
+  "parent_page": "Category:Database management systems",
+  "child_page": "Database",
+  "breadcrumb": "Category:Database management systems > Database",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=8377",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Terminology"
+    },
+    {
+      "level": 2,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "text": "1960s, navigational DBMS"
+    },
+    {
+      "level": 3,
+      "text": "1970s, relational DBMS"
+    },
+    {
+      "level": 3,
+      "text": "Integrated approach"
+    },
+    {
+      "level": 3,
+      "text": "Late 1970s, SQL DBMS"
+    },
+    {
+      "level": 3,
+      "text": "1980s, on the desktop"
+    },
+    {
+      "level": 3,
+      "text": "1990s, object-oriented"
+    },
+    {
+      "level": 3,
+      "text": "2000s, NoSQL and NewSQL"
+    },
+    {
+      "level": 2,
+      "text": "Use cases"
+    },
+    {
+      "level": 2,
+      "text": "Classification terms"
+    },
+    {
+      "level": 2,
+      "text": "Database management system"
+    },
+    {
+      "level": 2,
+      "text": "Application"
+    },
+    {
+      "level": 3,
+      "text": "Application program interface"
+    },
+    {
+      "level": 2,
+      "text": "Database languages"
+    },
+    {
+      "level": 2,
+      "text": "Storage"
+    },
+    {
+      "level": 3,
+      "text": "Materialized views"
+    },
+    {
+      "level": 3,
+      "text": "Replication"
+    },
+    {
+      "level": 3,
+      "text": "Virtualization"
+    },
+    {
+      "level": 2,
+      "text": "Security"
+    },
+    {
+      "level": 2,
+      "text": "Transactions and concurrency"
+    },
+    {
+      "level": 2,
+      "text": "Migration"
+    },
+    {
+      "level": 2,
+      "text": "Building, maintaining, and tuning"
+    },
+    {
+      "level": 2,
+      "text": "Backup and restore"
+    },
+    {
+      "level": 2,
+      "text": "Static analysis"
+    },
+    {
+      "level": 2,
+      "text": "Miscellaneous features"
+    },
+    {
+      "level": 2,
+      "text": "Design and modeling"
+    },
+    {
+      "level": 3,
+      "text": "Models"
+    },
+    {
+      "level": 3,
+      "text": "External, conceptual, and internal views"
+    },
+    {
+      "level": 2,
+      "text": "Research"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "Notes"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Sources"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "8377.md",
+  "character_count": 146090,
+  "word_count": 14628,
+  "extracted_at": "2026-08-17T06:13:07.028722+00:00"
+}

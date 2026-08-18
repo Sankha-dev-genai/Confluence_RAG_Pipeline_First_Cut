@@ -1,0 +1,107 @@
+{
+  "page_id": "50773876",
+  "title": "Algorithm selection",
+  "parent_page": "Category:Machine_learning",
+  "child_page": "Algorithm selection",
+  "breadcrumb": "Category:Machine_learning > Algorithm selection",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=50773876",
+  "space_key": null,
+  "space_name": "Category:Machine_learning",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Machine_learning"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Definition"
+    },
+    {
+      "level": 2,
+      "text": "Examples"
+    },
+    {
+      "level": 3,
+      "text": "Boolean satisfiability problem (and other hard combinatorial problems)"
+    },
+    {
+      "level": 3,
+      "text": "Machine learning"
+    },
+    {
+      "level": 2,
+      "text": "Instance features"
+    },
+    {
+      "level": 3,
+      "text": "Static vs. probing features"
+    },
+    {
+      "level": 3,
+      "text": "Feature costs"
+    },
+    {
+      "level": 2,
+      "text": "Approaches"
+    },
+    {
+      "level": 3,
+      "text": "Regression approach"
+    },
+    {
+      "level": 3,
+      "text": "Clustering approach"
+    },
+    {
+      "level": 3,
+      "text": "Pairwise cost-sensitive classification approach"
+    },
+    {
+      "level": 2,
+      "text": "Requirements"
+    },
+    {
+      "level": 2,
+      "text": "Application domains"
+    },
+    {
+      "level": 2,
+      "text": "Variants of algorithm selection"
+    },
+    {
+      "level": 3,
+      "text": "Online selection"
+    },
+    {
+      "level": 3,
+      "text": "Computation of schedules"
+    },
+    {
+      "level": 3,
+      "text": "Selection of parallel portfolios"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "50773876.md",
+  "character_count": 22329,
+  "word_count": 2102,
+  "extracted_at": "2026-08-16T10:51:26.455097+00:00"
+}

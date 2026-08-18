@@ -1,0 +1,79 @@
+{
+  "page_id": "36394365",
+  "title": "Array DBMS",
+  "parent_page": "Category:Database management systems",
+  "child_page": "Array DBMS",
+  "breadcrumb": "Category:Database management systems > Array DBMS",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=36394365",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "text": "History and status"
+    },
+    {
+      "level": 2,
+      "text": "Concepts"
+    },
+    {
+      "level": 3,
+      "text": "Conceptual modeling"
+    },
+    {
+      "level": 3,
+      "text": "Array querying"
+    },
+    {
+      "level": 3,
+      "text": "Array storage"
+    },
+    {
+      "level": 3,
+      "text": "Query processing"
+    },
+    {
+      "level": 2,
+      "text": "Application domains"
+    },
+    {
+      "level": 2,
+      "text": "Standardization"
+    },
+    {
+      "level": 2,
+      "text": "List of array DBMSs"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "36394365.md",
+  "character_count": 29387,
+  "word_count": 3344,
+  "extracted_at": "2026-08-17T06:13:06.159818+00:00"
+}

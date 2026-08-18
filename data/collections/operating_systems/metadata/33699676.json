@@ -1,0 +1,67 @@
+{
+  "page_id": "33699676",
+  "title": "Bare machine",
+  "parent_page": "Category:Operating systems",
+  "child_page": "Bare machine",
+  "breadcrumb": "Category:Operating systems > Bare machine",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Operating_systems/Bare_machine",
+  "space_key": null,
+  "space_name": "Category:Operating systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Operating systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Bare machine computing"
+    },
+    {
+      "level": 2,
+      "text": "Advantages"
+    },
+    {
+      "level": 2,
+      "text": "Disadvantages"
+    },
+    {
+      "level": 2,
+      "text": "Examples"
+    },
+    {
+      "level": 3,
+      "text": "Early computers"
+    },
+    {
+      "level": 3,
+      "text": "Embedded systems"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "33699676.md",
+  "character_count": 7235,
+  "word_count": 707,
+  "extracted_at": "2026-08-17T15:48:25.954576+00:00"
+}

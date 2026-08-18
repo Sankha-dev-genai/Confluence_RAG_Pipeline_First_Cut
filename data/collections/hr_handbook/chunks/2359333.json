@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "2359333_001",
+    "page_id": "2359333",
+    "title": "Code of Conduct",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359333",
+    "owner": "People Ops",
+    "status": "REVIEW",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | People Ops |\n| Status | REVIEW |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 129,
+    "chunk_number": 1,
+    "total_chunks": 2,
+    "parent_page": "HR Handbook",
+    "child_page": "Code of Conduct",
+    "breadcrumb": "Overview > HR Handbook > Code of Conduct"
+  },
+  {
+    "chunk_id": "2359333_002",
+    "page_id": "2359333",
+    "title": "Code of Conduct",
+    "section": "Principles",
+    "heading_path": [
+      "Principles"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2359333",
+    "owner": "People Ops",
+    "status": "REVIEW",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Principles\n\n1. Act with integrity\n2. Respect colleagues and data privacy\n3. Avoid conflicts of interest\n4. Report concerns promptly\n\nViolations may lead to disciplinary action per the policy.",
+    "word_count": 29,
+    "character_count": 194,
+    "chunk_number": 2,
+    "total_chunks": 2,
+    "parent_page": "HR Handbook",
+    "child_page": "Code of Conduct",
+    "breadcrumb": "Overview > HR Handbook > Code of Conduct"
+  }
+]

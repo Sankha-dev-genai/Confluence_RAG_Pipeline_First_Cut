@@ -1,0 +1,463 @@
+{
+  "page_id": "71916",
+  "title": "List of operating systems",
+  "parent_page": "Category:Operating systems",
+  "child_page": "List of operating systems",
+  "breadcrumb": "Category:Operating systems > List of operating systems",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Operating_systems/List_of_operating_systems",
+  "space_key": null,
+  "space_name": "Category:Operating systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Operating systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Proprietary"
+    },
+    {
+      "level": 3,
+      "text": "Acorn Computers"
+    },
+    {
+      "level": 3,
+      "text": "Amazon \"Amazon (company)\")"
+    },
+    {
+      "level": 3,
+      "text": "Amiga Inc."
+    },
+    {
+      "level": 3,
+      "text": "Amstrad"
+    },
+    {
+      "level": 3,
+      "text": "Apple"
+    },
+    {
+      "level": 3,
+      "text": "Apollo Computer, Hewlett-Packard"
+    },
+    {
+      "level": 3,
+      "text": "Atari"
+    },
+    {
+      "level": 3,
+      "text": "BAE Systems"
+    },
+    {
+      "level": 3,
+      "text": "Be Inc."
+    },
+    {
+      "level": 3,
+      "text": "Bell Labs"
+    },
+    {
+      "level": 3,
+      "text": "Burroughs Corporation, Unisys"
+    },
+    {
+      "level": 3,
+      "text": "CII"
+    },
+    {
+      "level": 3,
+      "text": "Commodore International"
+    },
+    {
+      "level": 3,
+      "text": "Control Data Corporation"
+    },
+    {
+      "level": 4,
+      "text": "Lower 3000 series"
+    },
+    {
+      "level": 4,
+      "text": "Upper 3000 series"
+    },
+    {
+      "level": 4,
+      "text": "6x00 and related Cyber"
+    },
+    {
+      "level": 4,
+      "text": "Star-100"
+    },
+    {
+      "level": 3,
+      "text": "CloudMosa"
+    },
+    {
+      "level": 3,
+      "text": "Convergent Technologies"
+    },
+    {
+      "level": 3,
+      "text": "Cromemco"
+    },
+    {
+      "level": 3,
+      "text": "Data General"
+    },
+    {
+      "level": 3,
+      "text": "Datapoint"
+    },
+    {
+      "level": 3,
+      "text": "DDC-I, Inc."
+    },
+    {
+      "level": 3,
+      "text": "Digital Research, Inc."
+    },
+    {
+      "level": 3,
+      "text": "Digital Equipment Corporation, Compaq, Hewlett-Packard, Hewlett Packard Enterprise"
+    },
+    {
+      "level": 3,
+      "text": "ENEA AB"
+    },
+    {
+      "level": 3,
+      "text": "Fujitsu"
+    },
+    {
+      "level": 3,
+      "text": "GEC Computers"
+    },
+    {
+      "level": 3,
+      "text": "General Electric, Honeywell, Bull"
+    },
+    {
+      "level": 3,
+      "text": "Google"
+    },
+    {
+      "level": 3,
+      "text": "Green Hills Software"
+    },
+    {
+      "level": 3,
+      "text": "Harris Computer Systems"
+    },
+    {
+      "level": 3,
+      "text": "Heathkit, Zenith Data Systems"
+    },
+    {
+      "level": 3,
+      "text": "Hewlett-Packard, Hewlett Packard Enterprise"
+    },
+    {
+      "level": 3,
+      "text": "Honeywell"
+    },
+    {
+      "level": 3,
+      "text": "Huawei"
+    },
+    {
+      "level": 3,
+      "text": "Intel Corporation"
+    },
+    {
+      "level": 3,
+      "text": "IBM"
+    },
+    {
+      "level": 4,
+      "text": "On early mainframes: 1410, 7010, 704, 709, 7090, 7094, 7040, 7044, 7030"
+    },
+    {
+      "level": 4,
+      "text": "On S/360, S/370, and successor mainframes"
+    },
+    {
+      "level": 4,
+      "text": "On PC and Intel x86 based architectures"
+    },
+    {
+      "level": 4,
+      "text": "On other hardware platforms"
+    },
+    {
+      "level": 3,
+      "text": "International Computers Limited"
+    },
+    {
+      "level": 3,
+      "text": "Jide"
+    },
+    {
+      "level": 3,
+      "text": "Jolla"
+    },
+    {
+      "level": 3,
+      "text": "KaiOS"
+    },
+    {
+      "level": 3,
+      "text": "Lynx Real-time Systems, LynuxWorks, Lynx Software Technologies"
+    },
+    {
+      "level": 3,
+      "text": "Meizu"
+    },
+    {
+      "level": 3,
+      "text": "Microsoft Corporation"
+    },
+    {
+      "level": 3,
+      "text": "MITS"
+    },
+    {
+      "level": 3,
+      "text": "MontaVista"
+    },
+    {
+      "level": 3,
+      "text": "Motorola"
+    },
+    {
+      "level": 3,
+      "text": "NCR Corporation"
+    },
+    {
+      "level": 3,
+      "text": "NeXT"
+    },
+    {
+      "level": 3,
+      "text": "Nintendo"
+    },
+    {
+      "level": 3,
+      "text": "Novell"
+    },
+    {
+      "level": 3,
+      "text": "Open Mobile Platform"
+    },
+    {
+      "level": 3,
+      "text": "Quadros Systems"
+    },
+    {
+      "level": 3,
+      "text": "RCA"
+    },
+    {
+      "level": 3,
+      "text": "RoweBots"
+    },
+    {
+      "level": 3,
+      "text": "Samsung Electronics"
+    },
+    {
+      "level": 3,
+      "text": "Scientific Data Systems (SDS)"
+    },
+    {
+      "level": 4,
+      "text": "SDS 900 series"
+    },
+    {
+      "level": 4,
+      "text": "SDS Sigma series"
+    },
+    {
+      "level": 3,
+      "text": "SCO, SCO Group"
+    },
+    {
+      "level": 3,
+      "text": "Silicon Laboratories (formerly Micrium Inc.)"
+    },
+    {
+      "level": 3,
+      "text": "Sinclair Research"
+    },
+    {
+      "level": 3,
+      "text": "Sony"
+    },
+    {
+      "level": 3,
+      "text": "SYSGO"
+    },
+    {
+      "level": 3,
+      "text": "Tandem Computers, Compaq, Hewlett-Packard, Hewlett Packard Enterprise"
+    },
+    {
+      "level": 3,
+      "text": "Tandy Corporation"
+    },
+    {
+      "level": 3,
+      "text": "TCSC (later NCSC)"
+    },
+    {
+      "level": 3,
+      "text": "Texas Instruments"
+    },
+    {
+      "level": 3,
+      "text": "TRON Project"
+    },
+    {
+      "level": 3,
+      "text": "UNIVAC, Unisys"
+    },
+    {
+      "level": 3,
+      "text": "Valve"
+    },
+    {
+      "level": 3,
+      "text": "Wang Laboratories"
+    },
+    {
+      "level": 3,
+      "text": "Weston Embedded Solutions"
+    },
+    {
+      "level": 3,
+      "text": "Wind River Systems"
+    },
+    {
+      "level": 3,
+      "text": "Zilog"
+    },
+    {
+      "level": 3,
+      "text": "Other"
+    },
+    {
+      "level": 4,
+      "text": "Lisp-based"
+    },
+    {
+      "level": 4,
+      "text": "For Elektronika BK"
+    },
+    {
+      "level": 4,
+      "text": "Non-standard language-based"
+    },
+    {
+      "level": 4,
+      "text": "Other proprietary non-Unix-like"
+    },
+    {
+      "level": 4,
+      "text": "Other proprietary Unix-like and POSIX-compliant"
+    },
+    {
+      "level": 2,
+      "text": "Non-proprietary"
+    },
+    {
+      "level": 3,
+      "text": "Unix or Unix-like"
+    },
+    {
+      "level": 3,
+      "text": "Non-Unix"
+    },
+    {
+      "level": 2,
+      "text": "Research"
+    },
+    {
+      "level": 3,
+      "text": "Unix or Unix-like"
+    },
+    {
+      "level": 3,
+      "text": "Non-Unix"
+    },
+    {
+      "level": 2,
+      "text": "Disk operating systems (DOS)"
+    },
+    {
+      "level": 2,
+      "text": "Network operating systems"
+    },
+    {
+      "level": 2,
+      "text": "Generic, commodity, and other"
+    },
+    {
+      "level": 2,
+      "text": "Hobby"
+    },
+    {
+      "level": 2,
+      "text": "Embedded"
+    },
+    {
+      "level": 3,
+      "text": "Mobile operating systems"
+    },
+    {
+      "level": 3,
+      "text": "Routers"
+    },
+    {
+      "level": 3,
+      "text": "Other embedded"
+    },
+    {
+      "level": 3,
+      "text": "LEGO Mindstorms"
+    },
+    {
+      "level": 2,
+      "text": "Capability-based"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 3,
+      "text": "Category links"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "71916.md",
+  "character_count": 124888,
+  "word_count": 12429,
+  "extracted_at": "2026-08-17T15:48:26.651480+00:00"
+}

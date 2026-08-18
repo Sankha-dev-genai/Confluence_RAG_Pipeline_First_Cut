@@ -1,0 +1,79 @@
+{
+  "page_id": "1022841",
+  "title": "Common warehouse metamodel",
+  "parent_page": "Category:Data warehousing products",
+  "child_page": "Common warehouse metamodel",
+  "breadcrumb": "Category:Data warehousing products > Common warehouse metamodel",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/wiki/Category:Data_warehousing_products/Common_warehouse_metamodel",
+  "space_key": null,
+  "space_name": "Category:Data warehousing products",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Data warehousing products"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "text": "Support for the CWM"
+    },
+    {
+      "level": 3,
+      "text": "Submitters of CWM specification"
+    },
+    {
+      "level": 3,
+      "text": "Compliance with the CWM specification"
+    },
+    {
+      "level": 3,
+      "text": "Interoperability of CWM tools"
+    },
+    {
+      "level": 2,
+      "text": "Vendors supporting CWM"
+    },
+    {
+      "level": 3,
+      "text": "CWM implementations identified by OMG"
+    },
+    {
+      "level": 3,
+      "text": "Other vendors supporting CWM"
+    },
+    {
+      "level": 2,
+      "text": "See also"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "Further reading"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "1022841.md",
+  "character_count": 10199,
+  "word_count": 1060,
+  "extracted_at": "2026-08-17T06:36:06.616556+00:00"
+}

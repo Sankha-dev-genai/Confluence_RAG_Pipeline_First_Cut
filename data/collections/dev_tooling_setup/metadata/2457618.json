@@ -1,0 +1,43 @@
+{
+  "page_id": "2457618",
+  "title": "Set up GitHub & GitLab",
+  "parent_page": "Dev Tooling Setup",
+  "child_page": "Set up GitHub & GitLab",
+  "breadcrumb": "Overview > Dev Tooling Setup > Set up GitHub & GitLab",
+  "source_type": "confluence",
+  "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457618",
+  "space_key": "~712020e9a524ccaadb48d5894054eb2ad1b6fa",
+  "space_name": "Sankha Suvra Ghosal",
+  "version": 1,
+  "created_at": "2026-08-16T07:28:50.881Z",
+  "updated_at": "2026-08-16T07:28:50.881Z",
+  "created_by": "Sankha Suvra Ghosal",
+  "parent_page_id": "2326615",
+  "ancestor_ids": [
+    "98403",
+    "2326615"
+  ],
+  "ancestor_titles": [
+    "Overview",
+    "Dev Tooling Setup"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Configure git"
+    },
+    {
+      "level": 2,
+      "text": "Clone repositories"
+    }
+  ],
+  "owner": "Platform Team",
+  "status": "PUBLISHED",
+  "last_reviewed": "2026-08-16",
+  "audience": "Internal",
+  "custom_fields": {},
+  "markdown_file": "2457618.md",
+  "character_count": 432,
+  "word_count": 70,
+  "extracted_at": "2026-08-16T10:57:22.944950+00:00"
+}

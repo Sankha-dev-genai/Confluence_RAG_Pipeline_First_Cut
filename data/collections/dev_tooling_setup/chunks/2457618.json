@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_id": "2457618_001",
+    "page_id": "2457618",
+    "title": "Set up GitHub & GitLab",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457618",
+    "owner": "Platform Team",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Platform Team |\n| Status | PUBLISHED |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |",
+    "word_count": 14,
+    "character_count": 135,
+    "chunk_number": 1,
+    "total_chunks": 3,
+    "parent_page": "Dev Tooling Setup",
+    "child_page": "Set up GitHub & GitLab",
+    "breadcrumb": "Overview > Dev Tooling Setup > Set up GitHub & GitLab"
+  },
+  {
+    "chunk_id": "2457618_002",
+    "page_id": "2457618",
+    "title": "Set up GitHub & GitLab",
+    "section": "Configure git",
+    "heading_path": [
+      "Configure git"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457618",
+    "owner": "Platform Team",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Configure git\n\n```\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"[email protected]\"\n```",
+    "word_count": 16,
+    "character_count": 118,
+    "chunk_number": 2,
+    "total_chunks": 3,
+    "parent_page": "Dev Tooling Setup",
+    "child_page": "Set up GitHub & GitLab",
+    "breadcrumb": "Overview > Dev Tooling Setup > Set up GitHub & GitLab"
+  },
+  {
+    "chunk_id": "2457618_003",
+    "page_id": "2457618",
+    "title": "Set up GitHub & GitLab",
+    "section": "Clone repositories",
+    "heading_path": [
+      "Configure git",
+      "Clone repositories"
+    ],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457618",
+    "owner": "Platform Team",
+    "status": "PUBLISHED",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "## Clone repositories\n\n```\ngit clone https://github.com/org/repo.git\ngit clone https://gitlab.com/org/repo.git\n```\n\nUse SSH keys or a personal access token for authentication.",
+    "word_count": 28,
+    "character_count": 175,
+    "chunk_number": 3,
+    "total_chunks": 3,
+    "parent_page": "Dev Tooling Setup",
+    "child_page": "Set up GitHub & GitLab",
+    "breadcrumb": "Overview > Dev Tooling Setup > Set up GitHub & GitLab"
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "page_id": "3425793",
+  "title": "Armstrong's axioms",
+  "parent_page": "Category:Database management systems",
+  "child_page": "Armstrong's axioms",
+  "breadcrumb": "Category:Database management systems > Armstrong's axioms",
+  "source_type": "mediawiki",
+  "source_url": "https://en.wikipedia.org/w/api.php?curid=3425793",
+  "space_key": null,
+  "space_name": "Category:Database management systems",
+  "version": null,
+  "created_at": null,
+  "updated_at": null,
+  "created_by": null,
+  "parent_page_id": null,
+  "ancestor_ids": [],
+  "ancestor_titles": [
+    "Category:Database management systems"
+  ],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Axioms (primary rules)"
+    },
+    {
+      "level": 3,
+      "text": "Axiom of reflexivity"
+    },
+    {
+      "level": 3,
+      "text": "Axiom of augmentation"
+    },
+    {
+      "level": 3,
+      "text": "Axiom of transitivity"
+    },
+    {
+      "level": 2,
+      "text": "Additional rules (Secondary Rules)"
+    },
+    {
+      "level": 3,
+      "text": "Decomposition"
+    },
+    {
+      "level": 4,
+      "text": "Proof"
+    },
+    {
+      "level": 3,
+      "text": "Composition"
+    },
+    {
+      "level": 4,
+      "text": "Proof"
+    },
+    {
+      "level": 3,
+      "text": "Union"
+    },
+    {
+      "level": 4,
+      "text": "Proof"
+    },
+    {
+      "level": 3,
+      "text": "Pseudo transitivity"
+    },
+    {
+      "level": 4,
+      "text": "Proof"
+    },
+    {
+      "level": 3,
+      "text": "Self determination"
+    },
+    {
+      "level": 3,
+      "text": "Extensivity"
+    },
+    {
+      "level": 4,
+      "text": "Proof"
+    },
+    {
+      "level": 2,
+      "text": "Armstrong relation"
+    },
+    {
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "level": 2,
+      "text": "External links"
+    }
+  ],
+  "owner": null,
+  "status": null,
+  "last_reviewed": null,
+  "audience": null,
+  "custom_fields": {},
+  "markdown_file": "3425793.md",
+  "character_count": 30861,
+  "word_count": 2272,
+  "extracted_at": "2026-08-17T06:13:06.064683+00:00"
+}

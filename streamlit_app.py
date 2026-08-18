@@ -202,8 +202,8 @@ if not index_ready:
              "`python scripts/build_vector_store.py`.")
     st.stop()
 
-tab_ask, tab_eval, tab_corpus, tab_arch = st.tabs(
-    ["🔍 Ask", "📊 Evaluation", "📚 Corpus", "🏗️ Architecture"]
+tab_ask, tab_eval, tab_corpus, tab_arch, tab_add = st.tabs(
+    ["🔍 Ask", "📊 Evaluation", "📚 Corpus", "🏗️ Architecture", "➕ Add source"]
 )
 
 # ================================================================== ASK TAB
@@ -583,3 +583,136 @@ with tab_arch:
         "6. **Evaluation** scores retrieval against a golden question set "
         "(Precision@k, Recall@k, Hit@k, MRR, MAP)."
     )
+
+# ============================================================ ADD SOURCE TAB
+with tab_add:
+    st.markdown("### Add a knowledge base")
+    st.caption("Register a Confluence space or a MediaWiki source, then ingest it "
+               "into its own isolated index. Credentials are read from the server's "
+               ".env \u2014 they are never entered here.")
+
+    from app.core import collections as _colmod
+
+    existing = {c["name"] for c in _colmod.list_collections()}
+
+    c1, c2 = st.columns(2)
+    new_name = c1.text_input("Collection name (no spaces)", key="add_name",
+                             placeholder="e.g. client_x")
+    new_title = c2.text_input("Display title", key="add_title",
+                              placeholder="e.g. Client X Space")
+    src_type = st.radio("Source type", ["confluence", "mediawiki"], horizontal=True,
+                        key="add_src")
+
+    cfg_kwargs = {}
+    if src_type == "confluence":
+        cc1, cc2 = st.columns(2)
+        cfg_kwargs["confluence_base_url"] = cc1.text_input(
+            "Confluence base URL", placeholder="https://your-site.atlassian.net")
+        cfg_kwargs["confluence_parent_page_id"] = cc2.text_input(
+            "Parent page ID", placeholder="e.g. 65710")
+        cfg_kwargs["token_env"] = st.text_input(
+            "Token env-var name (read from .env)", value="CONFLUENCE_API_TOKEN")
+        st.info("The API token is read from this environment variable in the "
+                "server's .env \u2014 it is not entered or stored here.", icon="\U0001F512")
+    else:
+        wc1, wc2 = st.columns(2)
+        cfg_kwargs["wiki_api_url"] = wc1.text_input(
+            "Wiki API URL", value="https://en.wikipedia.org/w/api.php",
+            help="Always <wiki>/w/api.php. For Wikipedia it's this value.")
+        cfg_kwargs["wiki_base_url"] = wc2.text_input(
+            "Wiki base URL (optional)", placeholder="https://en.wikipedia.org/wiki")
+
+        wiki_mode = st.radio(
+            "What to ingest", ["Category (a theme / many pages)",
+                               "Specific page(s) by title"], horizontal=True,
+            help="Category pulls all pages in a Wikipedia category. "
+                 "Specific pages ingests only the exact titles you list.")
+        if wiki_mode.startswith("Category"):
+            wc3, wc4 = st.columns([2, 1])
+            cfg_kwargs["wiki_category"] = wc3.text_input(
+                "Category", placeholder="Category:Machine_learning",
+                help="Find it at the bottom of any Wikipedia article under 'Categories'.")
+            cfg_kwargs["wiki_page_limit"] = int(wc4.number_input("Page limit", 1, 500, 15))
+        else:
+            titles = st.text_area(
+                "Page titles (one per line, or comma-separated)",
+                placeholder="Snowflake Inc.\nData build tool\nSnapLogic",
+                help="Use the exact article title as it appears on Wikipedia.")
+            parsed = [t.strip() for t in titles.replace(",", "\n").splitlines() if t.strip()]
+            cfg_kwargs["wiki_titles"] = ", ".join(parsed)
+            cfg_kwargs["wiki_page_limit"] = max(len(parsed), 1)
+            if parsed:
+                st.caption(f"Will ingest {len(parsed)} page(s): {', '.join(parsed[:5])}"
+                           + ("\u2026" if len(parsed) > 5 else ""))
+
+    valid_name = bool(new_name) and new_name.replace("_", "").isalnum() and new_name != "default"
+
+    b1, b2 = st.columns([1, 2])
+    if b1.button("1\uFE0F\u20E3 Register", disabled=not valid_name):
+        if new_name in existing:
+            st.warning(f"'{new_name}' already exists.")
+        else:
+            clean = {k: v for k, v in cfg_kwargs.items() if v}
+            _colmod.register_collection(new_name, src_type, title=new_title or new_name,
+                                        **clean)
+            st.success(f"Registered '{new_name}'. Now use ‘Ingest & prepare’ below.")
+
+    # ---- Ingest & prepare: ONE step = ingest + golden set (no terminal) ----
+    st.markdown("#### Ingest & prepare")
+    ing_target = st.selectbox(
+        "Collection to ingest",
+        [c["name"] for c in _colmod.list_collections() if c["name"] != "default"] or ["\u2014"],
+        help="Registered collections appear here. This builds the index AND a starter golden set.")
+    gmethod = st.radio(
+        "Starter golden set", ["auto", "llm", "none"], horizontal=True,
+        format_func=lambda m: {"auto": "Auto (no LLM)", "llm": "LLM (needs key)",
+                               "none": "Skip"}[m],
+        help="auto = instant, generic questions \u00b7 llm = sharper, needs an OpenAI key \u00b7 skip = none")
+    if gmethod == "llm" and not has_key:
+        st.caption("\u26A0\uFE0F No OpenAI key detected \u2014 will fall back to auto.")
+
+    if st.button("\u25B6 Ingest & prepare", type="primary",
+                 disabled=(ing_target in ("", "\u2014"))):
+        from app.core.ingest_runner import stream_ingest
+        log_box = st.empty(); lines = []; ok = False
+        try:
+            with st.spinner(f"Ingesting '{ing_target}' \u2014 this can take a few minutes\u2026"):
+                for line in stream_ingest(ing_target):
+                    lines.append(line)
+                    log_box.code("\n".join(lines[-18:]), language="text")
+            ok = True
+        except Exception as exc:  # noqa: BLE001
+            log_box.code("\n".join(lines[-30:]), language="text")
+            st.error(f"Ingestion failed: {exc}")
+
+        if ok and gmethod != "none":
+            try:
+                from app.evaluation.golden_bootstrap import (
+                    auto_bootstrap, llm_bootstrap, approve_into_golden)
+                method = "auto" if (gmethod == "llm" and not has_key) else gmethod
+                with st.spinner(f"Building starter golden set ({method})\u2026"):
+                    cands = (llm_bootstrap(ing_target, model=model)
+                             if method == "llm" else auto_bootstrap(ing_target))
+                    n = approve_into_golden(ing_target, cands)
+                st.success(f"\u2705 '{ing_target}' is ready \u2014 indexed and {n} golden "
+                           "questions added. Select it in the sidebar to query it.")
+            except Exception as exc:  # noqa: BLE001
+                # ingest succeeded; golden set is optional \u2014 don't fail the whole thing
+                st.success(f"\u2705 '{ing_target}' ingested and indexed. "
+                           "Select it in the sidebar to query it.")
+                st.warning(f"Starter golden set was skipped ({exc}). "
+                           "You can build one anytime in the Evaluation tab.")
+        elif ok:
+            st.success(f"\u2705 '{ing_target}' ingested and indexed. "
+                       "Select it in the sidebar to query it.")
+
+    st.divider()
+    st.markdown("#### Registered collections")
+    st.dataframe(
+        pd.DataFrame([{
+            "name": c["name"], "source": c["source"],
+            "indexed": "\u2705" if c["has_index"] else "\u2014",
+            "golden": "\u2705" if c["has_golden"] else "\u2014",
+            "title": c.get("title", ""),
+        } for c in _colmod.list_collections()]),
+        hide_index=True, use_container_width=True)

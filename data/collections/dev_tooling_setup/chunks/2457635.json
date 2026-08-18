@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "2457635_001",
+    "page_id": "2457635",
+    "title": "Enable Copilot",
+    "section": "Document",
+    "heading_path": [],
+    "source_url": "https://ghosalsankhasuvra09.atlassian.net/wiki/pages/viewpage.action?pageId=2457635",
+    "owner": "Platform Team",
+    "status": "REVIEW",
+    "audience": "Internal",
+    "last_reviewed": "2026-08-16",
+    "text": "| Field | Value |\n| --- | --- |\n| Owner | Platform Team |\n| Status | REVIEW |\n| Last reviewed | 2026-08-16 |\n| Audience | Internal |\n\n1. Install the GitHub Copilot extension in VS Code\n2. Sign in with your GitHub account\n3. Authorize Copilot for your organization\n4. Start typing — accept suggestions with Tab\n\nCopilot access requires an active license assigned by your admin.",
+    "word_count": 53,
+    "character_count": 376,
+    "chunk_number": 1,
+    "total_chunks": 1,
+    "parent_page": "Dev Tooling Setup",
+    "child_page": "Enable Copilot",
+    "breadcrumb": "Overview > Dev Tooling Setup > Enable Copilot"
+  }
+]
